@@ -2,7 +2,14 @@
 
 ## Things to discuss
 
-- I was sick so not so many updates
-- cleaned up laptop
-- made sure I can run Jupyter notebooks with envs and vscode
+- Flu
+- Cleaned up laptop
+- Screen broke AGAIN
+- Made sure I can run Jupyter notebooks with envs and vscode
+- Received code of Ivan today
+- 
 
+## questions
+- Server calculations
+- Laptop requirements (est?)
+- 
