@@ -40,11 +40,11 @@ if __name__ == "__main__":
     # Example usage
 
     input_file = os.path.join('data', 'pcd_wilhelmina_park', 'ahn5_37EN1_14.laz')
-    output_file = os.path.join('data', 'pcd_wilhelmina_park', "whm_250x250.laz")  
+    output_file = os.path.join('data', 'pcd_wilhelmina_park', "whm_100x100.laz")  
 
     # Coordinates for test sample set taken from CloudCompare
     center = (83536, 447342)
-    bbox_dim = (250, 250)
+    bbox_dim = (100, 100)
 
     min_bounds = (
         center[0] - bbox_dim[0] / 2, 
