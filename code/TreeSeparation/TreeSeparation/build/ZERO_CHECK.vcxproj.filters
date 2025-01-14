@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Noah\Documents\TUDelft\MSc_thesis\code\TreeSeparation\TreeSeparation\build\CMakeFiles\5f89eed49af8d0860ba1080747265369\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E17D6491-724F-3C2C-BF0C-F8D8F9DDE884}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

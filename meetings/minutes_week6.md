@@ -14,12 +14,12 @@ Noah & Hugo
 
 - Chen et al. 2023 (ML UAV, use it's vegetation features)
 
-- randomforest
+- deepforest
 
 
 ## Discussed about project
 
-- dont go into ML
+- dont go into deeplearning
 
 - focus on lidar
 
@@ -33,4 +33,18 @@ Noah & Hugo
 
  ## For next week:
 
- - [ ] 
+ - try to set up random forest classifier
+ - reconstruction
+    - read
+    - use wrapwrap alphawrap
+
+ - porosity LAI in CFD
+ 
+- Hugo will go after ortho photos for me
+ 
+- 
+
+ - papers that cite racine2021
+    -scolar cited by
+
+- today write 2 sentences about every subsection
