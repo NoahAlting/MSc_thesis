@@ -20,6 +20,7 @@ shapely = "^2.0.6"
 tqdm = "^4.67.1"
 laszip = "^0.2.3"
 rasterio = "^1.4.3"
+pymeshlab = "^2023.12.post2"
 
 
 [build-system]

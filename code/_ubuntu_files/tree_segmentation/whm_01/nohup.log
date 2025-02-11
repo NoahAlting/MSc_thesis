@@ -1,0 +1,4 @@
+nohup: ignoring input
+Starting parallel execution with 16 cores...
+xargs: warning: options --max-args and --replace/-I/-i are mutually exclusive, ignoring previous --max-args value
+All tasks completed. Check the log file: tuning.log

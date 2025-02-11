@@ -1,0 +1,192 @@
+Wrapping clusters/tree_0.las
+Reading input
+absolute alpha = 1785.01 absolute offset = 714.003
+Result: 282 vertices, 560 faces
+Took 0.793672 s.
+Writing to meshes/tree_0_20_50.obj
+
+========================================
+Wrapping clusters/tree_1.las
+Reading input
+absolute alpha = 2089.19 absolute offset = 835.676
+Result: 316 vertices, 628 faces
+Took 1.47106 s.
+Writing to meshes/tree_1_20_50.obj
+
+========================================
+Wrapping clusters/tree_2.las
+Reading input
+absolute alpha = 1713.19 absolute offset = 685.278
+Result: 391 vertices, 778 faces
+Took 1.43993 s.
+Writing to meshes/tree_2_20_50.obj
+
+========================================
+Wrapping clusters/tree_3.las
+Reading input
+absolute alpha = 1477.55 absolute offset = 591.018
+Result: 326 vertices, 648 faces
+Took 0.988816 s.
+Writing to meshes/tree_3_20_50.obj
+
+========================================
+Wrapping clusters/tree_4.las
+Reading input
+absolute alpha = 1589.31 absolute offset = 635.725
+Result: 348 vertices, 692 faces
+Took 1.1735 s.
+Writing to meshes/tree_4_20_50.obj
+
+========================================
+Wrapping clusters/tree_5.las
+Reading input
+absolute alpha = 1922.18 absolute offset = 768.874
+Result: 361 vertices, 718 faces
+Took 1.22186 s.
+Writing to meshes/tree_5_20_50.obj
+
+========================================
+Wrapping clusters/tree_6.las
+Reading input
+absolute alpha = 1280.84 absolute offset = 512.336
+Result: 370 vertices, 736 faces
+Took 1.11903 s.
+Writing to meshes/tree_6_20_50.obj
+
+========================================
+Wrapping clusters/tree_7.las
+Reading input
+absolute alpha = 1415.33 absolute offset = 566.131
+Result: 328 vertices, 652 faces
+Took 1.01457 s.
+Writing to meshes/tree_7_20_50.obj
+
+========================================
+Wrapping clusters/tree_8.las
+Reading input
+absolute alpha = 1680.34 absolute offset = 672.134
+Result: 275 vertices, 538 faces
+Took 0.897046 s.
+Writing to meshes/tree_8_20_50.obj
+
+========================================
+Wrapping clusters/tree_9.las
+Reading input
+absolute alpha = 1409.89 absolute offset = 563.956
+Result: 290 vertices, 576 faces
+Took 0.869713 s.
+Writing to meshes/tree_9_20_50.obj
+
+========================================
+Wrapping clusters/tree_10.las
+Reading input
+absolute alpha = 1057.93 absolute offset = 423.173
+Result: 423 vertices, 846 faces
+Took 1.04594 s.
+Writing to meshes/tree_10_20_50.obj
+
+========================================
+Wrapping clusters/tree_11.las
+Reading input
+absolute alpha = 813.181 absolute offset = 325.272
+Result: 328 vertices, 664 faces
+Took 0.84288 s.
+Writing to meshes/tree_11_20_50.obj
+
+========================================
+Wrapping clusters/tree_12.las
+Reading input
+absolute alpha = 1545.5 absolute offset = 618.2
+Result: 295 vertices, 586 faces
+Took 0.973425 s.
+Writing to meshes/tree_12_20_50.obj
+
+========================================
+Wrapping clusters/tree_14.las
+Reading input
+absolute alpha = 1378.8 absolute offset = 551.519
+Result: 163 vertices, 314 faces
+Took 0.418844 s.
+Writing to meshes/tree_14_20_50.obj
+
+========================================
+Wrapping clusters/tree_15.las
+Reading input
+absolute alpha = 901.841 absolute offset = 360.736
+Result: 256 vertices, 508 faces
+Took 0.660122 s.
+Writing to meshes/tree_15_20_50.obj
+
+========================================
+Wrapping clusters/tree_16.las
+Reading input
+absolute alpha = 738.84 absolute offset = 295.536
+Result: 327 vertices, 650 faces
+Took -1.09151 s.
+Writing to meshes/tree_16_20_50.obj
+
+========================================
+Wrapping clusters/tree_17.las
+Reading input
+absolute alpha = 622.595 absolute offset = 249.038
+Result: 333 vertices, 658 faces
+Took 0.757315 s.
+Writing to meshes/tree_17_20_50.obj
+
+========================================
+Wrapping clusters/tree_18.las
+Reading input
+absolute alpha = 1014.4 absolute offset = 405.761
+Result: 237 vertices, 470 faces
+Took 0.611433 s.
+Writing to meshes/tree_18_20_50.obj
+
+========================================
+Wrapping clusters/tree_19.las
+Reading input
+absolute alpha = 1171.73 absolute offset = 468.691
+Result: 260 vertices, 512 faces
+Took 0.701622 s.
+Writing to meshes/tree_19_20_50.obj
+
+========================================
+Wrapping clusters/tree_20.las
+Reading input
+absolute alpha = 1046.54 absolute offset = 418.615
+Result: 340 vertices, 676 faces
+Took 0.892587 s.
+Writing to meshes/tree_20_20_50.obj
+
+========================================
+Wrapping clusters/tree_21.las
+Reading input
+absolute alpha = 450.757 absolute offset = 180.303
+Result: 336 vertices, 680 faces
+Took 0.735919 s.
+Writing to meshes/tree_21_20_50.obj
+
+========================================
+Wrapping clusters/tree_22.las
+Reading input
+absolute alpha = 1622.13 absolute offset = 648.851
+Result: 235 vertices, 466 faces
+Took 0.731648 s.
+Writing to meshes/tree_22_20_50.obj
+
+========================================
+Wrapping clusters/tree_23.las
+Reading input
+absolute alpha = 242.102 absolute offset = 96.8407
+Result: 193 vertices, 382 faces
+Took 0.430887 s.
+Writing to meshes/tree_23_20_50.obj
+
+========================================
+Wrapping clusters/tree_24.las
+Reading input
+absolute alpha = 232.21 absolute offset = 92.8842
+Result: 143 vertices, 270 faces
+Took 0.227498 s.
+Writing to meshes/tree_24_20_50.obj
+
+========================================

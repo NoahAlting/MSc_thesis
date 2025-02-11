@@ -7,7 +7,7 @@
             "command": "cmd.exe",
             "args": [
                 "/c",
-                "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\Build\\vcvarsall.bat\" x64 && cl /EHsc TreeSeparation/Source.cpp TreeSeparation/FoxTree.cpp /Fe:tree_separator.exe"
+                "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\Build\\vcvarsall.bat\" x64 && cl /EHsc ${input:cppFile} TreeSeparation/FoxTree.cpp /Fe:${input:exeFile}"
             ],
             "group": {
                 "kind": "build",
@@ -21,20 +21,19 @@
                 }
             }
         }
-    ]
-,
+    ],
     "inputs": [
         {
             "id": "cppFile",
             "type": "promptString",
-            "description": "Enter the path to the C++ source file to build (e.g., TreeSeparation/source.cpp)",
-            "default": "test.cpp"
+            "description": "Enter the path to the C++ source file to build (e.g., TreeSeparation/Source.cpp)",
+            "default": "TreeSeparation/Source.cpp"
         },
         {
             "id": "exeFile",
             "type": "promptString",
-            "description": "Enter the name of the output executable file (e.g., output.exe)",
-            "default": "test.exe"
+            "description": "Enter the name of the output executable file (e.g., tree_separator.exe)",
+            "default": "tree_separator.exe"
         }
     ]
 }
