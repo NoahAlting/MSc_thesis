@@ -1,0 +1,20 @@
+{
+    "pipeline": [
+        {
+            "type": "readers.text",
+            "filename": "clusters/tree_19.xyz",
+            "header": "X Y Z"
+        },
+        {
+            "type": "filters.sample",
+            "radius": 1
+        },
+        {
+            "type": "writers.las",
+            "filename": "clusters/tree_19.las",
+            "scale_x": 0.01,
+            "scale_y": 0.01,
+            "scale_z": 0.01
+        }
+    ]
+}

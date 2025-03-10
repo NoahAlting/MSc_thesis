@@ -328,3 +328,9 @@ single_matches = filter_consistent_species_matches(tree_bboxes, gdf_municipality
 print('='*50 + "single_matches")
 print(single_matches.info())
 print(single_matches.head(50))
+
+# rename BOOMSORTIMENT to species
+single_matches.rename(columns={"BOOMSORTIMENT": "species"}, inplace=True)
+
+# # Export to CSV
+single_matches.to_csv("single_matches.csv", index=False)
