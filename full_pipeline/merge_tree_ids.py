@@ -1,25 +1,30 @@
 import os
-import logging
 import numpy as np
 import pandas as pd
 import laspy
-from tqdm import tqdm
-from shared_logging import setup_logging
 
-logger = logging.getLogger(__name__)
+from shared_logging import setup_module_logger
+logger = None  # to be initialized when needed
+
 
 def merge_tree_ids_into_las(
     data_dir,
     forest_las_name,
     segmentation_xyz,
     output_las_name
-):
+    ):
     """
     Merge tree IDs (from segmentation_xyz) into the LAS point cloud (forest_las_name).
     Save the result as a new LAS file (output_las_name).
     """
-    log_path = os.path.join(data_dir, "merge_tree_ids.log")
-    setup_logging(log_path)
+    global logger
+    if logger is None:
+        logger = setup_module_logger("3_merge", data_dir)
+
+    logger.info("=" * 60 + "Merging tree IDs into LAS")
+    logger.info("Parameters → data_dir: %s | forest_las_name: %s | segmentation_xyz: %s | output_las_name: %s",
+                data_dir, forest_las_name, segmentation_xyz, output_las_name)
+
     logger.info("[merge_tree_ids_into_las] Merger function called")
 
     # Load LAS point cloud with full attributes
@@ -88,8 +93,12 @@ def merge_tree_ids_into_las(
 
 
 if __name__ == "__main__":
+    data_dir = "whm_100"
+    logger = setup_module_logger("3_merge", data_dir)
+
+
     merge_tree_ids_into_las(
-        data_dir="whm_100",
+        data_dir=data_dir,
         forest_las_name="forest.laz",
         segmentation_xyz="segmentation_0003.xyz",
         output_las_name="forest_tid.laz"

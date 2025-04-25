@@ -2,10 +2,12 @@ import numpy as np
 import laspy
 import os
 import open3d as o3d
-import logging
-from shared_logging import setup_logging
 
-logger = logging.getLogger(__name__)
+import logging
+from shared_logging import setup_module_logger
+
+logger = None  # only initialized later
+
 
 def remove_outliers(las_data, nb_neighbors=20, std_ratio=2.0):
     xyz = np.vstack((las_data.x, las_data.y, las_data.z)).transpose()
@@ -16,8 +18,11 @@ def remove_outliers(las_data, nb_neighbors=20, std_ratio=2.0):
     return las_data[ind]
 
 def process_point_cloud(data_dir, input_filename, output_filename_xyz, output_filename_laz, thinning_factor=1.0, nb_neighbors=20, std_ratio=2.0):
-    log_file = os.path.join(data_dir, "preprocess.log")
-    setup_logging(log_file)
+    global logger
+    if logger is None:
+        logger = setup_module_logger("1_preprocess", data_dir)
+
+    logger.info("=" * 60 + "Processing point cloud")
     logger.info("[process_point_cloud] Preprocessing function called")
     logger.info("Parameters → input_file: %s | data_dir: %s | thinning: %.2f | neighbors: %d | std_ratio: %.2f",
                 input_filename, data_dir, thinning_factor, nb_neighbors, std_ratio)
@@ -92,18 +97,39 @@ def process_point_cloud(data_dir, input_filename, output_filename_xyz, output_fi
     xyz_data_crs = np.vstack((las.X * scale[0] + offset[0],
                               las.Y * scale[1] + offset[1],
                               las.Z * scale[2] + offset[2])).T
+    
+    # ---------------- Post-filter attribute overview ----------------
+    logger.info("Point Attributes AFTER filtering:")
+    col_width = 25
+    for dim in las.point_format.dimension_names:
+        dtype   = las[dim].dtype
+        min_val = las[dim].min()
+        max_val = las[dim].max()
+        logger.info(
+            "%s %s Min: %s Max: %s",
+            dim.ljust(col_width),
+            str(dtype).ljust(col_width),
+            str(min_val).ljust(col_width),
+            max_val,
+        )
+    # ----------------------------------------------------------------
+
     output_xyz_crs = os.path.join(data_dir, output_filename_xyz)
     np.savetxt(output_xyz_crs, xyz_data_crs, fmt="%.6f")
     logger.info("XYZ file saved to %s", output_xyz_crs)
     logger.info("=" * 60 + "Processing complete.")
 
 if __name__ == "__main__":
+    data_dir = "whm_100"
+    logger = setup_module_logger("1_preprocess", data_dir)
+
     process_point_cloud(
-        data_dir='whm_100',
-        input_filename='whm_100_original.laz',
+        data_dir=data_dir,
+        input_filename='original.laz',
         output_filename_xyz='forest.xyz',
         output_filename_laz='forest.laz',
         thinning_factor=1.0,
         nb_neighbors=20,
         std_ratio=2.0
     )
+

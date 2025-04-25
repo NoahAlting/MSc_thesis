@@ -6,6 +6,14 @@ from shared_logging import setup_logging
 from preprocess_pointcloud import process_point_cloud
 from segmentation import run_segmentation, run_segmentation_sweep
 from merge_tree_ids import merge_tree_ids_into_las
+from tree_feature_extraction import run_feature_extraction_single_thread
+from features import (
+    height_features,
+    intensity_features,
+    crown_shape_features,
+    density_features
+)
+from species_matching import extract_species_labels
 
 
 # Handle data_dir and check for right starting structure
@@ -23,15 +31,23 @@ if not os.path.isfile(original_las_path):
 
 
 # Set up high-level logging for main pipeline
-log_path = os.path.join(data_dir, "main.log")
+log_dir = os.path.join(data_dir, "logs")
+os.makedirs(log_dir, exist_ok=True)
+
+log_path = os.path.join(log_dir, "0_main.log")
 setup_logging(log_path)
-logger = logging.getLogger(__name__)
+
+logger = logging.getLogger("pipeline")
+logger.info("=" * 60 + "Pipeline")
+logger.info("Parameters → data_dir: %s", data_dir)
 logger.info("[main.py] Pipeline started")
+
 
 #===========================================================================
 # Preprocessing
 #===========================================================================
 logger.info("=== Preprocessing started ===")
+
 
 original_las = "original.laz"
 vegetation_xyz = "forest.xyz"
@@ -44,6 +60,7 @@ filters = {
     'std_ratio': 2.0
 }
 logger.info("Filtering parameters: %s", filters)
+logger.info("Running preprocessing for '%s' with params: %s", data_dir, filters)
 
 process_point_cloud(
     data_dir=data_dir,
@@ -54,7 +71,7 @@ process_point_cloud(
     nb_neighbors=filters['nb_neighbors'],
     std_ratio=filters['std_ratio']
 )
-logger.info("✓ Preprocessing completed")
+logger.info("✓ Preprocessing completed (details in preprocess.log)")
 
 #===========================================================================
 # Segmentation
@@ -129,4 +146,42 @@ merge_tree_ids_into_las(
 )
 logger.info("✓ Merging completed")
 
+#===========================================================================
+# Tree feature extraction
+#===========================================================================
+
+logger.info("=== Tree feature extraction started ===")
+
+tree_count = run_feature_extraction_single_thread(
+    data_dir=data_dir,
+    las_name=merged_las,
+    feature_funcs=height_features + intensity_features + crown_shape_features + density_features
+)
+
+logger.info("✓ Tree feature extraction completed — %d trees processed", tree_count)
+
+
+
+#===========================================================================
+# Species matching
+#===========================================================================
+
+municipality_geojson = "Bomen_in_beheer_door_gemeente_Delft.geojson"
+
+logger.info("=== Species matching started ===")
+
+try:
+    _, match_count = extract_species_labels(
+        data_dir=data_dir,
+        laz_name=merged_las,
+        municipality_geojson=municipality_geojson,
+        export_tree_hull=True
+    )
+    logger.info("✓ Species matching completed — %d trees matched", match_count)
+
+except Exception:
+    logger.exception("❌ An error occurred during species extraction")
+
+
+#===========================================================================
 logger.info("[main.py] Pipeline finished")

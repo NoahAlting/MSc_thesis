@@ -1,14 +1,17 @@
 import os
+import sys
 import subprocess
-import logging
 import pandas as pd
 import time
 from itertools import product
 from concurrent.futures import ThreadPoolExecutor
 from tqdm import tqdm
-from shared_logging import setup_logging
 
-logger = logging.getLogger(__name__)
+
+import logging
+from shared_logging import setup_module_logger
+
+logger = None  # will be initialized in each function
 
 # ------------------------------- helpers -----------------------------------
 
@@ -66,8 +69,13 @@ def run_segmentation(data_dir, exe, input_xyz, output_dir,
     Run a single segmentation using one parameter set.
     Results are saved to a file and logged in a CSV.
     """
-    log_path = os.path.join(data_dir, "segmentation.log")
-    setup_logging(log_path)
+    global logger
+    if logger is None:
+        logger = setup_module_logger("2_segmentation", data_dir)
+
+    logger.info("=" * 60 + "Segmentation")
+    logger.info("Parameters → data_dir: %s | exe: %s | input_xyz: %s | output_dir: %s | radius: %d | vres: %d | min_pts: %d",
+                data_dir, exe, input_xyz, output_dir, radius, vres, min_pts)
     logger.info("[run_segmentation] Segmenter function called")
 
     os.makedirs(output_dir, exist_ok=True)
@@ -82,7 +90,13 @@ def run_segmentation(data_dir, exe, input_xyz, output_dir,
 
     success, runtime = run_cpp_segmenter(exe, os.path.join(data_dir, input_xyz), out_file, radius, vres, min_pts)
     if success:
+        logger.info("✓ Segmentation finished in %.2f seconds", runtime)
+        logger.info("Output written to: %s", out_file)
+        logger.info("Reading stats from: %s", out_file)
+
         num_pts, num_trees = count_xyz_file_stats(out_file)
+        logger.info("→ %d points, %d trees", num_pts, num_trees)
+
         create_or_update_csv(csv_path, [{
             "File Name": os.path.basename(out_file),
             "Radius": radius,
@@ -101,8 +115,10 @@ def run_segmentation_sweep(data_dir, exe, input_xyz, output_dir,
     Skips combinations already in the CSV unless overwrite=True.
     If save_per_iteration=True, updates the CSV after every task.
     """
-    log_path = os.path.join(data_dir, "segmentation.log")
-    setup_logging(log_path)
+    global logger
+    if logger is None:
+        logger = setup_module_logger("2_segmentation", data_dir)
+
     logger.info("[run_segmentation_sweep] Segmenter sweep function called")
 
     os.makedirs(output_dir, exist_ok=True)
@@ -138,13 +154,13 @@ def run_segmentation_sweep(data_dir, exe, input_xyz, output_dir,
 
     if save_per_iteration:
         with ThreadPoolExecutor(max_workers=cores) as pool:
-            for row in tqdm(pool.map(process_task, tasks), total=len(tasks), desc="Segmenting"):
+            for row in tqdm(pool.map(process_task, tasks), total=len(tasks), desc="Segmenting", disable=not sys.stdout.isatty()):
                 if row:
                     create_or_update_csv(csv_path, [row])
     else:
         new_rows = []
         with ThreadPoolExecutor(max_workers=cores) as pool:
-            for row in tqdm(pool.map(process_task, tasks), total=len(tasks), desc="Segmenting"):
+            for row in tqdm(pool.map(process_task, tasks), total=len(tasks), desc="Segmenting", disable=not sys.stdout.isatty()):
                 if row:
                     new_rows.append(row)
         if new_rows:
@@ -155,8 +171,13 @@ def run_segmentation_sweep(data_dir, exe, input_xyz, output_dir,
 
 if __name__ == "__main__":
     # Example single run
+    data_dir = "whm_250"
+
+    logger = setup_module_logger("2_segmentation", data_dir)
+
+
     run_segmentation(
-        data_dir="whm_100",
+        data_dir=data_dir,
         exe="./segmentation_code/build/segmentation",
         input_xyz="forest.xyz",
         output_dir="whm_100/segmentation_results",
@@ -168,7 +189,7 @@ if __name__ == "__main__":
 
     # Example sweep run
     run_segmentation_sweep(
-        data_dir="whm_100",
+        data_dir=data_dir,
         exe="./segmentation_code/build/segmentation",
         input_xyz="forest.xyz",
         output_dir="whm_100/segmentation_results",
