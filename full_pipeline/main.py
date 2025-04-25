@@ -80,10 +80,10 @@ segmentation_dir = os.path.join(data_dir, "segmentation_results")
 
 segmentation_exe = os.path.join(".", "segmentation_code", "build", "segmentation")
 
-run_sweep = False  # Set to False to run single segmentation instead
+run_sweep = True  # Set to False to run single segmentation instead
 
 segmentation_sweep = {
-    'radius': [10, 15],
+    'radius': [7.5, 10, 12.5, 15],
     'vres': [1, 2, 3, 5],
     'min_pts': [1, 3, 5]
 }

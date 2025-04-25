@@ -171,7 +171,7 @@ def run_segmentation_sweep(data_dir, exe, input_xyz, output_dir,
 
 if __name__ == "__main__":
     # Example single run
-    data_dir = "whm_250"
+    data_dir = "whm_100"
 
     logger = setup_module_logger("2_segmentation", data_dir)
 
@@ -193,9 +193,9 @@ if __name__ == "__main__":
         exe="./segmentation_code/build/segmentation",
         input_xyz="forest.xyz",
         output_dir="whm_100/segmentation_results",
-        radius_vals=[10, 15],
-        vres_vals=[1, 2],
-        min_pts_vals=[1, 3],
+        radius_vals=[2.5, 5, 7.5, 10],
+        vres_vals=[0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2],
+        min_pts_vals=[1, 3, 5],
         cores=4,
         overwrite=False,
         save_per_iteration=True
