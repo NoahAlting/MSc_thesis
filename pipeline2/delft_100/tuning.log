@@ -1,0 +1,6 @@
+2025-04-16 14:49:32,541 [INFO] Segmentation script started separately.
+2025-04-16 14:49:32,542 [INFO] Starting parallel execution with 1 cores...
+2025-04-16 14:49:32,544 [INFO] Error: segment_trees failed for R=4500, ver_res=150, min_p=3
+2025-04-16 14:49:32,554 [INFO] All tasks completed. Results saved in delft_100/segmentation_results.
+2025-04-16 14:49:32,567 [INFO] Error running diagnostics script: Command '['python', '/home/noah/pipeline2/2_tuning_diagnostics.py']' returned non-zero exit status 2.
+2025-04-16 14:49:32,567 [INFO] Preprocessing script finished.

@@ -1,0 +1,45 @@
+2025-04-22 11:04:26,542 [INFO] ============================================================
+2025-04-22 11:04:26,542 [INFO] NEW SESSION STARTED
+2025-04-22 11:04:26,543 [INFO] Running single segmentation:
+2025-04-22 11:04:26,543 [INFO]   R=4500, ver_res=150, min_p=3
+2025-04-22 11:04:26,543 [INFO] Running command: ./segmentation_code/build/Debug/segmentation.exe whm_100\forest.xyz whm_100\segmentation_results/segmentation_r_4500_vres_150_minp_3.xyz 4500 150 3
+2025-04-22 11:08:25,187 [ERROR] segment_trees failed for R=4500, ver_res=150, min_p=3
+2025-04-22 11:08:25,187 [ERROR] Return code: 2147483651
+2025-04-22 11:08:25,187 [ERROR] stdout:
+Number of points loaded: 22239
+Parameters: Radius=4500, VerticalResolution=150, MinPointsPerCluster=3
+Total number of points in this layer: 22239
+Processing time for height: [27.332 <=> 177.332] is: 217 seconds.
+Height index: 0
+=============================================
+2025-04-22 11:08:25,188 [INFO] Single segmentation completed.
+2025-04-22 11:15:07,400 [INFO] ============================================================
+2025-04-22 11:15:07,400 [INFO] NEW SESSION STARTED
+2025-04-22 11:15:07,401 [INFO] Running single segmentation:
+2025-04-22 11:15:07,401 [INFO]   R=1000, ver_res=150, min_p=3
+2025-04-22 11:15:07,401 [INFO] Running command: ./segmentation_code/build/Debug/segmentation.exe whm_100\forest.xyz whm_100\segmentation_results/segmentation_r_1000_vres_150_minp_3.xyz 1000 150 3
+2025-04-22 11:22:03,471 [ERROR] segment_trees failed for R=1000, ver_res=150, min_p=3
+2025-04-22 11:22:03,471 [ERROR] Return code: 3
+2025-04-22 11:22:03,471 [ERROR] stdout:
+Number of points loaded: 22239
+Parameters: Radius=1000, VerticalResolution=150, MinPointsPerCluster=3
+Total number of points in this layer: 22239
+Processing time for height: [27.332 <=> 177.332] is: 77 seconds.
+Height index: 0
+=============================================
+2025-04-22 11:22:03,471 [INFO] Single segmentation completed.
+2025-04-22 11:25:21,847 [INFO] ============================================================
+2025-04-22 11:25:21,847 [INFO] NEW SESSION STARTED
+2025-04-22 11:25:21,857 [INFO] Running: ./segmentation_code/build/Debug/segmentation.exe C:\Users\Noah\Documents\TUDelft\MSc_thesis\pipeline2\whm_100\forest.xyz whm_100\segmentation_results\whm_100_0002.xyz 1000 500 3
+2025-04-22 11:26:47,514 [ERROR] C++ failed (code 3)
+2025-04-22 11:26:47,514 [ERROR] stdout:
+Number of points loaded: 22239
+Parameters: Radius=1000, VerticalResolution=500, MinPointsPerCluster=3
+Total number of points in this layer: 22239
+Processing time for height: [27.332 <=> 527.332] is: 76 seconds.
+Height index: 0
+=============================================
+
+2025-04-22 11:26:47,514 [ERROR] stderr:
+<no stderr>
+2025-04-22 11:26:47,514 [INFO] Segmentation finished.

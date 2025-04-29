@@ -1,0 +1,102 @@
+2025-04-22 11:08:25,188 [INFO] ============================================================
+2025-04-22 11:08:25,189 [INFO] NEW SESSION STARTED
+2025-04-22 11:08:25,189 [INFO] Loading forest LAS file from: whm_100\forest.laz
+2025-04-22 11:08:25,237 [INFO] Forest DataFrame Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 22239 entries, 0 to 22238
+Data columns (total 7 columns):
+ #   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   X        22239 non-null  float64
+ 1   Y        22239 non-null  float64
+ 2   Z        22239 non-null  float64
+ 3   ndvi     22239 non-null  float64
+ 4   mtvi2    22239 non-null  float64
+ 5   norm_g   22239 non-null  float64
+ 6   tree_id  22239 non-null  int64  
+dtypes: float64(6), int64(1)
+memory usage: 1.2 MB
+
+2025-04-22 11:08:25,241 [INFO] Forest DataFrame Head:
+          X          Y       Z      ndvi     mtvi2    norm_g  tree_id
+0  506589.0  1071888.0  4444.0  0.204819  0.226820  0.379592       -1
+1  507652.0  1063584.0  3955.0  0.352381  0.355264  0.394191       -1
+2  507562.0  1064909.0  4696.0  0.330000  0.327958  0.387500       -1
+3  507551.0  1067225.0  4528.0  0.223140  0.266900  0.371517       -1
+4  507571.0  1070143.0  4193.0  0.250000  0.248854  0.374468       -1
+2025-04-22 11:08:25,243 [INFO] Final Forest DataFrame Info:
+2025-04-22 11:08:25,245 [INFO] 
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 22239 entries, 0 to 22238
+Data columns (total 7 columns):
+ #   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   X        22239 non-null  float64
+ 1   Y        22239 non-null  float64
+ 2   Z        22239 non-null  float64
+ 3   ndvi     22239 non-null  float64
+ 4   mtvi2    22239 non-null  float64
+ 5   norm_g   22239 non-null  float64
+ 6   tree_id  22239 non-null  int32  
+dtypes: float64(6), int32(1)
+memory usage: 1.1 MB
+
+2025-04-22 11:08:25,247 [INFO] Final Forest DataFrame Head:
+           X           Y      Z      ndvi     mtvi2    norm_g  tree_id
+0  83486.589  447301.888  4.444  0.204819  0.226820  0.379592       -1
+1  83487.652  447293.584  3.955  0.352381  0.355264  0.394191       -1
+2  83487.562  447294.909  4.696  0.330000  0.327958  0.387500       -1
+3  83487.551  447297.225  4.528  0.223140  0.266900  0.371517       -1
+4  83487.571  447300.143  4.193  0.250000  0.248854  0.374468       -1
+2025-04-22 11:08:25,278 [INFO] Modified LAS file saved at: whm_100\forest_tid.laz
+2025-04-22 11:22:03,472 [INFO] ============================================================
+2025-04-22 11:22:03,472 [INFO] NEW SESSION STARTED
+2025-04-22 11:22:03,472 [INFO] Loading forest LAS file from: whm_100\forest.laz
+2025-04-22 11:22:03,527 [INFO] Forest DataFrame Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 22239 entries, 0 to 22238
+Data columns (total 7 columns):
+ #   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   X        22239 non-null  float64
+ 1   Y        22239 non-null  float64
+ 2   Z        22239 non-null  float64
+ 3   ndvi     22239 non-null  float64
+ 4   mtvi2    22239 non-null  float64
+ 5   norm_g   22239 non-null  float64
+ 6   tree_id  22239 non-null  int64  
+dtypes: float64(6), int64(1)
+memory usage: 1.2 MB
+
+2025-04-22 11:22:03,531 [INFO] Forest DataFrame Head:
+          X          Y       Z      ndvi     mtvi2    norm_g  tree_id
+0  506589.0  1071888.0  4444.0  0.204819  0.226820  0.379592       -1
+1  507652.0  1063584.0  3955.0  0.352381  0.355264  0.394191       -1
+2  507562.0  1064909.0  4696.0  0.330000  0.327958  0.387500       -1
+3  507551.0  1067225.0  4528.0  0.223140  0.266900  0.371517       -1
+4  507571.0  1070143.0  4193.0  0.250000  0.248854  0.374468       -1
+2025-04-22 11:22:03,534 [INFO] Final Forest DataFrame Info:
+2025-04-22 11:22:03,537 [INFO] 
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 22239 entries, 0 to 22238
+Data columns (total 7 columns):
+ #   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   X        22239 non-null  float64
+ 1   Y        22239 non-null  float64
+ 2   Z        22239 non-null  float64
+ 3   ndvi     22239 non-null  float64
+ 4   mtvi2    22239 non-null  float64
+ 5   norm_g   22239 non-null  float64
+ 6   tree_id  22239 non-null  int32  
+dtypes: float64(6), int32(1)
+memory usage: 1.1 MB
+
+2025-04-22 11:22:03,539 [INFO] Final Forest DataFrame Head:
+           X           Y      Z      ndvi     mtvi2    norm_g  tree_id
+0  83486.589  447301.888  4.444  0.204819  0.226820  0.379592       -1
+1  83487.652  447293.584  3.955  0.352381  0.355264  0.394191       -1
+2  83487.562  447294.909  4.696  0.330000  0.327958  0.387500       -1
+3  83487.551  447297.225  4.528  0.223140  0.266900  0.371517       -1
+4  83487.571  447300.143  4.193  0.250000  0.248854  0.374468       -1
+2025-04-22 11:22:03,569 [INFO] Modified LAS file saved at: whm_100\forest_tid.laz

@@ -1,0 +1,3 @@
+C:/Users/Noah/Documents/TUDelft/MSc_thesis/pipeline2/segmentation_code/build/CMakeFiles/segmentation.dir
+C:/Users/Noah/Documents/TUDelft/MSc_thesis/pipeline2/segmentation_code/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Noah/Documents/TUDelft/MSc_thesis/pipeline2/segmentation_code/build/CMakeFiles/ZERO_CHECK.dir

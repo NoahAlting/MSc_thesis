@@ -1,0 +1,43 @@
+2025-04-29 13:24:44,761 [INFO] [diagnostics] Creating tree hulls from segmentation: segmentation_0005.xyz
+2025-04-29 13:24:44,762 [ERROR] Segmentation file not found: whm_100/segmentation_results/segmentation_0005.xyz
+2025-04-29 13:24:56,685 [INFO] [diagnostics] Creating tree hulls from segmentation: segmentation_0007.xyz
+2025-04-29 13:24:56,686 [ERROR] Segmentation file not found: whm_100/segmentation_results/segmentation_0007.xyz
+2025-04-29 13:25:02,278 [INFO] [diagnostics] Creating tree hulls from segmentation: segmentation_0008.xyz
+2025-04-29 13:25:02,278 [ERROR] Segmentation file not found: whm_100/segmentation_results/segmentation_0008.xyz
+2025-04-29 14:35:02,940 [INFO] Re-running segmentation for iteration 5
+2025-04-29 14:35:18,901 [INFO] [diagnostics] Creating tree hulls from segmentation: segmentation_0005.xyz
+2025-04-29 14:35:19,517 [INFO] ✓ Hulls saved to: whm_100/tree_hulls/segmentation_0005.geojson
+2025-04-29 14:35:19,536 [INFO] Re-running segmentation for iteration 8
+2025-04-29 14:35:33,295 [INFO] [diagnostics] Creating tree hulls from segmentation: segmentation_0008.xyz
+2025-04-29 14:35:33,639 [INFO] ✓ Hulls saved to: whm_100/tree_hulls/segmentation_0008.geojson
+2025-04-29 14:35:33,659 [INFO] Re-running segmentation for iteration 7
+2025-04-29 14:35:47,431 [INFO] [diagnostics] Creating tree hulls from segmentation: segmentation_0007.xyz
+2025-04-29 14:35:47,815 [INFO] ✓ Hulls saved to: whm_100/tree_hulls/segmentation_0007.geojson
+2025-04-29 14:56:53,985 [INFO] Estimated total compute time for 3 iterations: 43.23 s (0.72 min)
+2025-04-29 14:57:11,268 [INFO] Estimated total compute time for 3 iterations: 43.23 s (0.72 min)
+2025-04-29 14:57:11,284 [INFO] Re-running segmentation for iteration 35
+2025-04-29 14:57:18,915 [INFO] [diagnostics] Creating tree hulls from segmentation: segmentation_0035.xyz
+2025-04-29 14:57:19,465 [INFO] ✓ Hulls saved to: whm_100/tree_hulls/segmentation_0035.geojson
+2025-04-29 14:57:19,486 [INFO] Re-running segmentation for iteration 43
+2025-04-29 14:57:27,752 [INFO] [diagnostics] Creating tree hulls from segmentation: segmentation_0043.xyz
+2025-04-29 14:57:28,100 [INFO] ✓ Hulls saved to: whm_100/tree_hulls/segmentation_0043.geojson
+2025-04-29 14:57:28,120 [INFO] Re-running segmentation for iteration 44
+2025-04-29 14:57:37,148 [INFO] [diagnostics] Creating tree hulls from segmentation: segmentation_0044.xyz
+2025-04-29 14:57:37,500 [INFO] ✓ Hulls saved to: whm_100/tree_hulls/segmentation_0044.geojson
+2025-04-29 16:32:22,517 [INFO] Re-running segmentation for iteration 78
+2025-04-29 16:32:29,976 [INFO] [diagnostics] Creating tree hulls from segmentation: segmentation_0078.xyz
+2025-04-29 16:32:30,568 [INFO] ✓ Hulls saved to: whm_100/tree_hulls/segmentation_0078.geojson
+2025-04-29 16:32:30,588 [INFO] [diagnostics] Creating tree hulls from segmentation: segmentation_0078.xyz
+2025-04-29 16:32:30,943 [INFO] ✓ Hulls saved to: whm_100/tree_hulls/segmentation_0078.geojson
+2025-04-29 16:32:30,962 [INFO] Re-running segmentation for iteration 361
+2025-04-29 16:32:43,504 [INFO] [diagnostics] Creating tree hulls from segmentation: segmentation_0361.xyz
+2025-04-29 16:32:43,858 [INFO] ✓ Hulls saved to: whm_100/tree_hulls/segmentation_0361.geojson
+2025-04-29 17:30:22,258 [INFO] Re-running segmentation for iteration 47
+2025-04-29 17:30:31,063 [INFO] [diagnostics] Creating tree hulls from segmentation: segmentation_0047.xyz
+2025-04-29 17:30:31,859 [INFO] ✓ Hulls saved to: whm_100/tree_hulls/segmentation_0047.geojson
+2025-04-29 18:17:17,905 [INFO] Re-running segmentation for iteration 51
+2025-04-29 18:17:26,546 [INFO] [diagnostics] Creating tree hulls from segmentation: segmentation_0051.xyz
+2025-04-29 18:17:27,034 [INFO] ✓ Hulls saved to: whm_100/tree_hulls/segmentation_0051.geojson
+2025-04-29 18:17:27,073 [INFO] Re-running segmentation for iteration 331
+2025-04-29 18:17:38,071 [INFO] [diagnostics] Creating tree hulls from segmentation: segmentation_0331.xyz
+2025-04-29 18:17:38,432 [INFO] ✓ Hulls saved to: whm_100/tree_hulls/segmentation_0331.geojson

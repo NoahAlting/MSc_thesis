@@ -1,0 +1,10 @@
+^C:\USERS\NOAH\DOCUMENTS\TUDELFT\MSC_THESIS\PIPELINE2\SEGMENTATION_CODE\BUILD\CMAKEFILES\A028F9A0BB9C8376073F8EA7E0224794\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Noah/Documents/TUDelft/MSc_thesis/pipeline2/segmentation_code -BC:/Users/Noah/Documents/TUDelft/MSc_thesis/pipeline2/segmentation_code/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Noah/Documents/TUDelft/MSc_thesis/pipeline2/segmentation_code/build/segmentation_code.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

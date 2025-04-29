@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Noah\Documents\TUDelft\MSc_thesis\pipeline2\segmentation_code\build\CMakeFiles\a028f9a0bb9c8376073f8ea7e0224794\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B3E8B2F4-4530-3743-9BA3-3A2EBA2CC806}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

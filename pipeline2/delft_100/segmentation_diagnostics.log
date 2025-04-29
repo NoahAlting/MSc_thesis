@@ -1,0 +1,12 @@
+2025-04-22 10:59:26,974 [INFO] ============================================================
+2025-04-22 10:59:26,974 [INFO] NEW SESSION STARTED
+2025-04-22 10:59:26,974 [INFO] Diagnostics script started standalone.
+2025-04-22 10:59:26,974 [INFO] Creating delft_100\segmentation_stats.csv
+2025-04-22 10:59:27,002 [INFO] Summary saved to delft_100\segmentation_stats.csv
+2025-04-22 10:59:27,002 [INFO] Diagnostics script finished.
+2025-04-22 11:00:43,019 [INFO] ============================================================
+2025-04-22 11:00:43,019 [INFO] NEW SESSION STARTED
+2025-04-22 11:00:43,019 [INFO] Diagnostics script started standalone.
+2025-04-22 11:00:43,029 [INFO] delft_100\segmentation_stats.csv exists, going to append data!
+2025-04-22 11:00:43,038 [INFO] Summary saved to delft_100\segmentation_stats.csv
+2025-04-22 11:00:43,038 [INFO] Diagnostics script finished.

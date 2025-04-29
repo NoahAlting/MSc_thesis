@@ -1,0 +1,10 @@
+2025-04-22 11:08:25,279 [INFO] ============================================================
+2025-04-22 11:08:25,280 [INFO] NEW SESSION STARTED
+2025-04-22 11:08:25,281 [INFO] Creating whm_100\segmentation_stats.csv
+2025-04-22 11:08:25,288 [INFO] Renamed segmentation_r_4500_vres_150_minp_3.xyz to whm_100_0000.xyz
+2025-04-22 11:08:25,292 [INFO] Summary saved to whm_100\segmentation_stats.csv
+2025-04-22 11:22:03,570 [INFO] ============================================================
+2025-04-22 11:22:03,570 [INFO] NEW SESSION STARTED
+2025-04-22 11:22:03,573 [INFO] whm_100\segmentation_stats.csv exists, going to append data!
+2025-04-22 11:22:03,585 [INFO] Renamed segmentation_r_1000_vres_150_minp_3.xyz to whm_100_0001.xyz
+2025-04-22 11:22:03,589 [INFO] Summary saved to whm_100\segmentation_stats.csv

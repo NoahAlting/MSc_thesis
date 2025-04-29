@@ -1,0 +1,12 @@
+2025-04-17 12:28:23,827 [INFO] ============================================================
+2025-04-17 12:28:23,827 [INFO] NEW SESSION STARTED
+2025-04-17 12:28:23,827 [INFO] Segmentation script started separately.
+2025-04-17 12:28:23,827 [INFO] Running single segmentation:
+2025-04-17 12:28:23,827 [INFO]   R=4500, ver_res=150, min_p=3
+2025-04-17 12:28:23,827 [INFO] Running command: ./segment_trees delft_100/forest.xyz delft_100/segmentation_results/segmentation_r_4500_vres_150_minp_3.xyz 4500 150 3
+2025-04-17 12:28:23,829 [ERROR] segment_trees failed for R=4500, ver_res=150, min_p=3
+2025-04-17 12:28:23,829 [ERROR] Return code: 1
+2025-04-17 12:28:23,829 [ERROR] stderr:
+Error: Could not open input file: delft_100/forest.xyz
+2025-04-17 12:28:23,829 [INFO] Single segmentation completed.
+2025-04-17 12:28:23,829 [INFO] Preprocessing script finished.
