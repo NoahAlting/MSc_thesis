@@ -32,6 +32,7 @@ int main(int argc, char** argv) {
     int minPointsPerCluster = to_int(argv[5]);
 
     std::vector<Point3D> points;
+    
     Point3D tempPt;
 
     FILE* inFile = fopen(input_file.c_str(), "r");
@@ -52,11 +53,17 @@ int main(int argc, char** argv) {
               << ", VerticalResolution=" << verticalResolution
               << ", MinPointsPerCluster=" << minPointsPerCluster << std::endl;
 
+    std::cout << ">>> [MAIN] Creating FoxTree\n";
     FoxTree* foxTree = new FoxTree(points, radius, verticalResolution, minPointsPerCluster);
-
+    
+    std::cout << ">>> [MAIN] Running tree separation...\n";
     foxTree->separateTrees(1, 1);
+    std::cout << ">>> [MAIN] Tree separation complete.\n";
 
-    foxTree->outputTrees(output_file.c_str(), foxTree->m_nTrees);
+    std::cout << ">>> [MAIN] Writing output to " << output_file << "\n";
+    // foxTree->outputTrees(output_file.c_str(), foxTree->m_nTrees);
+    foxTree->outputTrees_noahDebug(output_file.c_str(), foxTree->m_nTrees);
+    std::cout << ">>> [MAIN] Output written\n";
     std::cout << "Finished" << std::endl;
 
     if (foxTree) delete foxTree; foxTree = nullptr;

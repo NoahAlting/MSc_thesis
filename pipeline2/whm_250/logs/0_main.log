@@ -1,0 +1,13 @@
+2025-04-30 10:10:14,452 [INFO] ============================================================Pipeline
+2025-04-30 10:10:14,453 [INFO] Parameters → data_dir: whm_250/
+2025-04-30 10:10:14,453 [INFO] [main.py] Pipeline started
+2025-04-30 10:10:14,453 [INFO] ============================================================
+2025-04-30 10:10:14,453 [INFO] === Preprocessing started ===
+2025-04-30 10:10:14,453 [INFO] Filtering parameters: {'thinning_factor': 1.0, 'nb_neighbors': 20, 'std_ratio': 2.0}
+2025-04-30 10:10:14,453 [INFO] Running preprocessing for 'whm_250/' with params: {'thinning_factor': 1.0, 'nb_neighbors': 20, 'std_ratio': 2.0}
+2025-04-30 10:10:47,734 [INFO] ✓ Preprocessing completed (details in preprocess.log)
+2025-04-30 10:10:47,734 [INFO] ============================================================
+2025-04-30 10:10:47,734 [INFO] === Segmentation started ===
+2025-04-30 10:10:47,734 [INFO] Running Segmentation for parameters: radius_vals=[1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6], vres_vals=[0.5, 1, 1.5, 2, 2.5, 3], min_pts_vals=[1, 2, 3, 4, 5]
+2025-04-30 10:39:24,771 [INFO] Segmentation results saved to: whm_250/segmentation_results/segmentation_stats_public.csv
+2025-04-30 10:39:24,772 [INFO] ✓ Segmentation completed (details in segmentation.log)

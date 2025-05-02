@@ -1,0 +1,620 @@
+2025-04-30 10:10:47,735 [INFO] 🔰  Public-tree matching sweep started
+2025-04-30 10:10:50,101 [INFO] Public trees inside bbox: 229
+2025-04-30 10:14:00,541 [INFO] Iter 29 | R=1.00 Vres=3.00 MinP=5 | runtime=185.12s | 1-to-1=32.8%
+2025-04-30 10:14:13,365 [WARNING] Iter 20: tree 745 < 3 pts, skip
+2025-04-30 10:14:13,636 [WARNING] Iter 20: tree 824 < 3 pts, skip
+2025-04-30 10:14:13,843 [WARNING] Iter 25: tree 658 < 3 pts, skip
+2025-04-30 10:14:13,959 [WARNING] Iter 25: tree 705 < 3 pts, skip
+2025-04-30 10:14:13,995 [WARNING] Iter 20: tree 971 < 3 pts, skip
+2025-04-30 10:14:14,166 [WARNING] Iter 25: tree 750 < 3 pts, skip
+2025-04-30 10:14:14,290 [WARNING] Iter 25: tree 784 < 3 pts, skip
+2025-04-30 10:14:14,508 [WARNING] Iter 20: tree 1165 < 3 pts, skip
+2025-04-30 10:14:14,955 [WARNING] Iter 20: tree 1295 < 3 pts, skip
+2025-04-30 10:14:15,001 [WARNING] Iter 20: tree 1337 < 3 pts, skip
+2025-04-30 10:14:15,314 [WARNING] Iter 25: tree 1108 < 3 pts, skip
+2025-04-30 10:14:15,931 [WARNING] Iter 25: tree 1153 < 3 pts, skip
+2025-04-30 10:14:15,983 [WARNING] Iter 20: tree 1490 < 3 pts, skip
+2025-04-30 10:14:16,205 [WARNING] Iter 25: tree 1206 < 3 pts, skip
+2025-04-30 10:14:16,330 [WARNING] Iter 20: tree 1567 < 3 pts, skip
+2025-04-30 10:14:16,332 [WARNING] Iter 20: tree 1568 < 3 pts, skip
+2025-04-30 10:14:16,349 [WARNING] Iter 20: tree 1580 < 3 pts, skip
+2025-04-30 10:14:16,425 [WARNING] Iter 20: tree 1631 < 3 pts, skip
+2025-04-30 10:14:16,466 [WARNING] Iter 20: tree 1660 < 3 pts, skip
+2025-04-30 10:14:16,467 [WARNING] Iter 20: tree 1662 < 3 pts, skip
+2025-04-30 10:14:16,470 [WARNING] Iter 20: tree 1664 < 3 pts, skip
+2025-04-30 10:14:16,486 [WARNING] Iter 20: tree 1671 < 3 pts, skip
+2025-04-30 10:14:16,491 [WARNING] Iter 20: tree 1674 < 3 pts, skip
+2025-04-30 10:14:16,538 [WARNING] Iter 25: tree 1338 < 3 pts, skip
+2025-04-30 10:14:16,540 [WARNING] Iter 20: tree 1697 < 3 pts, skip
+2025-04-30 10:14:16,542 [WARNING] Iter 20: tree 1698 < 3 pts, skip
+2025-04-30 10:14:16,543 [WARNING] Iter 20: tree 1699 < 3 pts, skip
+2025-04-30 10:14:16,594 [INFO] Iter 20 | R=1.00 Vres=2.50 MinP=1 | runtime=195.23s | 1-to-1=31.9%
+2025-04-30 10:14:17,918 [WARNING] Iter 25: tree 1454 < 3 pts, skip
+2025-04-30 10:14:17,919 [WARNING] Iter 25: tree 1455 < 3 pts, skip
+2025-04-30 10:14:17,920 [WARNING] Iter 25: tree 1459 < 3 pts, skip
+2025-04-30 10:14:17,961 [WARNING] Iter 25: tree 1507 < 3 pts, skip
+2025-04-30 10:14:17,969 [WARNING] Iter 25: tree 1525 < 3 pts, skip
+2025-04-30 10:14:17,969 [WARNING] Iter 25: tree 1526 < 3 pts, skip
+2025-04-30 10:14:17,970 [WARNING] Iter 25: tree 1528 < 3 pts, skip
+2025-04-30 10:14:17,971 [WARNING] Iter 25: tree 1532 < 3 pts, skip
+2025-04-30 10:14:17,980 [WARNING] Iter 25: tree 1543 < 3 pts, skip
+2025-04-30 10:14:17,982 [WARNING] Iter 25: tree 1544 < 3 pts, skip
+2025-04-30 10:14:17,982 [WARNING] Iter 25: tree 1545 < 3 pts, skip
+2025-04-30 10:14:18,045 [INFO] Iter 25 | R=1.00 Vres=3.00 MinP=1 | runtime=195.94s | 1-to-1=33.6%
+2025-04-30 10:14:22,039 [INFO] Iter 27 | R=1.00 Vres=3.00 MinP=3 | runtime=200.31s | 1-to-1=33.6%
+2025-04-30 10:15:04,622 [INFO] Iter 28 | R=1.00 Vres=3.00 MinP=4 | runtime=204.30s | 1-to-1=32.8%
+2025-04-30 10:15:37,828 [WARNING] Iter 26: tree 1080 < 3 pts, skip
+2025-04-30 10:15:49,243 [WARNING] Iter 26: tree 1221 < 3 pts, skip
+2025-04-30 10:15:50,790 [WARNING] Iter 26: tree 1241 < 3 pts, skip
+2025-04-30 10:15:52,410 [INFO] Iter 26 | R=1.00 Vres=3.00 MinP=2 | runtime=203.38s | 1-to-1=33.6%
+2025-04-30 10:16:11,738 [WARNING] Iter 15: tree 921 < 3 pts, skip
+2025-04-30 10:16:13,151 [WARNING] Iter 15: tree 966 < 3 pts, skip
+2025-04-30 10:16:16,228 [WARNING] Iter 15: tree 1006 < 3 pts, skip
+2025-04-30 10:16:20,664 [WARNING] Iter 15: tree 1038 < 3 pts, skip
+2025-04-30 10:16:29,183 [INFO] Iter 23 | R=1.00 Vres=2.50 MinP=4 | runtime=210.05s | 1-to-1=32.8%
+2025-04-30 10:16:31,894 [WARNING] Iter 15: tree 1354 < 3 pts, skip
+2025-04-30 10:16:34,671 [INFO] Iter 24 | R=1.00 Vres=2.50 MinP=5 | runtime=211.69s | 1-to-1=33.6%
+2025-04-30 10:16:35,438 [INFO] Iter 13 | R=1.00 Vres=1.50 MinP=4 | runtime=209.67s | 1-to-1=35.8%
+2025-04-30 10:16:36,910 [WARNING] Iter 15: tree 1503 < 3 pts, skip
+2025-04-30 10:16:38,931 [WARNING] Iter 21: tree 1165 < 3 pts, skip
+2025-04-30 10:16:39,529 [WARNING] Iter 10: tree 1103 < 3 pts, skip
+2025-04-30 10:16:40,683 [WARNING] Iter 10: tree 1153 < 3 pts, skip
+2025-04-30 10:16:40,857 [WARNING] Iter 15: tree 1678 < 3 pts, skip
+2025-04-30 10:16:41,214 [INFO] Iter 19 | R=1.00 Vres=2.00 MinP=5 | runtime=224.73s | 1-to-1=34.9%
+2025-04-30 10:16:41,957 [WARNING] Iter 30: tree 813 < 3 pts, skip
+2025-04-30 10:16:42,273 [WARNING] Iter 21: tree 1285 < 3 pts, skip
+2025-04-30 10:16:42,987 [WARNING] Iter 21: tree 1316 < 3 pts, skip
+2025-04-30 10:16:43,091 [WARNING] Iter 15: tree 1750 < 3 pts, skip
+2025-04-30 10:16:43,188 [WARNING] Iter 21: tree 1328 < 3 pts, skip
+2025-04-30 10:16:43,357 [WARNING] Iter 15: tree 1762 < 3 pts, skip
+2025-04-30 10:16:43,882 [INFO] Iter 21 | R=1.00 Vres=2.50 MinP=2 | runtime=218.43s | 1-to-1=33.6%
+2025-04-30 10:16:44,558 [INFO] Iter 22 | R=1.00 Vres=2.50 MinP=3 | runtime=224.72s | 1-to-1=32.8%
+2025-04-30 10:16:45,597 [INFO] Iter 18 | R=1.00 Vres=2.00 MinP=4 | runtime=232.22s | 1-to-1=34.9%
+2025-04-30 10:16:46,210 [WARNING] Iter 15: tree 1824 < 3 pts, skip
+2025-04-30 10:16:46,229 [WARNING] Iter 16: tree 1277 < 3 pts, skip
+2025-04-30 10:16:46,270 [WARNING] Iter 10: tree 1301 < 3 pts, skip
+2025-04-30 10:16:46,776 [WARNING] Iter 31: tree 976 < 3 pts, skip
+2025-04-30 10:16:46,873 [WARNING] Iter 10: tree 1333 < 3 pts, skip
+2025-04-30 10:16:47,014 [WARNING] Iter 15: tree 1869 < 3 pts, skip
+2025-04-30 10:16:47,211 [WARNING] Iter 15: tree 1885 < 3 pts, skip
+2025-04-30 10:16:47,371 [WARNING] Iter 15: tree 1891 < 3 pts, skip
+2025-04-30 10:16:47,379 [INFO] Iter 14 | R=1.00 Vres=1.50 MinP=5 | runtime=227.88s | 1-to-1=35.8%
+2025-04-30 10:16:48,441 [WARNING] Iter 15: tree 1946 < 3 pts, skip
+2025-04-30 10:16:48,466 [WARNING] Iter 15: tree 1949 < 3 pts, skip
+2025-04-30 10:16:48,467 [WARNING] Iter 15: tree 1950 < 3 pts, skip
+2025-04-30 10:16:48,526 [WARNING] Iter 16: tree 1396 < 3 pts, skip
+2025-04-30 10:16:48,599 [WARNING] Iter 15: tree 1972 < 3 pts, skip
+2025-04-30 10:16:48,604 [WARNING] Iter 15: tree 1973 < 3 pts, skip
+2025-04-30 10:16:48,607 [WARNING] Iter 15: tree 1974 < 3 pts, skip
+2025-04-30 10:16:48,785 [INFO] Iter 15 | R=1.00 Vres=2.00 MinP=1 | runtime=206.32s | 1-to-1=34.1%
+2025-04-30 10:16:49,401 [WARNING] Iter 16: tree 1440 < 3 pts, skip
+2025-04-30 10:16:49,576 [INFO] Iter 17 | R=1.00 Vres=2.00 MinP=3 | runtime=234.20s | 1-to-1=35.4%
+2025-04-30 10:16:50,088 [WARNING] Iter 16: tree 1461 < 3 pts, skip
+2025-04-30 10:16:50,709 [INFO] Iter 16 | R=1.00 Vres=2.00 MinP=2 | runtime=226.73s | 1-to-1=35.8%
+2025-04-30 10:16:51,621 [WARNING] Iter 31: tree 1253 < 3 pts, skip
+2025-04-30 10:16:51,662 [WARNING] Iter 11: tree 1584 < 3 pts, skip
+2025-04-30 10:16:51,665 [WARNING] Iter 31: tree 1260 < 3 pts, skip
+2025-04-30 10:16:52,151 [WARNING] Iter 30: tree 1260 < 3 pts, skip
+2025-04-30 10:16:52,173 [INFO] Iter 31 | R=1.50 Vres=0.50 MinP=2 | runtime=281.33s | 1-to-1=34.1%
+2025-04-30 10:16:53,453 [WARNING] Iter 5: tree 1407 < 3 pts, skip
+2025-04-30 10:16:53,459 [WARNING] Iter 10: tree 1752 < 3 pts, skip
+2025-04-30 10:16:53,908 [INFO] Iter 12 | R=1.00 Vres=1.50 MinP=3 | runtime=248.25s | 1-to-1=37.6%
+2025-04-30 10:16:53,933 [WARNING] Iter 11: tree 1852 < 3 pts, skip
+2025-04-30 10:16:54,441 [WARNING] Iter 11: tree 1874 < 3 pts, skip
+2025-04-30 10:16:54,677 [INFO] Iter 11 | R=1.00 Vres=1.50 MinP=2 | runtime=221.49s | 1-to-1=35.4%
+2025-04-30 10:16:55,273 [WARNING] Iter 30: tree 1522 < 3 pts, skip
+2025-04-30 10:16:55,368 [WARNING] Iter 10: tree 1895 < 3 pts, skip
+2025-04-30 10:16:55,405 [WARNING] Iter 5: tree 1549 < 3 pts, skip
+2025-04-30 10:16:55,583 [WARNING] Iter 30: tree 1588 < 3 pts, skip
+2025-04-30 10:16:55,755 [WARNING] Iter 30: tree 1608 < 3 pts, skip
+2025-04-30 10:16:55,810 [INFO] Iter 9 | R=1.00 Vres=1.00 MinP=5 | runtime=287.09s | 1-to-1=32.8%
+2025-04-30 10:16:55,819 [WARNING] Iter 30: tree 1616 < 3 pts, skip
+2025-04-30 10:16:56,502 [WARNING] Iter 30: tree 1682 < 3 pts, skip
+2025-04-30 10:16:56,505 [WARNING] Iter 30: tree 1683 < 3 pts, skip
+2025-04-30 10:16:56,617 [INFO] Iter 30 | R=1.50 Vres=0.50 MinP=1 | runtime=276.00s | 1-to-1=32.8%
+2025-04-30 10:16:56,963 [WARNING] Iter 5: tree 1681 < 3 pts, skip
+2025-04-30 10:16:56,967 [WARNING] Iter 10: tree 2062 < 3 pts, skip
+2025-04-30 10:16:57,019 [WARNING] Iter 10: tree 2077 < 3 pts, skip
+2025-04-30 10:16:57,288 [INFO] Iter 8 | R=1.00 Vres=1.00 MinP=4 | runtime=275.76s | 1-to-1=33.2%
+2025-04-30 10:16:57,303 [WARNING] Iter 5: tree 1710 < 3 pts, skip
+2025-04-30 10:16:59,050 [WARNING] Iter 10: tree 2134 < 3 pts, skip
+2025-04-30 10:16:59,683 [WARNING] Iter 10: tree 2328 < 3 pts, skip
+2025-04-30 10:16:59,686 [WARNING] Iter 10: tree 2329 < 3 pts, skip
+2025-04-30 10:16:59,696 [WARNING] Iter 10: tree 2333 < 3 pts, skip
+2025-04-30 10:16:59,876 [WARNING] Iter 10: tree 2384 < 3 pts, skip
+2025-04-30 10:16:59,947 [WARNING] Iter 10: tree 2404 < 3 pts, skip
+2025-04-30 10:16:59,966 [WARNING] Iter 10: tree 2410 < 3 pts, skip
+2025-04-30 10:17:00,017 [WARNING] Iter 10: tree 2426 < 3 pts, skip
+2025-04-30 10:17:00,018 [WARNING] Iter 10: tree 2427 < 3 pts, skip
+2025-04-30 10:17:00,046 [WARNING] Iter 10: tree 2435 < 3 pts, skip
+2025-04-30 10:17:00,048 [WARNING] Iter 10: tree 2436 < 3 pts, skip
+2025-04-30 10:17:00,050 [WARNING] Iter 10: tree 2437 < 3 pts, skip
+2025-04-30 10:17:00,122 [INFO] Iter 10 | R=1.00 Vres=1.50 MinP=1 | runtime=221.20s | 1-to-1=37.6%
+2025-04-30 10:17:01,380 [INFO] Iter 7 | R=1.00 Vres=1.00 MinP=3 | runtime=295.06s | 1-to-1=34.5%
+2025-04-30 10:17:02,209 [WARNING] Iter 5: tree 2232 < 3 pts, skip
+2025-04-30 10:17:02,374 [WARNING] Iter 6: tree 1962 < 3 pts, skip
+2025-04-30 10:17:02,707 [WARNING] Iter 5: tree 2502 < 3 pts, skip
+2025-04-30 10:17:02,951 [WARNING] Iter 6: tree 2298 < 3 pts, skip
+2025-04-30 10:17:02,983 [WARNING] Iter 6: tree 2317 < 3 pts, skip
+2025-04-30 10:17:02,987 [WARNING] Iter 5: tree 2648 < 3 pts, skip
+2025-04-30 10:17:03,123 [INFO] Iter 6 | R=1.00 Vres=1.00 MinP=2 | runtime=302.21s | 1-to-1=32.8%
+2025-04-30 10:17:03,620 [WARNING] Iter 5: tree 2850 < 3 pts, skip
+2025-04-30 10:17:03,628 [WARNING] Iter 5: tree 2863 < 3 pts, skip
+2025-04-30 10:17:03,718 [WARNING] Iter 0: tree 1057 < 3 pts, skip
+2025-04-30 10:17:03,755 [WARNING] Iter 5: tree 3022 < 3 pts, skip
+2025-04-30 10:17:03,757 [WARNING] Iter 5: tree 3026 < 3 pts, skip
+2025-04-30 10:17:03,798 [WARNING] Iter 5: tree 3078 < 3 pts, skip
+2025-04-30 10:17:03,811 [WARNING] Iter 5: tree 3098 < 3 pts, skip
+2025-04-30 10:17:03,817 [WARNING] Iter 5: tree 3107 < 3 pts, skip
+2025-04-30 10:17:03,837 [WARNING] Iter 5: tree 3139 < 3 pts, skip
+2025-04-30 10:17:03,838 [WARNING] Iter 5: tree 3140 < 3 pts, skip
+2025-04-30 10:17:03,853 [WARNING] Iter 5: tree 3163 < 3 pts, skip
+2025-04-30 10:17:03,853 [WARNING] Iter 5: tree 3164 < 3 pts, skip
+2025-04-30 10:17:03,854 [WARNING] Iter 5: tree 3165 < 3 pts, skip
+2025-04-30 10:17:03,900 [INFO] Iter 5 | R=1.00 Vres=1.00 MinP=1 | runtime=279.69s | 1-to-1=32.3%
+2025-04-30 10:17:04,387 [WARNING] Iter 0: tree 1279 < 3 pts, skip
+2025-04-30 10:17:05,368 [WARNING] Iter 0: tree 2137 < 3 pts, skip
+2025-04-30 10:17:05,562 [WARNING] Iter 0: tree 2337 < 3 pts, skip
+2025-04-30 10:17:05,584 [WARNING] Iter 0: tree 2365 < 3 pts, skip
+2025-04-30 10:17:05,710 [WARNING] Iter 0: tree 2555 < 3 pts, skip
+2025-04-30 10:17:05,725 [WARNING] Iter 0: tree 2583 < 3 pts, skip
+2025-04-30 10:17:05,744 [WARNING] Iter 0: tree 2616 < 3 pts, skip
+2025-04-30 10:17:05,889 [WARNING] Iter 0: tree 2883 < 3 pts, skip
+2025-04-30 10:17:06,078 [WARNING] Iter 0: tree 3238 < 3 pts, skip
+2025-04-30 10:17:06,165 [WARNING] Iter 0: tree 3445 < 3 pts, skip
+2025-04-30 10:17:06,339 [WARNING] Iter 0: tree 3900 < 3 pts, skip
+2025-04-30 10:17:06,372 [WARNING] Iter 0: tree 4001 < 3 pts, skip
+2025-04-30 10:17:06,394 [WARNING] Iter 0: tree 4069 < 3 pts, skip
+2025-04-30 10:17:06,417 [WARNING] Iter 0: tree 4142 < 3 pts, skip
+2025-04-30 10:17:06,476 [WARNING] Iter 0: tree 4384 < 3 pts, skip
+2025-04-30 10:17:06,497 [WARNING] Iter 0: tree 4473 < 3 pts, skip
+2025-04-30 10:17:06,499 [WARNING] Iter 0: tree 4484 < 3 pts, skip
+2025-04-30 10:17:06,525 [WARNING] Iter 0: tree 4599 < 3 pts, skip
+2025-04-30 10:17:06,533 [WARNING] Iter 0: tree 4635 < 3 pts, skip
+2025-04-30 10:17:06,536 [WARNING] Iter 0: tree 4650 < 3 pts, skip
+2025-04-30 10:17:06,539 [WARNING] Iter 0: tree 4664 < 3 pts, skip
+2025-04-30 10:17:06,544 [WARNING] Iter 0: tree 4689 < 3 pts, skip
+2025-04-30 10:17:06,546 [WARNING] Iter 0: tree 4695 < 3 pts, skip
+2025-04-30 10:17:06,570 [WARNING] Iter 0: tree 4803 < 3 pts, skip
+2025-04-30 10:17:06,570 [WARNING] Iter 0: tree 4804 < 3 pts, skip
+2025-04-30 10:17:06,571 [WARNING] Iter 0: tree 4805 < 3 pts, skip
+2025-04-30 10:17:06,599 [INFO] Iter 0 | R=1.00 Vres=0.50 MinP=1 | runtime=362.87s | 1-to-1=30.6%
+2025-04-30 10:17:23,628 [WARNING] Iter 35: tree 604 < 3 pts, skip
+2025-04-30 10:17:24,550 [WARNING] Iter 35: tree 896 < 3 pts, skip
+2025-04-30 10:17:25,152 [WARNING] Iter 35: tree 1177 < 3 pts, skip
+2025-04-30 10:17:25,153 [WARNING] Iter 35: tree 1179 < 3 pts, skip
+2025-04-30 10:17:25,209 [WARNING] Iter 35: tree 1210 < 3 pts, skip
+2025-04-30 10:17:25,229 [WARNING] Iter 35: tree 1222 < 3 pts, skip
+2025-04-30 10:17:25,273 [WARNING] Iter 35: tree 1252 < 3 pts, skip
+2025-04-30 10:17:25,274 [WARNING] Iter 35: tree 1253 < 3 pts, skip
+2025-04-30 10:17:25,311 [INFO] Iter 35 | R=1.50 Vres=1.00 MinP=1 | runtime=164.15s | 1-to-1=35.8%
+2025-04-30 10:17:25,963 [INFO] Iter 3 | R=1.00 Vres=0.50 MinP=4 | runtime=377.75s | 1-to-1=34.1%
+2025-04-30 10:17:27,603 [WARNING] Iter 1: tree 1739 < 3 pts, skip
+2025-04-30 10:17:28,144 [INFO] Iter 4 | R=1.00 Vres=0.50 MinP=5 | runtime=382.08s | 1-to-1=34.5%
+2025-04-30 10:17:28,849 [WARNING] Iter 1: tree 2778 < 3 pts, skip
+2025-04-30 10:17:29,121 [WARNING] Iter 1: tree 3309 < 3 pts, skip
+2025-04-30 10:17:29,125 [WARNING] Iter 1: tree 3321 < 3 pts, skip
+2025-04-30 10:17:29,159 [WARNING] Iter 1: tree 3395 < 3 pts, skip
+2025-04-30 10:17:29,204 [INFO] Iter 1 | R=1.00 Vres=0.50 MinP=2 | runtime=381.76s | 1-to-1=31.4%
+2025-04-30 10:17:39,867 [INFO] Iter 2 | R=1.00 Vres=0.50 MinP=3 | runtime=405.42s | 1-to-1=34.1%
+2025-04-30 10:17:59,984 [WARNING] Iter 36: tree 980 < 3 pts, skip
+2025-04-30 10:18:00,242 [WARNING] Iter 36: tree 991 < 3 pts, skip
+2025-04-30 10:18:00,273 [INFO] Iter 36 | R=1.50 Vres=1.00 MinP=2 | runtime=167.95s | 1-to-1=35.8%
+2025-04-30 10:18:36,271 [INFO] Iter 32 | R=1.50 Vres=0.50 MinP=3 | runtime=271.06s | 1-to-1=34.9%
+2025-04-30 10:18:41,244 [INFO] Iter 37 | R=1.50 Vres=1.00 MinP=3 | runtime=161.94s | 1-to-1=35.8%
+2025-04-30 10:18:52,463 [INFO] Iter 52 | R=1.50 Vres=2.50 MinP=3 | runtime=103.89s | 1-to-1=33.2%
+2025-04-30 10:20:11,623 [WARNING] Iter 55: tree 324 < 3 pts, skip
+2025-04-30 10:20:33,914 [WARNING] Iter 50: tree 399 < 3 pts, skip
+2025-04-30 10:20:38,810 [WARNING] Iter 55: tree 494 < 3 pts, skip
+2025-04-30 10:20:40,434 [WARNING] Iter 56: tree 640 < 3 pts, skip
+2025-04-30 10:20:40,880 [WARNING] Iter 56: tree 650 < 3 pts, skip
+2025-04-30 10:20:41,833 [INFO] Iter 56 | R=1.50 Vres=3.00 MinP=2 | runtime=101.43s | 1-to-1=34.5%
+2025-04-30 10:20:44,085 [WARNING] Iter 45: tree 406 < 3 pts, skip
+2025-04-30 10:20:44,204 [WARNING] Iter 50: tree 566 < 3 pts, skip
+2025-04-30 10:20:47,196 [INFO] Iter 53 | R=1.50 Vres=2.50 MinP=4 | runtime=106.37s | 1-to-1=33.2%
+2025-04-30 10:20:48,100 [WARNING] Iter 40: tree 459 < 3 pts, skip
+2025-04-30 10:20:48,443 [WARNING] Iter 51: tree 664 < 3 pts, skip
+2025-04-30 10:20:48,882 [WARNING] Iter 51: tree 681 < 3 pts, skip
+2025-04-30 10:20:49,118 [WARNING] Iter 51: tree 690 < 3 pts, skip
+2025-04-30 10:20:49,467 [WARNING] Iter 55: tree 718 < 3 pts, skip
+2025-04-30 10:20:49,514 [WARNING] Iter 55: tree 721 < 3 pts, skip
+2025-04-30 10:20:49,806 [INFO] Iter 51 | R=1.50 Vres=2.50 MinP=2 | runtime=108.17s | 1-to-1=33.6%
+2025-04-30 10:20:50,438 [WARNING] Iter 50: tree 744 < 3 pts, skip
+2025-04-30 10:20:50,724 [WARNING] Iter 55: tree 749 < 3 pts, skip
+2025-04-30 10:20:50,880 [WARNING] Iter 55: tree 758 < 3 pts, skip
+2025-04-30 10:20:50,886 [WARNING] Iter 55: tree 759 < 3 pts, skip
+2025-04-30 10:20:50,896 [WARNING] Iter 55: tree 760 < 3 pts, skip
+2025-04-30 10:20:51,163 [WARNING] Iter 45: tree 603 < 3 pts, skip
+2025-04-30 10:20:51,213 [INFO] Iter 55 | R=1.50 Vres=3.00 MinP=1 | runtime=100.49s | 1-to-1=34.9%
+2025-04-30 10:20:51,657 [WARNING] Iter 50: tree 783 < 3 pts, skip
+2025-04-30 10:20:51,992 [INFO] Iter 54 | R=1.50 Vres=2.50 MinP=5 | runtime=110.84s | 1-to-1=33.2%
+2025-04-30 10:20:52,442 [WARNING] Iter 50: tree 799 < 3 pts, skip
+2025-04-30 10:20:52,446 [WARNING] Iter 50: tree 800 < 3 pts, skip
+2025-04-30 10:20:52,452 [WARNING] Iter 50: tree 801 < 3 pts, skip
+2025-04-30 10:20:52,578 [WARNING] Iter 50: tree 809 < 3 pts, skip
+2025-04-30 10:20:53,114 [INFO] Iter 50 | R=1.50 Vres=2.50 MinP=1 | runtime=109.37s | 1-to-1=34.1%
+2025-04-30 10:20:54,432 [INFO] Iter 57 | R=1.50 Vres=3.00 MinP=3 | runtime=112.46s | 1-to-1=34.9%
+2025-04-30 10:20:55,529 [INFO] Iter 48 | R=1.50 Vres=2.00 MinP=4 | runtime=125.70s | 1-to-1=33.6%
+2025-04-30 10:20:56,201 [INFO] Iter 58 | R=1.50 Vres=3.00 MinP=4 | runtime=114.17s | 1-to-1=34.5%
+2025-04-30 10:20:57,008 [WARNING] Iter 46: tree 655 < 3 pts, skip
+2025-04-30 10:20:57,426 [INFO] Iter 47 | R=1.50 Vres=2.00 MinP=3 | runtime=126.82s | 1-to-1=34.5%
+2025-04-30 10:20:58,051 [WARNING] Iter 46: tree 685 < 3 pts, skip
+2025-04-30 10:20:58,058 [WARNING] Iter 40: tree 704 < 3 pts, skip
+2025-04-30 10:21:00,213 [INFO] Iter 59 | R=1.50 Vres=3.00 MinP=5 | runtime=117.89s | 1-to-1=33.2%
+2025-04-30 10:21:00,945 [WARNING] Iter 46: tree 701 < 3 pts, skip
+2025-04-30 10:21:01,205 [WARNING] Iter 45: tree 791 < 3 pts, skip
+2025-04-30 10:21:01,247 [INFO] Iter 49 | R=1.50 Vres=2.00 MinP=5 | runtime=127.48s | 1-to-1=33.2%
+2025-04-30 10:21:02,425 [WARNING] Iter 45: tree 822 < 3 pts, skip
+2025-04-30 10:21:02,896 [INFO] Iter 46 | R=1.50 Vres=2.00 MinP=2 | runtime=127.42s | 1-to-1=34.9%
+2025-04-30 10:21:04,144 [WARNING] Iter 45: tree 838 < 3 pts, skip
+2025-04-30 10:21:05,214 [WARNING] Iter 45: tree 872 < 3 pts, skip
+2025-04-30 10:21:05,511 [WARNING] Iter 45: tree 882 < 3 pts, skip
+2025-04-30 10:21:05,516 [WARNING] Iter 45: tree 883 < 3 pts, skip
+2025-04-30 10:21:05,728 [INFO] Iter 45 | R=1.50 Vres=2.00 MinP=1 | runtime=121.89s | 1-to-1=34.9%
+2025-04-30 10:21:07,748 [INFO] Iter 44 | R=1.50 Vres=1.50 MinP=5 | runtime=140.93s | 1-to-1=37.6%
+2025-04-30 10:21:10,364 [INFO] Iter 34 | R=1.50 Vres=0.50 MinP=5 | runtime=272.26s | 1-to-1=36.2%
+2025-04-30 10:21:11,068 [INFO] Iter 42 | R=1.50 Vres=1.50 MinP=3 | runtime=142.55s | 1-to-1=38.9%
+2025-04-30 10:21:12,102 [INFO] Iter 39 | R=1.50 Vres=1.00 MinP=5 | runtime=168.02s | 1-to-1=36.7%
+2025-04-30 10:21:12,104 [INFO] Iter 43 | R=1.50 Vres=1.50 MinP=4 | runtime=155.81s | 1-to-1=37.1%
+2025-04-30 10:21:13,116 [WARNING] Iter 65: tree 513 < 3 pts, skip
+2025-04-30 10:21:13,136 [WARNING] Iter 40: tree 963 < 3 pts, skip
+2025-04-30 10:21:13,182 [WARNING] Iter 40: tree 966 < 3 pts, skip
+2025-04-30 10:21:16,314 [WARNING] Iter 41: tree 836 < 3 pts, skip
+2025-04-30 10:21:16,324 [WARNING] Iter 40: tree 998 < 3 pts, skip
+2025-04-30 10:21:16,429 [WARNING] Iter 40: tree 1006 < 3 pts, skip
+2025-04-30 10:21:16,638 [WARNING] Iter 41: tree 845 < 3 pts, skip
+2025-04-30 10:21:17,004 [WARNING] Iter 40: tree 1020 < 3 pts, skip
+2025-04-30 10:21:17,012 [WARNING] Iter 40: tree 1021 < 3 pts, skip
+2025-04-30 10:21:17,081 [INFO] Iter 41 | R=1.50 Vres=1.50 MinP=2 | runtime=145.28s | 1-to-1=37.6%
+2025-04-30 10:21:17,111 [INFO] Iter 40 | R=1.50 Vres=1.50 MinP=1 | runtime=141.00s | 1-to-1=38.0%
+2025-04-30 10:21:17,990 [INFO] Iter 33 | R=1.50 Vres=0.50 MinP=4 | runtime=279.80s | 1-to-1=34.9%
+2025-04-30 10:21:19,049 [INFO] Iter 38 | R=1.50 Vres=1.00 MinP=4 | runtime=167.47s | 1-to-1=35.8%
+2025-04-30 10:21:19,859 [WARNING] Iter 65: tree 698 < 3 pts, skip
+2025-04-30 10:21:19,867 [WARNING] Iter 65: tree 699 < 3 pts, skip
+2025-04-30 10:21:19,945 [WARNING] Iter 65: tree 716 < 3 pts, skip
+2025-04-30 10:21:19,982 [WARNING] Iter 65: tree 725 < 3 pts, skip
+2025-04-30 10:21:20,097 [WARNING] Iter 65: tree 744 < 3 pts, skip
+2025-04-30 10:21:20,194 [INFO] Iter 65 | R=2.00 Vres=1.00 MinP=1 | runtime=125.69s | 1-to-1=33.2%
+2025-04-30 10:21:26,341 [WARNING] Iter 60: tree 646 < 3 pts, skip
+2025-04-30 10:21:26,672 [WARNING] Iter 66: tree 606 < 3 pts, skip
+2025-04-30 10:21:26,729 [WARNING] Iter 66: tree 613 < 3 pts, skip
+2025-04-30 10:21:26,944 [INFO] Iter 66 | R=2.00 Vres=1.00 MinP=2 | runtime=131.64s | 1-to-1=33.6%
+2025-04-30 10:21:27,523 [INFO] Iter 62 | R=2.00 Vres=0.50 MinP=3 | runtime=200.21s | 1-to-1=36.2%
+2025-04-30 10:21:28,130 [WARNING] Iter 60: tree 808 < 3 pts, skip
+2025-04-30 10:21:28,257 [WARNING] Iter 60: tree 846 < 3 pts, skip
+2025-04-30 10:21:28,306 [WARNING] Iter 60: tree 857 < 3 pts, skip
+2025-04-30 10:21:28,321 [WARNING] Iter 60: tree 862 < 3 pts, skip
+2025-04-30 10:21:28,341 [WARNING] Iter 61: tree 533 < 3 pts, skip
+2025-04-30 10:21:28,490 [WARNING] Iter 60: tree 905 < 3 pts, skip
+2025-04-30 10:21:28,560 [INFO] Iter 60 | R=2.00 Vres=0.50 MinP=1 | runtime=198.06s | 1-to-1=33.2%
+2025-04-30 10:21:29,240 [WARNING] Iter 61: tree 709 < 3 pts, skip
+2025-04-30 10:21:29,245 [WARNING] Iter 61: tree 713 < 3 pts, skip
+2025-04-30 10:21:29,353 [INFO] Iter 61 | R=2.00 Vres=0.50 MinP=2 | runtime=202.41s | 1-to-1=34.5%
+2025-04-30 10:21:29,726 [INFO] Iter 67 | R=2.00 Vres=1.00 MinP=3 | runtime=129.48s | 1-to-1=33.2%
+2025-04-30 10:21:30,128 [INFO] Iter 63 | R=2.00 Vres=0.50 MinP=4 | runtime=211.52s | 1-to-1=35.8%
+2025-04-30 10:21:31,012 [INFO] Iter 64 | R=2.00 Vres=0.50 MinP=5 | runtime=209.05s | 1-to-1=37.1%
+2025-04-30 10:21:31,662 [INFO] Iter 68 | R=2.00 Vres=1.00 MinP=4 | runtime=140.48s | 1-to-1=31.4%
+2025-04-30 10:22:41,367 [WARNING] Iter 80: tree 359 < 3 pts, skip
+2025-04-30 10:22:41,566 [WARNING] Iter 81: tree 466 < 3 pts, skip
+2025-04-30 10:22:41,579 [WARNING] Iter 81: tree 474 < 3 pts, skip
+2025-04-30 10:22:41,598 [WARNING] Iter 80: tree 494 < 3 pts, skip
+2025-04-30 10:22:46,106 [INFO] Iter 81 | R=2.00 Vres=2.50 MinP=2 | runtime=85.16s | 1-to-1=30.6%
+2025-04-30 10:22:46,783 [WARNING] Iter 80: tree 523 < 3 pts, skip
+2025-04-30 10:22:46,798 [WARNING] Iter 80: tree 531 < 3 pts, skip
+2025-04-30 10:22:46,798 [WARNING] Iter 80: tree 532 < 3 pts, skip
+2025-04-30 10:22:47,086 [INFO] Iter 80 | R=2.00 Vres=2.50 MinP=1 | runtime=86.49s | 1-to-1=31.0%
+2025-04-30 10:23:40,894 [WARNING] Iter 85: tree 320 < 3 pts, skip
+2025-04-30 10:23:41,653 [WARNING] Iter 75: tree 378 < 3 pts, skip
+2025-04-30 10:23:47,853 [WARNING] Iter 76: tree 459 < 3 pts, skip
+2025-04-30 10:23:48,531 [INFO] Iter 87 | R=2.00 Vres=3.00 MinP=3 | runtime=78.62s | 1-to-1=33.6%
+2025-04-30 10:23:48,538 [WARNING] Iter 86: tree 459 < 3 pts, skip
+2025-04-30 10:23:51,213 [WARNING] Iter 86: tree 463 < 3 pts, skip
+2025-04-30 10:23:51,933 [INFO] Iter 84 | R=2.00 Vres=2.50 MinP=5 | runtime=83.30s | 1-to-1=29.3%
+2025-04-30 10:23:52,482 [WARNING] Iter 76: tree 478 < 3 pts, skip
+2025-04-30 10:23:52,519 [INFO] Iter 86 | R=2.00 Vres=3.00 MinP=2 | runtime=78.63s | 1-to-1=33.6%
+2025-04-30 10:23:53,285 [WARNING] Iter 76: tree 489 < 3 pts, skip
+2025-04-30 10:23:53,630 [WARNING] Iter 75: tree 519 < 3 pts, skip
+2025-04-30 10:23:58,070 [WARNING] Iter 75: tree 539 < 3 pts, skip
+2025-04-30 10:23:58,102 [INFO] Iter 76 | R=2.00 Vres=2.00 MinP=2 | runtime=95.67s | 1-to-1=33.2%
+2025-04-30 10:23:58,591 [WARNING] Iter 85: tree 489 < 3 pts, skip
+2025-04-30 10:23:58,684 [WARNING] Iter 85: tree 491 < 3 pts, skip
+2025-04-30 10:23:58,793 [WARNING] Iter 75: tree 551 < 3 pts, skip
+2025-04-30 10:23:59,153 [INFO] Iter 89 | R=2.00 Vres=3.00 MinP=5 | runtime=81.10s | 1-to-1=31.9%
+2025-04-30 10:23:59,688 [WARNING] Iter 85: tree 510 < 3 pts, skip
+2025-04-30 10:24:00,054 [WARNING] Iter 85: tree 514 < 3 pts, skip
+2025-04-30 10:24:00,055 [WARNING] Iter 85: tree 515 < 3 pts, skip
+2025-04-30 10:24:00,404 [INFO] Iter 85 | R=2.00 Vres=3.00 MinP=1 | runtime=81.29s | 1-to-1=34.1%
+2025-04-30 10:24:00,431 [WARNING] Iter 75: tree 576 < 3 pts, skip
+2025-04-30 10:24:01,019 [WARNING] Iter 75: tree 582 < 3 pts, skip
+2025-04-30 10:24:01,260 [INFO] Iter 75 | R=2.00 Vres=2.00 MinP=1 | runtime=96.76s | 1-to-1=32.8%
+2025-04-30 10:24:02,051 [WARNING] Iter 70: tree 410 < 3 pts, skip
+2025-04-30 10:24:02,186 [INFO] Iter 88 | R=2.00 Vres=3.00 MinP=4 | runtime=81.15s | 1-to-1=32.8%
+2025-04-30 10:24:02,774 [INFO] Iter 79 | R=2.00 Vres=2.00 MinP=5 | runtime=105.75s | 1-to-1=31.0%
+2025-04-30 10:24:03,589 [INFO] Iter 78 | R=2.00 Vres=2.00 MinP=4 | runtime=101.03s | 1-to-1=32.3%
+2025-04-30 10:24:04,436 [INFO] Iter 74 | R=2.00 Vres=1.50 MinP=5 | runtime=111.84s | 1-to-1=34.9%
+2025-04-30 10:24:04,827 [INFO] Iter 82 | R=2.00 Vres=2.50 MinP=3 | runtime=92.40s | 1-to-1=30.6%
+2025-04-30 10:24:04,865 [INFO] Iter 83 | R=2.00 Vres=2.50 MinP=4 | runtime=96.65s | 1-to-1=30.1%
+2025-04-30 10:24:06,057 [INFO] Iter 77 | R=2.00 Vres=2.00 MinP=3 | runtime=102.11s | 1-to-1=33.2%
+2025-04-30 10:24:06,906 [INFO] Iter 73 | R=2.00 Vres=1.50 MinP=4 | runtime=113.28s | 1-to-1=34.9%
+2025-04-30 10:24:08,136 [WARNING] Iter 71: tree 537 < 3 pts, skip
+2025-04-30 10:24:08,177 [WARNING] Iter 71: tree 541 < 3 pts, skip
+2025-04-30 10:24:08,383 [INFO] Iter 71 | R=2.00 Vres=1.50 MinP=2 | runtime=111.22s | 1-to-1=35.4%
+2025-04-30 10:24:09,237 [INFO] Iter 72 | R=2.00 Vres=1.50 MinP=3 | runtime=118.15s | 1-to-1=36.7%
+2025-04-30 10:24:09,710 [WARNING] Iter 70: tree 584 < 3 pts, skip
+2025-04-30 10:24:09,726 [WARNING] Iter 70: tree 586 < 3 pts, skip
+2025-04-30 10:24:09,853 [WARNING] Iter 70: tree 607 < 3 pts, skip
+2025-04-30 10:24:09,867 [WARNING] Iter 70: tree 611 < 3 pts, skip
+2025-04-30 10:24:09,909 [WARNING] Iter 70: tree 620 < 3 pts, skip
+2025-04-30 10:24:10,054 [INFO] Iter 70 | R=2.00 Vres=1.50 MinP=1 | runtime=111.40s | 1-to-1=36.2%
+2025-04-30 10:24:10,564 [WARNING] Iter 100: tree 419 < 3 pts, skip
+2025-04-30 10:24:10,574 [WARNING] Iter 100: tree 421 < 3 pts, skip
+2025-04-30 10:24:10,666 [WARNING] Iter 100: tree 437 < 3 pts, skip
+2025-04-30 10:24:10,835 [INFO] Iter 100 | R=2.50 Vres=1.50 MinP=1 | runtime=96.49s | 1-to-1=32.3%
+2025-04-30 10:24:11,588 [INFO] Iter 69 | R=2.00 Vres=1.00 MinP=5 | runtime=140.70s | 1-to-1=31.9%
+2025-04-30 10:24:12,587 [INFO] Iter 98 | R=2.50 Vres=1.00 MinP=4 | runtime=117.93s | 1-to-1=29.7%
+2025-04-30 10:24:13,158 [WARNING] Iter 96: tree 435 < 3 pts, skip
+2025-04-30 10:24:13,246 [INFO] Iter 96 | R=2.50 Vres=1.00 MinP=2 | runtime=120.98s | 1-to-1=31.9%
+2025-04-30 10:24:13,722 [INFO] Iter 99 | R=2.50 Vres=1.00 MinP=5 | runtime=128.32s | 1-to-1=29.3%
+2025-04-30 10:24:13,740 [WARNING] Iter 95: tree 472 < 3 pts, skip
+2025-04-30 10:24:13,741 [WARNING] Iter 95: tree 473 < 3 pts, skip
+2025-04-30 10:24:14,176 [WARNING] Iter 95: tree 493 < 3 pts, skip
+2025-04-30 10:24:14,221 [INFO] Iter 95 | R=2.50 Vres=1.00 MinP=1 | runtime=119.21s | 1-to-1=32.8%
+2025-04-30 10:24:14,496 [INFO] Iter 97 | R=2.50 Vres=1.00 MinP=3 | runtime=127.62s | 1-to-1=31.4%
+2025-04-30 10:24:21,046 [WARNING] Iter 90: tree 525 < 3 pts, skip
+2025-04-30 10:24:21,053 [WARNING] Iter 90: tree 558 < 3 pts, skip
+2025-04-30 10:24:21,085 [INFO] Iter 90 | R=2.50 Vres=0.50 MinP=1 | runtime=179.94s | 1-to-1=33.2%
+2025-04-30 10:24:34,299 [WARNING] Iter 101: tree 390 < 3 pts, skip
+2025-04-30 10:24:34,345 [INFO] Iter 101 | R=2.50 Vres=1.50 MinP=2 | runtime=99.14s | 1-to-1=31.0%
+2025-04-30 10:24:34,365 [WARNING] Iter 91: tree 480 < 3 pts, skip
+2025-04-30 10:24:34,716 [INFO] Iter 91 | R=2.50 Vres=0.50 MinP=2 | runtime=187.20s | 1-to-1=32.8%
+2025-04-30 10:24:37,366 [INFO] Iter 92 | R=2.50 Vres=0.50 MinP=3 | runtime=187.25s | 1-to-1=34.5%
+2025-04-30 10:24:38,440 [INFO] Iter 102 | R=2.50 Vres=1.50 MinP=3 | runtime=103.20s | 1-to-1=31.9%
+2025-04-30 10:24:40,465 [INFO] Iter 94 | R=2.50 Vres=0.50 MinP=5 | runtime=187.31s | 1-to-1=32.3%
+2025-04-30 10:24:45,354 [INFO] Iter 93 | R=2.50 Vres=0.50 MinP=4 | runtime=191.42s | 1-to-1=31.9%
+2025-04-30 10:25:15,330 [WARNING] Iter 110: tree 377 < 3 pts, skip
+2025-04-30 10:25:15,335 [WARNING] Iter 110: tree 399 < 3 pts, skip
+2025-04-30 10:25:15,369 [INFO] Iter 110 | R=2.50 Vres=2.50 MinP=1 | runtime=68.81s | 1-to-1=30.1%
+2025-04-30 10:25:26,794 [WARNING] Iter 115: tree 349 < 3 pts, skip
+2025-04-30 10:25:26,795 [WARNING] Iter 115: tree 351 < 3 pts, skip
+2025-04-30 10:25:26,815 [WARNING] Iter 115: tree 365 < 3 pts, skip
+2025-04-30 10:25:26,909 [INFO] Iter 115 | R=2.50 Vres=3.00 MinP=1 | runtime=68.71s | 1-to-1=30.6%
+2025-04-30 10:25:28,369 [WARNING] Iter 106: tree 351 < 3 pts, skip
+2025-04-30 10:25:28,403 [WARNING] Iter 106: tree 365 < 3 pts, skip
+2025-04-30 10:25:28,429 [WARNING] Iter 106: tree 374 < 3 pts, skip
+2025-04-30 10:25:28,533 [INFO] Iter 106 | R=2.50 Vres=2.00 MinP=2 | runtime=79.00s | 1-to-1=32.8%
+2025-04-30 10:26:09,820 [INFO] Iter 112 | R=2.50 Vres=2.50 MinP=3 | runtime=77.27s | 1-to-1=31.4%
+2025-04-30 10:26:10,915 [INFO] Iter 108 | R=2.50 Vres=2.00 MinP=4 | runtime=79.11s | 1-to-1=31.0%
+2025-04-30 10:26:11,392 [WARNING] Iter 105: tree 386 < 3 pts, skip
+2025-04-30 10:26:11,616 [WARNING] Iter 105: tree 401 < 3 pts, skip
+2025-04-30 10:26:11,818 [WARNING] Iter 105: tree 411 < 3 pts, skip
+2025-04-30 10:26:11,846 [WARNING] Iter 111: tree 366 < 3 pts, skip
+2025-04-30 10:26:12,226 [INFO] Iter 111 | R=2.50 Vres=2.50 MinP=2 | runtime=77.06s | 1-to-1=30.6%
+2025-04-30 10:26:13,328 [WARNING] Iter 105: tree 431 < 3 pts, skip
+2025-04-30 10:26:13,595 [INFO] Iter 105 | R=2.50 Vres=2.00 MinP=1 | runtime=87.07s | 1-to-1=32.8%
+2025-04-30 10:26:37,912 [WARNING] Iter 116: tree 339 < 3 pts, skip
+2025-04-30 10:26:38,160 [INFO] Iter 107 | R=2.50 Vres=2.00 MinP=3 | runtime=82.17s | 1-to-1=31.4%
+2025-04-30 10:26:38,721 [INFO] Iter 116 | R=2.50 Vres=3.00 MinP=2 | runtime=78.69s | 1-to-1=28.8%
+2025-04-30 10:26:46,438 [INFO] Iter 109 | R=2.50 Vres=2.00 MinP=5 | runtime=83.28s | 1-to-1=29.7%
+2025-04-30 10:26:47,550 [INFO] Iter 114 | R=2.50 Vres=2.50 MinP=5 | runtime=79.95s | 1-to-1=31.0%
+2025-04-30 10:26:48,385 [INFO] Iter 113 | R=2.50 Vres=2.50 MinP=4 | runtime=80.47s | 1-to-1=31.4%
+2025-04-30 10:26:49,493 [INFO] Iter 117 | R=2.50 Vres=3.00 MinP=3 | runtime=77.83s | 1-to-1=28.8%
+2025-04-30 10:26:52,099 [INFO] Iter 119 | R=2.50 Vres=3.00 MinP=5 | runtime=78.03s | 1-to-1=27.1%
+2025-04-30 10:26:52,915 [INFO] Iter 118 | R=2.50 Vres=3.00 MinP=4 | runtime=78.39s | 1-to-1=27.9%
+2025-04-30 10:26:55,562 [INFO] Iter 104 | R=2.50 Vres=1.50 MinP=5 | runtime=95.93s | 1-to-1=31.0%
+2025-04-30 10:27:01,980 [INFO] Iter 103 | R=2.50 Vres=1.50 MinP=4 | runtime=101.91s | 1-to-1=31.0%
+2025-04-30 10:27:13,343 [INFO] Iter 132 | R=3.00 Vres=1.50 MinP=3 | runtime=82.01s | 1-to-1=30.1%
+2025-04-30 10:27:14,473 [INFO] Iter 131 | R=3.00 Vres=1.50 MinP=2 | runtime=79.54s | 1-to-1=30.1%
+2025-04-30 10:27:15,875 [WARNING] Iter 130: tree 337 < 3 pts, skip
+2025-04-30 10:27:15,936 [WARNING] Iter 125: tree 375 < 3 pts, skip
+2025-04-30 10:27:16,583 [INFO] Iter 130 | R=3.00 Vres=1.50 MinP=1 | runtime=79.89s | 1-to-1=31.4%
+2025-04-30 10:27:17,163 [INFO] Iter 128 | R=3.00 Vres=1.00 MinP=4 | runtime=99.67s | 1-to-1=26.6%
+2025-04-30 10:27:17,217 [INFO] Iter 133 | R=3.00 Vres=1.50 MinP=4 | runtime=79.81s | 1-to-1=29.7%
+2025-04-30 10:27:18,292 [INFO] Iter 125 | R=3.00 Vres=1.00 MinP=1 | runtime=101.55s | 1-to-1=31.0%
+2025-04-30 10:27:19,005 [INFO] Iter 127 | R=3.00 Vres=1.00 MinP=3 | runtime=106.06s | 1-to-1=27.9%
+2025-04-30 10:27:19,012 [INFO] Iter 134 | R=3.00 Vres=1.50 MinP=5 | runtime=81.67s | 1-to-1=29.7%
+2025-04-30 10:27:20,101 [INFO] Iter 126 | R=3.00 Vres=1.00 MinP=2 | runtime=103.76s | 1-to-1=28.4%
+2025-04-30 10:27:28,672 [INFO] Iter 129 | R=3.00 Vres=1.00 MinP=5 | runtime=113.81s | 1-to-1=26.2%
+2025-04-30 10:27:29,273 [INFO] Iter 136 | R=3.00 Vres=2.00 MinP=2 | runtime=77.29s | 1-to-1=28.4%
+2025-04-30 10:27:30,163 [INFO] Iter 135 | R=3.00 Vres=2.00 MinP=1 | runtime=72.59s | 1-to-1=28.8%
+2025-04-30 10:27:31,698 [INFO] Iter 121 | R=3.00 Vres=0.50 MinP=2 | runtime=161.37s | 1-to-1=30.1%
+2025-04-30 10:27:32,224 [INFO] Iter 122 | R=3.00 Vres=0.50 MinP=3 | runtime=157.41s | 1-to-1=31.4%
+2025-04-30 10:27:32,588 [WARNING] Iter 120: tree 404 < 3 pts, skip
+2025-04-30 10:27:32,769 [INFO] Iter 120 | R=3.00 Vres=0.50 MinP=1 | runtime=162.47s | 1-to-1=30.6%
+2025-04-30 10:27:33,344 [INFO] Iter 124 | R=3.00 Vres=0.50 MinP=5 | runtime=171.38s | 1-to-1=29.3%
+2025-04-30 10:27:33,839 [INFO] Iter 137 | R=3.00 Vres=2.00 MinP=3 | runtime=91.98s | 1-to-1=26.6%
+2025-04-30 10:27:34,099 [INFO] Iter 123 | R=3.00 Vres=0.50 MinP=4 | runtime=172.01s | 1-to-1=28.8%
+2025-04-30 10:27:36,633 [WARNING] Iter 140: tree 303 < 3 pts, skip
+2025-04-30 10:27:36,704 [INFO] Iter 140 | R=3.00 Vres=2.50 MinP=1 | runtime=71.16s | 1-to-1=26.6%
+2025-04-30 10:27:40,476 [INFO] Iter 138 | R=3.00 Vres=2.00 MinP=4 | runtime=84.43s | 1-to-1=26.6%
+2025-04-30 10:27:41,189 [INFO] Iter 141 | R=3.00 Vres=2.50 MinP=2 | runtime=75.97s | 1-to-1=26.6%
+2025-04-30 10:27:41,521 [INFO] Iter 139 | R=3.00 Vres=2.00 MinP=5 | runtime=85.78s | 1-to-1=25.3%
+2025-04-30 10:27:59,085 [INFO] Iter 146 | R=3.00 Vres=3.00 MinP=2 | runtime=63.51s | 1-to-1=28.8%
+2025-04-30 10:28:07,790 [WARNING] Iter 145: tree 291 < 3 pts, skip
+2025-04-30 10:28:08,109 [INFO] Iter 145 | R=3.00 Vres=3.00 MinP=1 | runtime=66.39s | 1-to-1=29.7%
+2025-04-30 10:28:09,424 [INFO] Iter 147 | R=3.00 Vres=3.00 MinP=3 | runtime=64.27s | 1-to-1=28.8%
+2025-04-30 10:28:12,119 [INFO] Iter 148 | R=3.00 Vres=3.00 MinP=4 | runtime=63.96s | 1-to-1=27.9%
+2025-04-30 10:28:14,306 [INFO] Iter 143 | R=3.00 Vres=2.50 MinP=4 | runtime=78.87s | 1-to-1=27.5%
+2025-04-30 10:28:14,845 [INFO] Iter 144 | R=3.00 Vres=2.50 MinP=5 | runtime=74.01s | 1-to-1=27.1%
+2025-04-30 10:28:15,211 [INFO] Iter 142 | R=3.00 Vres=2.50 MinP=3 | runtime=79.78s | 1-to-1=27.5%
+2025-04-30 10:28:15,621 [INFO] Iter 149 | R=3.00 Vres=3.00 MinP=5 | runtime=70.28s | 1-to-1=27.1%
+2025-04-30 10:28:40,817 [INFO] Iter 165 | R=3.50 Vres=2.00 MinP=1 | runtime=64.13s | 1-to-1=27.9%
+2025-04-30 10:28:47,200 [INFO] Iter 170 | R=3.50 Vres=2.50 MinP=1 | runtime=62.72s | 1-to-1=24.9%
+2025-04-30 10:28:57,933 [INFO] Iter 168 | R=3.50 Vres=2.00 MinP=4 | runtime=68.77s | 1-to-1=24.9%
+2025-04-30 10:29:09,791 [INFO] Iter 160 | R=3.50 Vres=1.50 MinP=1 | runtime=80.15s | 1-to-1=29.7%
+2025-04-30 10:29:15,013 [INFO] Iter 171 | R=3.50 Vres=2.50 MinP=2 | runtime=65.38s | 1-to-1=25.3%
+2025-04-30 10:29:22,336 [INFO] Iter 167 | R=3.50 Vres=2.00 MinP=3 | runtime=72.33s | 1-to-1=25.8%
+2025-04-30 10:29:23,109 [INFO] Iter 166 | R=3.50 Vres=2.00 MinP=2 | runtime=73.07s | 1-to-1=27.1%
+2025-04-30 10:29:27,841 [INFO] Iter 173 | R=3.50 Vres=2.50 MinP=4 | runtime=64.94s | 1-to-1=26.2%
+2025-04-30 10:29:29,476 [INFO] Iter 172 | R=3.50 Vres=2.50 MinP=3 | runtime=67.86s | 1-to-1=26.2%
+2025-04-30 10:29:31,668 [INFO] Iter 169 | R=3.50 Vres=2.00 MinP=5 | runtime=73.62s | 1-to-1=24.0%
+2025-04-30 10:29:35,547 [INFO] Iter 163 | R=3.50 Vres=1.50 MinP=4 | runtime=82.57s | 1-to-1=27.5%
+2025-04-30 10:29:36,237 [INFO] Iter 162 | R=3.50 Vres=1.50 MinP=3 | runtime=83.43s | 1-to-1=28.4%
+2025-04-30 10:29:40,242 [INFO] Iter 161 | R=3.50 Vres=1.50 MinP=2 | runtime=84.10s | 1-to-1=28.4%
+2025-04-30 10:29:44,466 [INFO] Iter 164 | R=3.50 Vres=1.50 MinP=5 | runtime=85.69s | 1-to-1=27.1%
+2025-04-30 10:29:49,203 [INFO] Iter 174 | R=3.50 Vres=2.50 MinP=5 | runtime=61.89s | 1-to-1=26.2%
+2025-04-30 10:29:51,634 [INFO] Iter 176 | R=3.50 Vres=3.00 MinP=2 | runtime=58.99s | 1-to-1=26.6%
+2025-04-30 10:29:52,072 [INFO] Iter 175 | R=3.50 Vres=3.00 MinP=1 | runtime=59.05s | 1-to-1=27.5%
+2025-04-30 10:29:52,735 [INFO] Iter 158 | R=3.50 Vres=1.00 MinP=4 | runtime=105.48s | 1-to-1=24.5%
+2025-04-30 10:29:53,151 [INFO] Iter 159 | R=3.50 Vres=1.00 MinP=5 | runtime=109.32s | 1-to-1=24.5%
+2025-04-30 10:29:54,089 [INFO] Iter 156 | R=3.50 Vres=1.00 MinP=2 | runtime=110.12s | 1-to-1=27.5%
+2025-04-30 10:29:54,759 [INFO] Iter 157 | R=3.50 Vres=1.00 MinP=3 | runtime=110.99s | 1-to-1=27.1%
+2025-04-30 10:29:55,504 [INFO] Iter 177 | R=3.50 Vres=3.00 MinP=3 | runtime=64.53s | 1-to-1=26.6%
+2025-04-30 10:29:56,021 [INFO] Iter 155 | R=3.50 Vres=1.00 MinP=1 | runtime=115.21s | 1-to-1=28.8%
+2025-04-30 10:29:56,029 [INFO] Iter 178 | R=3.50 Vres=3.00 MinP=4 | runtime=67.65s | 1-to-1=25.3%
+2025-04-30 10:29:57,040 [INFO] Iter 179 | R=3.50 Vres=3.00 MinP=5 | runtime=67.26s | 1-to-1=24.9%
+2025-04-30 10:29:58,302 [INFO] Iter 150 | R=3.50 Vres=0.50 MinP=1 | runtime=157.84s | 1-to-1=29.7%
+2025-04-30 10:30:00,044 [INFO] Iter 151 | R=3.50 Vres=0.50 MinP=2 | runtime=171.36s | 1-to-1=28.4%
+2025-04-30 10:30:09,869 [INFO] Iter 152 | R=3.50 Vres=0.50 MinP=3 | runtime=170.68s | 1-to-1=28.8%
+2025-04-30 10:30:11,457 [INFO] Iter 153 | R=3.50 Vres=0.50 MinP=4 | runtime=171.99s | 1-to-1=26.2%
+2025-04-30 10:30:19,712 [INFO] Iter 154 | R=3.50 Vres=0.50 MinP=5 | runtime=177.38s | 1-to-1=26.6%
+2025-04-30 10:30:55,371 [INFO] Iter 191 | R=4.00 Vres=1.50 MinP=2 | runtime=76.36s | 1-to-1=27.1%
+2025-04-30 10:31:05,663 [INFO] Iter 185 | R=4.00 Vres=1.00 MinP=1 | runtime=99.95s | 1-to-1=28.4%
+2025-04-30 10:31:34,733 [INFO] Iter 193 | R=4.00 Vres=1.50 MinP=4 | runtime=78.55s | 1-to-1=26.2%
+2025-04-30 10:31:39,128 [INFO] Iter 195 | R=4.00 Vres=2.00 MinP=1 | runtime=69.93s | 1-to-1=27.5%
+2025-04-30 10:31:44,993 [INFO] Iter 190 | R=4.00 Vres=1.50 MinP=1 | runtime=84.53s | 1-to-1=27.9%
+2025-04-30 10:31:51,046 [INFO] Iter 186 | R=4.00 Vres=1.00 MinP=2 | runtime=99.00s | 1-to-1=27.9%
+2025-04-30 10:31:57,989 [INFO] Iter 180 | R=4.00 Vres=0.50 MinP=1 | runtime=157.70s | 1-to-1=29.3%
+2025-04-30 10:31:58,982 [INFO] Iter 208 | R=4.00 Vres=3.00 MinP=4 | runtime=61.55s | 1-to-1=24.5%
+2025-04-30 10:31:59,878 [INFO] Iter 196 | R=4.00 Vres=2.00 MinP=2 | runtime=72.31s | 1-to-1=26.6%
+2025-04-30 10:32:01,146 [INFO] Iter 192 | R=4.00 Vres=1.50 MinP=3 | runtime=85.82s | 1-to-1=27.1%
+2025-04-30 10:32:01,206 [INFO] Iter 207 | R=4.00 Vres=3.00 MinP=3 | runtime=63.04s | 1-to-1=25.8%
+2025-04-30 10:32:02,706 [INFO] Iter 194 | R=4.00 Vres=1.50 MinP=5 | runtime=81.02s | 1-to-1=25.3%
+2025-04-30 10:32:03,257 [INFO] Iter 205 | R=4.00 Vres=3.00 MinP=1 | runtime=64.90s | 1-to-1=26.2%
+2025-04-30 10:32:03,298 [INFO] Iter 200 | R=4.00 Vres=2.50 MinP=1 | runtime=68.25s | 1-to-1=22.7%
+2025-04-30 10:32:05,752 [INFO] Iter 187 | R=4.00 Vres=1.00 MinP=3 | runtime=100.08s | 1-to-1=26.6%
+2025-04-30 10:32:06,694 [INFO] Iter 204 | R=4.00 Vres=2.50 MinP=5 | runtime=66.86s | 1-to-1=24.0%
+2025-04-30 10:32:06,699 [INFO] Iter 206 | R=4.00 Vres=3.00 MinP=2 | runtime=66.18s | 1-to-1=25.8%
+2025-04-30 10:32:09,260 [INFO] Iter 201 | R=4.00 Vres=2.50 MinP=2 | runtime=70.21s | 1-to-1=23.1%
+2025-04-30 10:32:09,674 [INFO] Iter 203 | R=4.00 Vres=2.50 MinP=4 | runtime=68.55s | 1-to-1=24.0%
+2025-04-30 10:32:10,273 [INFO] Iter 198 | R=4.00 Vres=2.00 MinP=4 | runtime=72.45s | 1-to-1=24.5%
+2025-04-30 10:32:11,196 [INFO] Iter 209 | R=4.00 Vres=3.00 MinP=5 | runtime=62.90s | 1-to-1=23.6%
+2025-04-30 10:32:12,070 [INFO] Iter 197 | R=4.00 Vres=2.00 MinP=3 | runtime=81.32s | 1-to-1=25.3%
+2025-04-30 10:32:12,537 [INFO] Iter 199 | R=4.00 Vres=2.00 MinP=5 | runtime=80.29s | 1-to-1=23.1%
+2025-04-30 10:32:13,105 [INFO] Iter 202 | R=4.00 Vres=2.50 MinP=3 | runtime=78.00s | 1-to-1=24.0%
+2025-04-30 10:32:13,126 [INFO] Iter 188 | R=4.00 Vres=1.00 MinP=4 | runtime=107.81s | 1-to-1=24.5%
+2025-04-30 10:32:14,073 [INFO] Iter 189 | R=4.00 Vres=1.00 MinP=5 | runtime=104.94s | 1-to-1=24.0%
+2025-04-30 10:32:14,663 [INFO] Iter 181 | R=4.00 Vres=0.50 MinP=2 | runtime=177.04s | 1-to-1=26.6%
+2025-04-30 10:32:15,272 [INFO] Iter 182 | R=4.00 Vres=0.50 MinP=3 | runtime=162.75s | 1-to-1=26.2%
+2025-04-30 10:32:16,176 [INFO] Iter 183 | R=4.00 Vres=0.50 MinP=4 | runtime=164.12s | 1-to-1=24.9%
+2025-04-30 10:32:17,552 [INFO] Iter 184 | R=4.00 Vres=0.50 MinP=5 | runtime=161.74s | 1-to-1=24.9%
+2025-04-30 10:32:50,742 [INFO] Iter 210 | R=4.50 Vres=0.50 MinP=1 | runtime=154.55s | 1-to-1=29.3%
+2025-04-30 10:32:51,655 [INFO] Iter 211 | R=4.50 Vres=0.50 MinP=2 | runtime=148.24s | 1-to-1=26.6%
+2025-04-30 10:33:08,899 [INFO] Iter 237 | R=4.50 Vres=3.00 MinP=3 | runtime=50.75s | 1-to-1=23.6%
+2025-04-30 10:33:27,653 [INFO] Iter 231 | R=4.50 Vres=2.50 MinP=2 | runtime=58.92s | 1-to-1=23.1%
+2025-04-30 10:33:32,455 [INFO] Iter 230 | R=4.50 Vres=2.50 MinP=1 | runtime=59.45s | 1-to-1=22.7%
+2025-04-30 10:33:49,599 [INFO] Iter 227 | R=4.50 Vres=2.00 MinP=3 | runtime=65.70s | 1-to-1=24.0%
+2025-04-30 10:33:49,988 [INFO] Iter 233 | R=4.50 Vres=2.50 MinP=4 | runtime=60.77s | 1-to-1=24.0%
+2025-04-30 10:33:51,559 [INFO] Iter 235 | R=4.50 Vres=3.00 MinP=1 | runtime=57.91s | 1-to-1=24.0%
+2025-04-30 10:33:52,315 [INFO] Iter 239 | R=4.50 Vres=3.00 MinP=5 | runtime=58.09s | 1-to-1=21.4%
+2025-04-30 10:33:53,476 [INFO] Iter 234 | R=4.50 Vres=2.50 MinP=5 | runtime=60.80s | 1-to-1=23.1%
+2025-04-30 10:33:53,542 [INFO] Iter 232 | R=4.50 Vres=2.50 MinP=3 | runtime=60.37s | 1-to-1=24.0%
+2025-04-30 10:33:54,980 [INFO] Iter 236 | R=4.50 Vres=3.00 MinP=2 | runtime=59.30s | 1-to-1=23.6%
+2025-04-30 10:33:56,183 [INFO] Iter 238 | R=4.50 Vres=3.00 MinP=4 | runtime=58.21s | 1-to-1=22.3%
+2025-04-30 10:34:03,538 [INFO] Iter 228 | R=4.50 Vres=2.00 MinP=4 | runtime=70.82s | 1-to-1=23.1%
+2025-04-30 10:34:07,968 [INFO] Iter 224 | R=4.50 Vres=1.50 MinP=5 | runtime=79.37s | 1-to-1=23.1%
+2025-04-30 10:34:08,585 [INFO] Iter 223 | R=4.50 Vres=1.50 MinP=4 | runtime=81.53s | 1-to-1=24.0%
+2025-04-30 10:34:09,260 [INFO] Iter 221 | R=4.50 Vres=1.50 MinP=2 | runtime=81.12s | 1-to-1=24.9%
+2025-04-30 10:34:09,271 [INFO] Iter 229 | R=4.50 Vres=2.00 MinP=5 | runtime=73.56s | 1-to-1=21.8%
+2025-04-30 10:34:09,282 [INFO] Iter 222 | R=4.50 Vres=1.50 MinP=3 | runtime=81.06s | 1-to-1=24.9%
+2025-04-30 10:34:10,593 [INFO] Iter 226 | R=4.50 Vres=2.00 MinP=2 | runtime=76.96s | 1-to-1=25.3%
+2025-04-30 10:34:11,433 [INFO] Iter 215 | R=4.50 Vres=1.00 MinP=1 | runtime=103.58s | 1-to-1=26.6%
+2025-04-30 10:34:11,888 [INFO] Iter 220 | R=4.50 Vres=1.50 MinP=1 | runtime=78.99s | 1-to-1=25.3%
+2025-04-30 10:34:12,326 [INFO] Iter 225 | R=4.50 Vres=2.00 MinP=1 | runtime=78.58s | 1-to-1=25.8%
+2025-04-30 10:34:13,418 [INFO] Iter 216 | R=4.50 Vres=1.00 MinP=2 | runtime=99.26s | 1-to-1=25.8%
+2025-04-30 10:34:13,976 [INFO] Iter 217 | R=4.50 Vres=1.00 MinP=3 | runtime=96.95s | 1-to-1=24.5%
+2025-04-30 10:34:14,552 [INFO] Iter 212 | R=4.50 Vres=0.50 MinP=3 | runtime=153.78s | 1-to-1=26.2%
+2025-04-30 10:34:15,846 [INFO] Iter 219 | R=4.50 Vres=1.00 MinP=5 | runtime=101.99s | 1-to-1=22.3%
+2025-04-30 10:34:16,329 [INFO] Iter 213 | R=4.50 Vres=0.50 MinP=4 | runtime=156.81s | 1-to-1=24.0%
+2025-04-30 10:34:16,713 [INFO] Iter 218 | R=4.50 Vres=1.00 MinP=4 | runtime=103.10s | 1-to-1=22.7%
+2025-04-30 10:34:18,704 [INFO] Iter 214 | R=4.50 Vres=0.50 MinP=5 | runtime=157.19s | 1-to-1=23.6%
+2025-04-30 10:34:47,376 [INFO] Iter 241 | R=5.00 Vres=0.50 MinP=2 | runtime=145.59s | 1-to-1=24.0%
+2025-04-30 10:34:47,589 [INFO] Iter 240 | R=5.00 Vres=0.50 MinP=1 | runtime=147.74s | 1-to-1=25.8%
+2025-04-30 10:35:11,409 [INFO] Iter 250 | R=5.00 Vres=1.50 MinP=1 | runtime=63.15s | 1-to-1=23.1%
+2025-04-30 10:35:11,964 [INFO] Iter 252 | R=5.00 Vres=1.50 MinP=3 | runtime=62.06s | 1-to-1=23.1%
+2025-04-30 10:35:17,998 [INFO] Iter 266 | R=5.00 Vres=3.00 MinP=2 | runtime=46.34s | 1-to-1=21.8%
+2025-04-30 10:35:19,443 [INFO] Iter 251 | R=5.00 Vres=1.50 MinP=2 | runtime=65.88s | 1-to-1=23.1%
+2025-04-30 10:35:22,702 [INFO] Iter 245 | R=5.00 Vres=1.00 MinP=1 | runtime=92.30s | 1-to-1=24.0%
+2025-04-30 10:35:22,710 [INFO] Iter 265 | R=5.00 Vres=3.00 MinP=1 | runtime=46.63s | 1-to-1=22.7%
+2025-04-30 10:35:25,485 [INFO] Iter 253 | R=5.00 Vres=1.50 MinP=4 | runtime=65.66s | 1-to-1=22.3%
+2025-04-30 10:35:41,607 [INFO] Iter 267 | R=5.00 Vres=3.00 MinP=3 | runtime=51.41s | 1-to-1=21.8%
+2025-04-30 10:35:52,425 [INFO] Iter 255 | R=5.00 Vres=2.00 MinP=1 | runtime=61.98s | 1-to-1=21.4%
+2025-04-30 10:35:53,210 [INFO] Iter 260 | R=5.00 Vres=2.50 MinP=1 | runtime=57.31s | 1-to-1=18.3%
+2025-04-30 10:35:56,331 [INFO] Iter 261 | R=5.00 Vres=2.50 MinP=2 | runtime=58.10s | 1-to-1=18.3%
+2025-04-30 10:35:56,906 [INFO] Iter 259 | R=5.00 Vres=2.00 MinP=5 | runtime=60.53s | 1-to-1=18.3%
+2025-04-30 10:35:58,254 [INFO] Iter 258 | R=5.00 Vres=2.00 MinP=4 | runtime=60.54s | 1-to-1=20.1%
+2025-04-30 10:35:58,260 [INFO] Iter 257 | R=5.00 Vres=2.00 MinP=3 | runtime=62.05s | 1-to-1=20.5%
+2025-04-30 10:35:59,941 [INFO] Iter 268 | R=5.00 Vres=3.00 MinP=4 | runtime=59.31s | 1-to-1=19.7%
+2025-04-30 10:36:00,874 [INFO] Iter 269 | R=5.00 Vres=3.00 MinP=5 | runtime=56.72s | 1-to-1=18.8%
+2025-04-30 10:36:01,456 [INFO] Iter 262 | R=5.00 Vres=2.50 MinP=3 | runtime=62.06s | 1-to-1=18.3%
+2025-04-30 10:36:02,138 [INFO] Iter 263 | R=5.00 Vres=2.50 MinP=4 | runtime=65.61s | 1-to-1=17.5%
+2025-04-30 10:36:02,878 [INFO] Iter 254 | R=5.00 Vres=1.50 MinP=5 | runtime=79.78s | 1-to-1=21.4%
+2025-04-30 10:36:03,161 [INFO] Iter 248 | R=5.00 Vres=1.00 MinP=4 | runtime=85.08s | 1-to-1=22.7%
+2025-04-30 10:36:03,913 [INFO] Iter 264 | R=5.00 Vres=2.50 MinP=5 | runtime=65.29s | 1-to-1=17.5%
+2025-04-30 10:36:03,926 [INFO] Iter 256 | R=5.00 Vres=2.00 MinP=2 | runtime=67.03s | 1-to-1=21.4%
+2025-04-30 10:36:05,072 [INFO] Iter 247 | R=5.00 Vres=1.00 MinP=3 | runtime=88.39s | 1-to-1=23.6%
+2025-04-30 10:36:05,774 [INFO] Iter 242 | R=5.00 Vres=0.50 MinP=3 | runtime=146.86s | 1-to-1=23.6%
+2025-04-30 10:36:05,796 [INFO] Iter 246 | R=5.00 Vres=1.00 MinP=2 | runtime=103.36s | 1-to-1=24.0%
+2025-04-30 10:36:06,631 [INFO] Iter 249 | R=5.00 Vres=1.00 MinP=5 | runtime=90.16s | 1-to-1=21.8%
+2025-04-30 10:36:07,034 [INFO] Iter 243 | R=5.00 Vres=0.50 MinP=4 | runtime=150.21s | 1-to-1=22.7%
+2025-04-30 10:36:08,703 [INFO] Iter 244 | R=5.00 Vres=0.50 MinP=5 | runtime=143.76s | 1-to-1=22.7%
+2025-04-30 10:36:36,998 [INFO] Iter 280 | R=5.50 Vres=1.50 MinP=1 | runtime=64.75s | 1-to-1=22.3%
+2025-04-30 10:36:38,632 [INFO] Iter 275 | R=5.50 Vres=1.00 MinP=1 | runtime=81.54s | 1-to-1=22.7%
+2025-04-30 10:36:43,338 [INFO] Iter 271 | R=5.50 Vres=0.50 MinP=2 | runtime=137.72s | 1-to-1=22.7%
+2025-04-30 10:36:43,794 [INFO] Iter 270 | R=5.50 Vres=0.50 MinP=1 | runtime=141.49s | 1-to-1=24.5%
+2025-04-30 10:36:51,412 [INFO] Iter 276 | R=5.50 Vres=1.00 MinP=2 | runtime=87.21s | 1-to-1=22.7%
+2025-04-30 10:36:59,329 [INFO] Iter 295 | R=5.50 Vres=3.00 MinP=1 | runtime=42.89s | 1-to-1=20.1%
+2025-04-30 10:37:04,648 [INFO] Iter 277 | R=5.50 Vres=1.00 MinP=3 | runtime=85.31s | 1-to-1=22.3%
+2025-04-30 10:37:05,892 [INFO] Iter 297 | R=5.50 Vres=3.00 MinP=3 | runtime=43.95s | 1-to-1=18.3%
+2025-04-30 10:37:06,697 [INFO] Iter 279 | R=5.50 Vres=1.00 MinP=5 | runtime=86.40s | 1-to-1=20.5%
+2025-04-30 10:37:07,348 [INFO] Iter 296 | R=5.50 Vres=3.00 MinP=2 | runtime=44.49s | 1-to-1=18.3%
+2025-04-30 10:37:28,005 [INFO] Iter 286 | R=5.50 Vres=2.00 MinP=2 | runtime=55.90s | 1-to-1=20.1%
+2025-04-30 10:37:31,383 [INFO] Iter 281 | R=5.50 Vres=1.50 MinP=2 | runtime=68.74s | 1-to-1=22.3%
+2025-04-30 10:37:32,293 [INFO] Iter 290 | R=5.50 Vres=2.50 MinP=1 | runtime=52.64s | 1-to-1=16.6%
+2025-04-30 10:37:33,333 [INFO] Iter 278 | R=5.50 Vres=1.00 MinP=4 | runtime=91.06s | 1-to-1=21.4%
+2025-04-30 10:37:33,346 [INFO] Iter 287 | R=5.50 Vres=2.00 MinP=3 | runtime=56.25s | 1-to-1=19.2%
+2025-04-30 10:37:33,349 [INFO] Iter 285 | R=5.50 Vres=2.00 MinP=1 | runtime=56.88s | 1-to-1=19.7%
+2025-04-30 10:37:37,644 [INFO] Iter 288 | R=5.50 Vres=2.00 MinP=4 | runtime=55.82s | 1-to-1=17.5%
+2025-04-30 10:37:38,267 [INFO] Iter 298 | R=5.50 Vres=3.00 MinP=4 | runtime=52.53s | 1-to-1=16.2%
+2025-04-30 10:37:38,285 [INFO] Iter 299 | R=5.50 Vres=3.00 MinP=5 | runtime=52.09s | 1-to-1=15.7%
+2025-04-30 10:37:39,229 [INFO] Iter 282 | R=5.50 Vres=1.50 MinP=3 | runtime=66.27s | 1-to-1=22.3%
+2025-04-30 10:37:39,240 [INFO] Iter 291 | R=5.50 Vres=2.50 MinP=2 | runtime=56.56s | 1-to-1=16.6%
+2025-04-30 10:37:40,016 [INFO] Iter 293 | R=5.50 Vres=2.50 MinP=4 | runtime=55.35s | 1-to-1=14.8%
+2025-04-30 10:37:40,395 [INFO] Iter 294 | R=5.50 Vres=2.50 MinP=5 | runtime=56.23s | 1-to-1=14.8%
+2025-04-30 10:37:40,879 [INFO] Iter 292 | R=5.50 Vres=2.50 MinP=3 | runtime=59.39s | 1-to-1=16.6%
+2025-04-30 10:37:40,887 [INFO] Iter 283 | R=5.50 Vres=1.50 MinP=4 | runtime=68.67s | 1-to-1=20.5%
+2025-04-30 10:37:41,851 [INFO] Iter 289 | R=5.50 Vres=2.00 MinP=5 | runtime=63.20s | 1-to-1=16.6%
+2025-04-30 10:37:41,855 [INFO] Iter 284 | R=5.50 Vres=1.50 MinP=5 | runtime=67.60s | 1-to-1=19.7%
+2025-04-30 10:37:42,891 [INFO] Iter 272 | R=5.50 Vres=0.50 MinP=3 | runtime=140.54s | 1-to-1=21.8%
+2025-04-30 10:37:44,582 [INFO] Iter 273 | R=5.50 Vres=0.50 MinP=4 | runtime=148.24s | 1-to-1=21.4%
+2025-04-30 10:37:45,906 [INFO] Iter 274 | R=5.50 Vres=0.50 MinP=5 | runtime=138.49s | 1-to-1=21.4%
+2025-04-30 10:38:09,587 [INFO] Iter 310 | R=6.00 Vres=1.50 MinP=1 | runtime=59.61s | 1-to-1=20.1%
+2025-04-30 10:38:11,444 [INFO] Iter 305 | R=6.00 Vres=1.00 MinP=1 | runtime=84.70s | 1-to-1=19.2%
+2025-04-30 10:38:14,730 [INFO] Iter 311 | R=6.00 Vres=1.50 MinP=2 | runtime=62.66s | 1-to-1=18.3%
+2025-04-30 10:38:22,321 [INFO] Iter 307 | R=6.00 Vres=1.00 MinP=3 | runtime=75.30s | 1-to-1=18.3%
+2025-04-30 10:38:22,745 [INFO] Iter 306 | R=6.00 Vres=1.00 MinP=2 | runtime=85.94s | 1-to-1=18.8%
+2025-04-30 10:38:30,061 [INFO] Iter 320 | R=6.00 Vres=2.50 MinP=1 | runtime=43.43s | 1-to-1=15.7%
+2025-04-30 10:38:57,051 [INFO] Iter 325 | R=6.00 Vres=3.00 MinP=1 | runtime=43.33s | 1-to-1=17.0%
+2025-04-30 10:39:03,282 [INFO] Iter 312 | R=6.00 Vres=1.50 MinP=3 | runtime=56.38s | 1-to-1=18.3%
+2025-04-30 10:39:04,055 [INFO] Iter 326 | R=6.00 Vres=3.00 MinP=2 | runtime=43.33s | 1-to-1=15.3%
+2025-04-30 10:39:06,471 [INFO] Iter 321 | R=6.00 Vres=2.50 MinP=2 | runtime=47.39s | 1-to-1=14.8%
+2025-04-30 10:39:07,742 [INFO] Iter 322 | R=6.00 Vres=2.50 MinP=3 | runtime=47.39s | 1-to-1=14.8%
+2025-04-30 10:39:08,918 [INFO] Iter 308 | R=6.00 Vres=1.00 MinP=4 | runtime=82.15s | 1-to-1=16.6%
+2025-04-30 10:39:09,522 [INFO] Iter 328 | R=6.00 Vres=3.00 MinP=4 | runtime=47.41s | 1-to-1=12.7%
+2025-04-30 10:39:09,527 [INFO] Iter 301 | R=6.00 Vres=0.50 MinP=2 | runtime=138.23s | 1-to-1=20.5%
+2025-04-30 10:39:10,821 [INFO] Iter 327 | R=6.00 Vres=3.00 MinP=3 | runtime=47.71s | 1-to-1=15.3%
+2025-04-30 10:39:11,100 [INFO] Iter 316 | R=6.00 Vres=2.00 MinP=2 | runtime=55.94s | 1-to-1=17.0%
+2025-04-30 10:39:11,788 [INFO] Iter 323 | R=6.00 Vres=2.50 MinP=4 | runtime=49.53s | 1-to-1=13.1%
+2025-04-30 10:39:12,333 [INFO] Iter 313 | R=6.00 Vres=1.50 MinP=4 | runtime=57.86s | 1-to-1=16.6%
+2025-04-30 10:39:12,351 [INFO] Iter 300 | R=6.00 Vres=0.50 MinP=1 | runtime=139.70s | 1-to-1=22.3%
+2025-04-30 10:39:13,578 [INFO] Iter 317 | R=6.00 Vres=2.00 MinP=3 | runtime=55.44s | 1-to-1=16.2%
+2025-04-30 10:39:14,678 [INFO] Iter 329 | R=6.00 Vres=3.00 MinP=5 | runtime=53.65s | 1-to-1=12.2%
+2025-04-30 10:39:15,831 [INFO] Iter 319 | R=6.00 Vres=2.00 MinP=5 | runtime=58.39s | 1-to-1=14.0%
+2025-04-30 10:39:16,156 [INFO] Iter 324 | R=6.00 Vres=2.50 MinP=5 | runtime=50.72s | 1-to-1=13.1%
+2025-04-30 10:39:16,706 [INFO] Iter 309 | R=6.00 Vres=1.00 MinP=5 | runtime=90.78s | 1-to-1=16.2%
+2025-04-30 10:39:16,712 [INFO] Iter 318 | R=6.00 Vres=2.00 MinP=4 | runtime=59.08s | 1-to-1=14.8%
+2025-04-30 10:39:17,482 [INFO] Iter 314 | R=6.00 Vres=1.50 MinP=5 | runtime=64.38s | 1-to-1=16.2%
+2025-04-30 10:39:17,974 [INFO] Iter 315 | R=6.00 Vres=2.00 MinP=1 | runtime=63.21s | 1-to-1=17.5%
+2025-04-30 10:39:22,194 [INFO] Iter 303 | R=6.00 Vres=0.50 MinP=4 | runtime=136.76s | 1-to-1=18.3%
+2025-04-30 10:39:22,676 [INFO] Iter 302 | R=6.00 Vres=0.50 MinP=3 | runtime=134.74s | 1-to-1=19.2%
+2025-04-30 10:39:24,094 [INFO] Iter 304 | R=6.00 Vres=0.50 MinP=5 | runtime=147.55s | 1-to-1=18.8%
+2025-04-30 10:39:24,569 [INFO] ✅  Sweep finished – results written to whm_250/segmentation_stats_public.csv

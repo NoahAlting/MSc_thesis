@@ -352,7 +352,7 @@ std::vector<std::vector<int>> FoxTree::clusterPoints(double radius, std::vector<
 }
 
 
-//Assign tree points based on the clusters and the radius.
+// Assign tree points based on the clusters and the radius.
 std::vector<int> FoxTree::assignPtsToTrees(std::vector<int> newPtIDs, double radius)
 {
 	std::vector<int> restPtIDs;
@@ -372,7 +372,7 @@ std::vector<int> FoxTree::assignPtsToTrees(std::vector<int> newPtIDs, double rad
 	
 	kdTree* currKDTree = new kdTree(3, kdPtsParsed, KDTreeSingleIndexAdaptorParams(10));
 	currKDTree->buildIndex();
-	std::vector<std::pair<size_t, double>>pairs;
+	std::vector<std::pair<size_t, double>> pairs;
 	SearchParams params;
 	
 	for (int i = 0; i < newPtIDs.size(); ++i)
@@ -392,6 +392,7 @@ std::vector<int> FoxTree::assignPtsToTrees(std::vector<int> newPtIDs, double rad
 		{
 			int currIndex = retIndex[0];
 			int currTreeIndex = this->m_Points[m_nParsedPtIds.at(currIndex)].treeID;
+
 			this->m_Points[id].treeID = currTreeIndex;
 			this->m_nTrees.find(currTreeIndex)->second.ptIDs.push_back(id);
 			this->m_nParsedPtIds.push_back(id);
@@ -405,7 +406,6 @@ std::vector<int> FoxTree::assignPtsToTrees(std::vector<int> newPtIDs, double rad
 	if (currKDTree) delete currKDTree; currKDTree = nullptr;
 	return restPtIDs;
 }
-
 
 
 
@@ -502,6 +502,35 @@ void FoxTree::outputTrees(std::string filename, std::map<int, TreeCluster> trees
 	}
 	fclose(file);
 }
+
+void FoxTree::outputTrees_noahDebug(std::string filename, std::map<int, TreeCluster> trees)
+{
+    std::cout << ">>> [DEBUG] Noah's outputTrees_noahDebug()\n";
+    std::cout << ">>> [DEBUG] Dumping all keys in m_nTrees:\n";
+
+    for (const auto& [treeID, cluster] : trees)
+    {
+        std::cout << "    - TreeID: " << treeID << ", Points: " << cluster.ptIDs.size() << "\n";
+    }
+
+    FILE* file = fopen(filename.c_str(), "w");
+
+    int newTreeID = 0;
+    for (const auto& [oldTreeID, cluster] : trees)
+    {
+        for (int id : cluster.ptIDs)
+        {
+            Point3D pt = this->m_Points[id];
+            fprintf(file, "%d %lf %lf %lf\n", newTreeID, pt.x, pt.y, pt.z);
+        }
+        newTreeID++;
+    }
+
+    fclose(file);
+    std::cout << ">>> [DEBUG] Finished writing output.\n";
+}
+
+
 
 
 //Output points w.r.t. different clusters;

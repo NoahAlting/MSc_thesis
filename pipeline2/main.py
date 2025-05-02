@@ -1,130 +1,104 @@
-
-import os
 import logging
+import os
+import sys
+
 from shared_logging import setup_logging
-
-from preprocessing import process_point_cloud
-from segmentation import run_parallel_segmentation, run_single_segmentation
-from tuning_diagnostics import create_tuning_csv
-from link_xyz_laz import process_forest_data
+from preprocess_pointcloud import process_point_cloud
+from segmentation_analysis import run_segmentation_and_analyze
 
 
-# Configuration variables (adjust as needed)
-data_dir = 'whm_100'
-original_pointcloud = 'whm_100_original.laz'
+# Handle data_dir and check for right starting structure
+if len(sys.argv) < 2:
+    raise ValueError("Usage: python main.py <data_dir>")
 
-# Paths to log files
-log_files = {
-    "preprocessing": os.path.join(data_dir, "preprocess.log"),
-    "segmentation": os.path.join(data_dir, "segmentation.log"),
-    "link_xyz": os.path.join(data_dir, "linkxyz.log"),
-    "segmentation_diagnostics": os.path.join(data_dir, "segmentation_diagnostics.log"),
-    "alphawrap" : os.path.join(data_dir, "alphawrap.log")
+data_dir = sys.argv[1]
+original_las_path = os.path.join(data_dir, "original.laz")
+
+if not os.path.isdir(data_dir):
+    raise FileNotFoundError(f"Directory '{data_dir}' does not exist.")
+
+if not os.path.isfile(original_las_path):
+    raise FileNotFoundError(f"Required file '{original_las_path}' not found in '{data_dir}'.")
+
+
+# Set up high-level logging for main pipeline
+log_dir = os.path.join(data_dir, "logs")
+os.makedirs(log_dir, exist_ok=True)
+
+log_path = os.path.join(log_dir, "0_main.log")
+setup_logging(log_path)
+
+logger = logging.getLogger("pipeline")
+logger.info("=" * 60 + "Pipeline")
+logger.info("Parameters → data_dir: %s", data_dir)
+logger.info("[main.py] Pipeline started")
+
+
+#===========================================================================
+# Preprocessing
+#===========================================================================
+logger.info("=" * 60)
+logger.info("=== Preprocessing started ===")
+
+
+original_las = "original.laz"
+vegetation_xyz = "forest.xyz"
+vegetation_las = "forest.laz"
+
+# filtering parameters
+filters = {
+    'thinning_factor': 1.0,  # Set to 1.0 to keep all points
+    'nb_neighbors': 20,
+    'std_ratio': 2.0
 }
+logger.info("Filtering parameters: %s", filters)
+logger.info("Running preprocessing for '%s' with params: %s", data_dir, filters)
 
-
-############################################################################
-### preprocessing ###
-############################################################################
-
-filtered_vegetation_laz_name = 'forest.laz'
-filtered_vegetation_xyz_name = 'forest.xyz'
-
-dbscan_params = {
-    "thinning_factor": .1, # Set to a value between 0 and 1 to thin the point cloud
-    "nb_neighbors": 20, # Number of neighbors for outlier removal
-    "std_ratio": 2.0 # Standard deviation ratio for outlier removal
-}
-
-setup_logging(log_files["preprocessing"])
 process_point_cloud(
-    data_dir = data_dir,
-    input_filename=original_pointcloud, 
-    output_laz_name=filtered_vegetation_laz_name, 
-    output_xyz_name=filtered_vegetation_xyz_name,
-    **dbscan_params
-    )
+    data_dir=data_dir,
+    input_filename=original_las,
+    output_filename_xyz=vegetation_xyz,
+    output_filename_laz=vegetation_las,
+    thinning_factor=filters['thinning_factor'],
+    nb_neighbors=filters['nb_neighbors'],
+    std_ratio=filters['std_ratio']
+)
+logger.info("✓ Preprocessing completed (details in preprocess.log)")
 
-############################################################################
-### segmentation ###
-############################################################################
+#===========================================================================
+# Segmentation
+#===========================================================================
+logger.info("=" * 60)
+logger.info("=== Segmentation started ===")
 
-segmentation_results_folder = os.path.join(data_dir, "segmentation_results")
-wsl_exe = "./segment_trees"  
-windows_exe   = r"./segmentation_code/build/Debug/segmentation.exe"                    # C++ binary
+segmentation_exe = "./segmentation_code/build/segmentation"
+municipality_geojson = "Bomen_in_beheer_door_gemeente_Delft.geojson"
+output_dir = os.path.join(data_dir, "segmentation_results")
+csv_name = "segmentation_stats.csv"
 
-segmenter_exe_name = windows_exe
+radius_vals = [2.5, 5, 7.5]
+vres_vals = [1, 2, 3]
+min_pts_vals = [1]
 
-num_cores = 1
+logger.info("Running Segmentation for parameters: radius_vals=%s, vres_vals=%s, min_pts_vals=%s",
+            radius_vals, vres_vals, min_pts_vals)
 
-# Configuration variables (adjust as needed)
-radius_values = [1000] #, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000], 
-vertical_res_values = [150] #, 50, 100, 200]
-min_points_values = [3] # , 5, 10] 
+run_segmentation_and_analyze(
+    data_dir=data_dir,
+    exe=segmentation_exe,
+    input_xyz=vegetation_xyz,
+    output_dir=output_dir,
+    radius_vals=radius_vals,
+    vres_vals=vres_vals,
+    min_pts_vals=min_pts_vals,
+    municipality_geojson=municipality_geojson,
+    forest_las_name=vegetation_las,
+    csv_name=csv_name,
+    cores=4,
+    overwrite=False,
+    delete_segmentation_after_processing=True
+)
+logger.info("Segmentation results saved to: %s", os.path.join(output_dir, csv_name))
+logger.info("✓ Segmentation completed (details in segmentation.log)")
+#===========================================================================
 
-setup_logging(log_files["segmentation"])
-if len(radius_values) == 1 and len(vertical_res_values) == 1 and len(min_points_values) == 1:
-    run_single_segmentation(
-        data_dir=data_dir,
-        segmenter_cpp_exe= segmenter_exe_name,
-        input_file_name=filtered_vegetation_xyz_name,
-        output_dir=segmentation_results_folder,
-        radius=radius_values[0],
-        vertical_res=vertical_res_values[0],
-        min_points=min_points_values[0]
-    )
-else:
-    run_parallel_segmentation(
-        data_dir=data_dir,
-        segmenter_cpp_exe= segmenter_exe_name,
-        input_file_name=filtered_vegetation_xyz_name,
-        output_dir=segmentation_results_folder,
-        num_cores=num_cores,
-        radius_values=radius_values,
-        vertical_res_values=vertical_res_values,
-        min_points_values=min_points_values
-    )
-############################################################################
-### link xyz laz###
-############################################################################
-
-pcd_clusters_folder = os.path.join(data_dir, "clusters")
-segmented_laz_with_tid_filename = "forest_tid.laz"
-
-setup_logging(log_files["link_xyz"])
-process_forest_data(
-    data_dir = data_dir,
-    input_las_file_name = filtered_vegetation_laz_name, 
-    clusters_folder_path = pcd_clusters_folder, 
-    output_las_file_name = segmented_laz_with_tid_filename
-    )
-
-
-############################################################################
-### tuning diagnostics ###
-############################################################################
-
-csv_output_filename = os.path.join(data_dir, "segmentation_stats.csv")
-
-setup_logging(log_files["segmentation_diagnostics"])
-create_tuning_csv(
-    data_dir = data_dir, 
-    input_dir = segmentation_results_folder, 
-    output_csv = csv_output_filename)
-
-############################################################################
-### alphawrap instances ###
-############################################################################
-
-# input_xyz = os.path.join(data_dir, "forest_tid_test.xyz")  # Input segmented point cloud file
-# wrapper_cpp_exe = "./point_wrap/build/example_alphawrap"  # Path to the C++ Alpha Wrapping executable
-
-# tree_meshes_folder = os.path.join(data_dir, "meshes")           # Folder to store individual mesh files
-# alpha_pdal_thinning_factor = 1            # Thinning factor for PDAL conversion
-# all_trees_together_meshed_obj_path = os.path.join(data_dir, "final_mesh.obj")    # Final merged mesh output
-
-# # Run the alphawrap_instances function with the specified parameters
-# setup_logging(log_files["alphawrap"])
-# alphawrap_instances(data_dir, input_xyz, wrapper_cpp_exe, pcd_clusters_folder, tree_meshes_folder, alpha_pdal_thinning_factor, all_trees_together_meshed_obj_path)
-
-# Here I might need to redo it since I already have the las tid file?

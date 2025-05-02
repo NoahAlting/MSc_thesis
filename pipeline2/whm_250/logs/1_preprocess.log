@@ -1,0 +1,62 @@
+2025-04-30 10:10:14,453 [INFO] ============================================================Processing point cloud
+2025-04-30 10:10:14,453 [INFO] [process_point_cloud] Preprocessing function called
+2025-04-30 10:10:14,453 [INFO] Parameters → input_file: original.laz | data_dir: whm_250/ | thinning: 1.00 | neighbors: 20 | std_ratio: 2.00
+2025-04-30 10:10:14,453 [INFO] Reading LAS file from: whm_250/original.laz
+2025-04-30 10:10:16,354 [INFO] Thinning not applied. Keeping all points.
+2025-04-30 10:10:16,354 [INFO] Point Attributes:
+2025-04-30 10:10:16,376 [INFO] X                         int32                     Min: 431000                    Max: 681000
+2025-04-30 10:10:16,395 [INFO] Y                         int32                     Min: 987000                    Max: 1237000
+2025-04-30 10:10:16,421 [INFO] Z                         int32                     Min: -1418                     Max: 35317
+2025-04-30 10:10:16,440 [INFO] intensity                 uint16                    Min: 266                       Max: 65535
+2025-04-30 10:10:16,476 [INFO] return_number             uint8                     Min: 1                         Max: 11
+2025-04-30 10:10:16,511 [INFO] number_of_returns         uint8                     Min: 1                         Max: 11
+2025-04-30 10:10:16,551 [INFO] synthetic                 uint8                     Min: 0                         Max: 0
+2025-04-30 10:10:16,587 [INFO] key_point                 uint8                     Min: 0                         Max: 0
+2025-04-30 10:10:16,629 [INFO] withheld                  uint8                     Min: 0                         Max: 0
+2025-04-30 10:10:16,668 [INFO] overlap                   uint8                     Min: 0                         Max: 0
+2025-04-30 10:10:16,701 [INFO] scanner_channel           uint8                     Min: 0                         Max: 0
+2025-04-30 10:10:16,731 [INFO] scan_direction_flag       uint8                     Min: 0                         Max: 1
+2025-04-30 10:10:16,761 [INFO] edge_of_flight_line       uint8                     Min: 0                         Max: 0
+2025-04-30 10:10:16,783 [INFO] classification            uint8                     Min: 1                         Max: 26
+2025-04-30 10:10:16,804 [INFO] user_data                 uint8                     Min: 1                         Max: 1
+2025-04-30 10:10:16,834 [INFO] scan_angle                int16                     Min: 1510                      Max: 3325
+2025-04-30 10:10:16,861 [INFO] point_source_id           uint16                    Min: 1059                      Max: 1060
+2025-04-30 10:10:16,890 [INFO] gps_time                  float64                   Min: 359859913.2917922         Max: 359862482.6579376
+2025-04-30 10:10:16,926 [INFO] red                       uint16                    Min: 47                        Max: 255
+2025-04-30 10:10:16,963 [INFO] green                     uint16                    Min: 71                        Max: 255
+2025-04-30 10:10:17,008 [INFO] blue                      uint16                    Min: 54                        Max: 255
+2025-04-30 10:10:17,041 [INFO] nir                       uint16                    Min: 26                        Max: 255
+2025-04-30 10:10:24,064 [INFO] Calculated NDVI.
+2025-04-30 10:10:30,153 [INFO] Calculated normalized green (norm_g).
+2025-04-30 10:10:39,364 [INFO] Calculated MTVI2.
+2025-04-30 10:10:41,482 [INFO] Applied filtering based on return numbers.
+2025-04-30 10:10:43,638 [INFO] Removed outliers using nb_neighbors=20, std_ratio=2.00
+2025-04-30 10:10:44,372 [INFO] LAS file saved to whm_250/forest.laz
+2025-04-30 10:10:44,401 [INFO] Point Attributes AFTER filtering:
+2025-04-30 10:10:44,410 [INFO] X                         int32                     Min: 431000                    Max: 680968
+2025-04-30 10:10:44,421 [INFO] Y                         int32                     Min: 987000                    Max: 1237000
+2025-04-30 10:10:44,430 [INFO] Z                         int32                     Min: -374                      Max: 35160
+2025-04-30 10:10:44,439 [INFO] intensity                 uint16                    Min: 266                       Max: 12685
+2025-04-30 10:10:44,450 [INFO] return_number             uint8                     Min: 1                         Max: 10
+2025-04-30 10:10:44,462 [INFO] number_of_returns         uint8                     Min: 2                         Max: 11
+2025-04-30 10:10:44,472 [INFO] synthetic                 uint8                     Min: 0                         Max: 0
+2025-04-30 10:10:44,483 [INFO] key_point                 uint8                     Min: 0                         Max: 0
+2025-04-30 10:10:44,495 [INFO] withheld                  uint8                     Min: 0                         Max: 0
+2025-04-30 10:10:44,508 [INFO] overlap                   uint8                     Min: 0                         Max: 0
+2025-04-30 10:10:44,521 [INFO] scanner_channel           uint8                     Min: 0                         Max: 0
+2025-04-30 10:10:44,532 [INFO] scan_direction_flag       uint8                     Min: 0                         Max: 1
+2025-04-30 10:10:44,545 [INFO] edge_of_flight_line       uint8                     Min: 0                         Max: 0
+2025-04-30 10:10:44,554 [INFO] classification            uint8                     Min: 1                         Max: 26
+2025-04-30 10:10:44,565 [INFO] user_data                 uint8                     Min: 1                         Max: 1
+2025-04-30 10:10:44,576 [INFO] scan_angle                int16                     Min: 1580                      Max: 3325
+2025-04-30 10:10:44,587 [INFO] point_source_id           uint16                    Min: 1059                      Max: 1060
+2025-04-30 10:10:44,600 [INFO] gps_time                  float64                   Min: 359859913.31845534        Max: 359862482.6046867
+2025-04-30 10:10:44,608 [INFO] red                       uint16                    Min: 47                        Max: 255
+2025-04-30 10:10:44,620 [INFO] green                     uint16                    Min: 73                        Max: 255
+2025-04-30 10:10:44,632 [INFO] blue                      uint16                    Min: 54                        Max: 255
+2025-04-30 10:10:44,642 [INFO] nir                       uint16                    Min: 33                        Max: 255
+2025-04-30 10:10:44,651 [INFO] ndvi                      float32                   Min: -0.3333333                Max: 0.49107143
+2025-04-30 10:10:44,660 [INFO] norm_g                    float32                   Min: 0.3117409                 Max: 0.4234234
+2025-04-30 10:10:44,669 [INFO] mtvi2                     float32                   Min: -0.21617667               Max: 0.4974417
+2025-04-30 10:10:47,708 [INFO] XYZ file saved to whm_250/forest.xyz
+2025-04-30 10:10:47,709 [INFO] ============================================================Processing complete.

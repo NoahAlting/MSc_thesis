@@ -1,0 +1,687 @@
+2025-04-30 15:06:38,427 [INFO] Public trees inside bbox: 29
+2025-04-30 15:06:44,332 [INFO] ------------------------------------------------------------
+2025-04-30 15:06:44,332 [INFO] Segmentation 2
+2025-04-30 15:06:44,332 [INFO] radius: 4.00 | vres: 3.00 | minp: 1
+2025-04-30 15:06:44,333 [INFO] hulls_per_tree: {1: 27, 2: 2}
+2025-04-30 15:06:45,349 [INFO] ------------------------------------------------------------
+2025-04-30 15:06:45,349 [INFO] Segmentation 5
+2025-04-30 15:06:45,349 [INFO] radius: 5.00 | vres: 3.00 | minp: 1
+2025-04-30 15:06:45,350 [INFO] hulls_per_tree: {1: 27, 2: 2}
+2025-04-30 15:06:45,461 [INFO] ------------------------------------------------------------
+2025-04-30 15:06:45,462 [INFO] Segmentation 3
+2025-04-30 15:06:45,462 [INFO] radius: 5.00 | vres: 2.00 | minp: 1
+2025-04-30 15:06:45,462 [INFO] hulls_per_tree: {1: 27, 2: 2}
+2025-04-30 15:06:46,152 [INFO] ------------------------------------------------------------
+2025-04-30 15:06:46,153 [INFO] Segmentation 0
+2025-04-30 15:06:46,153 [INFO] radius: 4.00 | vres: 2.00 | minp: 1
+2025-04-30 15:06:46,154 [INFO] hulls_per_tree: {1: 27, 2: 2}
+2025-04-30 15:06:46,227 [INFO] ------------------------------------------------------------
+2025-04-30 15:06:46,229 [INFO] Segmentation 4
+2025-04-30 15:06:46,229 [INFO] radius: 5.00 | vres: 2.50 | minp: 1
+2025-04-30 15:06:46,229 [INFO] hulls_per_tree: {1: 27, 2: 2}
+2025-04-30 15:06:46,314 [INFO] ------------------------------------------------------------
+2025-04-30 15:06:46,314 [INFO] Segmentation 1
+2025-04-30 15:06:46,314 [INFO] radius: 4.00 | vres: 2.50 | minp: 1
+2025-04-30 15:06:46,314 [INFO] hulls_per_tree: {1: 26, 2: 3}
+2025-04-30 15:06:46,350 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-04-30 15:17:59,913 [INFO] Public trees inside bbox: 29
+2025-04-30 15:18:07,586 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-04-30 15:18:58,525 [INFO] Public trees inside bbox: 29
+2025-04-30 15:19:08,530 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-04-30 15:20:14,420 [INFO] ============================================================Hull Analysis
+2025-04-30 15:20:14,421 [INFO] [run_hull_analysis] Preprocessing function called
+2025-04-30 15:20:25,832 [INFO] Public trees inside bbox: 29
+2025-04-30 15:20:34,911 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 09:29:13,559 [INFO] ============================================================Hull Analysis
+2025-05-02 09:29:13,560 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 09:29:25,137 [INFO] Public trees inside bbox: 29
+2025-05-02 09:29:33,963 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 09:39:31,359 [INFO] ============================================================Hull Analysis
+2025-05-02 09:39:31,359 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 09:39:43,634 [INFO] Public trees inside bbox: 29
+2025-05-02 09:39:52,568 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 10:03:54,530 [INFO] ============================================================Hull Analysis
+2025-05-02 10:03:54,532 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 10:04:06,844 [INFO] Public trees inside bbox: 29
+2025-05-02 10:04:15,645 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 10:10:36,622 [INFO] ============================================================Hull Analysis
+2025-05-02 10:10:36,623 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 10:10:47,607 [INFO] Public trees inside bbox: 29
+2025-05-02 10:42:56,722 [INFO] ============================================================Hull Analysis
+2025-05-02 10:42:56,722 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 10:43:08,111 [INFO] Public trees inside bbox: 29
+2025-05-02 10:43:16,275 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 10:45:06,689 [INFO] ============================================================Hull Analysis
+2025-05-02 10:45:06,690 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 10:45:17,937 [INFO] Public trees inside bbox: 29
+2025-05-02 10:45:26,180 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 10:46:33,388 [INFO] ============================================================Hull Analysis
+2025-05-02 10:46:33,388 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 10:46:44,536 [INFO] Public trees inside bbox: 29
+2025-05-02 10:46:52,931 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 10:48:09,182 [INFO] ============================================================Hull Analysis
+2025-05-02 10:48:09,182 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 10:48:20,520 [INFO] Public trees inside bbox: 29
+2025-05-02 10:48:28,931 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 11:00:50,227 [INFO] ============================================================Hull Analysis
+2025-05-02 11:00:50,228 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 11:01:01,727 [INFO] Public trees inside bbox: 29
+2025-05-02 11:03:01,364 [INFO] ============================================================Hull Analysis
+2025-05-02 11:03:01,364 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 11:03:12,550 [INFO] Public trees inside bbox: 29
+2025-05-02 11:03:20,853 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 11:05:32,227 [INFO] ============================================================Hull Analysis
+2025-05-02 11:05:32,228 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 11:05:43,526 [INFO] Public trees inside bbox: 29
+2025-05-02 11:05:52,774 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 11:08:49,522 [INFO] ============================================================Hull Analysis
+2025-05-02 11:08:49,522 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 11:09:00,843 [INFO] Public trees inside bbox: 29
+2025-05-02 11:09:09,121 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 11:23:33,460 [INFO] ============================================================Hull Analysis
+2025-05-02 11:23:33,461 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 11:23:46,019 [INFO] Public trees inside bbox: 29
+2025-05-02 11:23:55,077 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 11:25:52,677 [INFO] ============================================================Hull Analysis
+2025-05-02 11:25:52,677 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 11:26:04,191 [INFO] Public trees inside bbox: 29
+2025-05-02 11:26:13,291 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 11:27:08,460 [INFO] ============================================================Hull Analysis
+2025-05-02 11:27:08,460 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 11:27:19,649 [INFO] Public trees inside bbox: 29
+2025-05-02 11:27:28,002 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 11:27:59,670 [INFO] ============================================================Hull Analysis
+2025-05-02 11:27:59,671 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 11:28:06,954 [INFO] ============================================================Hull Analysis
+2025-05-02 11:28:06,954 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 11:28:17,555 [INFO] Public trees inside bbox: 29
+2025-05-02 11:28:26,748 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 11:28:41,988 [INFO] ============================================================Hull Analysis
+2025-05-02 11:28:41,988 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 11:28:52,939 [INFO] Public trees inside bbox: 29
+2025-05-02 11:28:52,944 [INFO] Existing combos: 0
+2025-05-02 11:29:01,314 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 11:54:19,250 [INFO] ============================================================Hull Analysis
+2025-05-02 11:54:19,251 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 11:54:30,450 [INFO] Public trees inside bbox: 29
+2025-05-02 11:54:38,923 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 11:54:52,217 [INFO] ============================================================Hull Analysis
+2025-05-02 11:54:52,217 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 11:55:02,965 [INFO] Public trees inside bbox: 29
+2025-05-02 11:55:02,967 [INFO] Using existing geojson for iteration 0
+2025-05-02 11:55:02,968 [INFO] Using existing geojson for iteration 1
+2025-05-02 11:55:02,968 [INFO] Using existing geojson for iteration 2
+2025-05-02 11:55:02,968 [INFO] Using existing geojson for iteration 3
+2025-05-02 11:55:02,968 [INFO] Using existing geojson for iteration 4
+2025-05-02 11:55:02,969 [INFO] Using existing geojson for iteration 5
+2025-05-02 11:55:28,856 [INFO] ============================================================Hull Analysis
+2025-05-02 11:55:28,856 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 11:55:39,281 [INFO] Public trees inside bbox: 29
+2025-05-02 11:55:39,283 [INFO] Using existing geojson for iteration 0
+2025-05-02 11:55:39,284 [INFO] Using existing geojson for iteration 1
+2025-05-02 11:55:39,284 [INFO] Using existing geojson for iteration 2
+2025-05-02 11:55:39,285 [INFO] Using existing geojson for iteration 3
+2025-05-02 11:55:39,285 [INFO] Using existing geojson for iteration 4
+2025-05-02 11:55:39,286 [INFO] Using existing geojson for iteration 5
+2025-05-02 11:56:21,618 [INFO] ============================================================Hull Analysis
+2025-05-02 11:56:21,619 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 11:56:32,824 [INFO] Public trees inside bbox: 29
+2025-05-02 11:56:32,826 [INFO] Using existing geojson for iteration 0
+2025-05-02 11:56:32,859 [INFO] Using existing geojson for iteration 1
+2025-05-02 11:56:32,892 [INFO] Using existing geojson for iteration 2
+2025-05-02 11:56:32,917 [INFO] Using existing geojson for iteration 3
+2025-05-02 11:56:32,939 [INFO] Using existing geojson for iteration 4
+2025-05-02 11:56:32,962 [INFO] Using existing geojson for iteration 5
+2025-05-02 11:56:32,993 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 11:56:47,583 [INFO] ============================================================Hull Analysis
+2025-05-02 11:56:47,583 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 11:56:59,235 [INFO] Public trees inside bbox: 29
+2025-05-02 11:56:59,239 [INFO] Using existing geojson for iteration 0
+2025-05-02 11:56:59,270 [INFO] Using existing geojson for iteration 1
+2025-05-02 11:56:59,305 [INFO] Using existing geojson for iteration 2
+2025-05-02 11:56:59,332 [INFO] Using existing geojson for iteration 3
+2025-05-02 11:56:59,356 [INFO] Using existing geojson for iteration 4
+2025-05-02 11:56:59,379 [INFO] Using existing geojson for iteration 5
+2025-05-02 11:56:59,410 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 11:58:15,932 [INFO] ============================================================Hull Analysis
+2025-05-02 11:58:15,932 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 11:58:27,319 [INFO] Public trees inside bbox: 29
+2025-05-02 11:58:27,324 [INFO] Using existing geojson for iteration 0
+2025-05-02 11:58:27,359 [INFO] Using existing geojson for iteration 1
+2025-05-02 11:58:27,384 [INFO] Using existing geojson for iteration 2
+2025-05-02 11:58:27,408 [INFO] Using existing geojson for iteration 3
+2025-05-02 11:58:27,430 [INFO] Using existing geojson for iteration 4
+2025-05-02 11:58:27,455 [INFO] Using existing geojson for iteration 5
+2025-05-02 11:58:27,480 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 12:03:55,834 [INFO] ============================================================Hull Analysis
+2025-05-02 12:03:55,834 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 12:04:07,183 [INFO] Public trees inside bbox: 29
+2025-05-02 12:04:07,189 [INFO] Using existing geojson for iteration 0
+2025-05-02 12:04:07,224 [INFO] Using existing geojson for iteration 1
+2025-05-02 12:04:07,250 [INFO] Using existing geojson for iteration 2
+2025-05-02 12:04:07,277 [INFO] Using existing geojson for iteration 3
+2025-05-02 12:04:07,300 [INFO] Using existing geojson for iteration 4
+2025-05-02 12:04:07,326 [INFO] Using existing geojson for iteration 5
+2025-05-02 12:04:07,353 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 12:05:19,862 [INFO] ============================================================Hull Analysis
+2025-05-02 12:05:19,862 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 12:05:30,574 [INFO] Public trees inside bbox: 29
+2025-05-02 12:05:30,580 [INFO] Using existing geojson for iteration 0
+2025-05-02 12:05:30,617 [INFO] Using existing geojson for iteration 1
+2025-05-02 12:05:30,644 [INFO] Using existing geojson for iteration 2
+2025-05-02 12:05:30,669 [INFO] Using existing geojson for iteration 3
+2025-05-02 12:05:30,692 [INFO] Using existing geojson for iteration 4
+2025-05-02 12:05:30,717 [INFO] Using existing geojson for iteration 5
+2025-05-02 12:05:30,748 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 12:05:34,097 [INFO] ============================================================Hull Analysis
+2025-05-02 12:05:34,097 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 12:05:45,926 [INFO] Public trees inside bbox: 29
+2025-05-02 12:05:45,930 [INFO] Using existing geojson for iteration 0
+2025-05-02 12:05:45,966 [INFO] Using existing geojson for iteration 1
+2025-05-02 12:05:45,992 [INFO] Using existing geojson for iteration 2
+2025-05-02 12:05:46,018 [INFO] Using existing geojson for iteration 3
+2025-05-02 12:05:46,042 [INFO] Using existing geojson for iteration 4
+2025-05-02 12:05:46,070 [INFO] Using existing geojson for iteration 5
+2025-05-02 12:05:46,096 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 12:25:10,069 [INFO] ============================================================Hull Analysis
+2025-05-02 12:25:10,069 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 12:25:21,580 [INFO] Public trees inside bbox: 29
+2025-05-02 12:25:21,590 [INFO] Using existing geojson for iteration 0
+2025-05-02 12:25:21,648 [INFO] Using existing geojson for iteration 1
+2025-05-02 12:25:38,296 [INFO] ============================================================Hull Analysis
+2025-05-02 12:25:38,296 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 12:25:49,769 [INFO] Public trees inside bbox: 29
+2025-05-02 12:25:49,775 [INFO] Using existing geojson for iteration 0
+2025-05-02 12:25:49,813 [INFO] Using existing geojson for iteration 1
+2025-05-02 12:25:49,839 [INFO] Using existing geojson for iteration 2
+2025-05-02 12:25:49,867 [INFO] Using existing geojson for iteration 3
+2025-05-02 12:25:49,892 [INFO] Using existing geojson for iteration 4
+2025-05-02 12:25:49,918 [INFO] Using existing geojson for iteration 5
+2025-05-02 12:25:49,944 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 12:33:00,810 [INFO] ============================================================Hull Analysis
+2025-05-02 12:33:00,810 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 12:33:11,884 [INFO] Public trees inside bbox: 29
+2025-05-02 12:33:11,888 [INFO] Using existing geojson for iteration 0
+2025-05-02 12:33:11,930 [INFO] Using existing geojson for iteration 1
+2025-05-02 12:33:11,964 [INFO] Using existing geojson for iteration 2
+2025-05-02 12:33:11,997 [INFO] Using existing geojson for iteration 3
+2025-05-02 12:33:12,028 [INFO] Using existing geojson for iteration 4
+2025-05-02 12:33:12,060 [INFO] Using existing geojson for iteration 5
+2025-05-02 12:33:12,090 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 12:54:55,054 [INFO] ============================================================Hull Analysis
+2025-05-02 12:54:55,055 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 12:55:06,608 [INFO] Public trees inside bbox: 29
+2025-05-02 12:55:06,623 [INFO] Using existing geojson for iteration 0
+2025-05-02 12:55:25,818 [INFO] ============================================================Hull Analysis
+2025-05-02 12:55:25,818 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 12:55:37,606 [INFO] Public trees inside bbox: 29
+2025-05-02 12:55:37,613 [INFO] Using existing geojson for iteration 0
+2025-05-02 12:55:37,669 [INFO] Using existing geojson for iteration 1
+2025-05-02 12:55:37,707 [INFO] Using existing geojson for iteration 2
+2025-05-02 12:55:54,880 [INFO] ============================================================Hull Analysis
+2025-05-02 12:55:54,881 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 12:56:06,572 [INFO] Public trees inside bbox: 29
+2025-05-02 12:56:06,579 [INFO] Using existing geojson for iteration 0
+2025-05-02 12:56:06,623 [INFO] Using existing geojson for iteration 1
+2025-05-02 12:56:06,658 [INFO] Using existing geojson for iteration 2
+2025-05-02 12:57:39,296 [INFO] ============================================================Hull Analysis
+2025-05-02 12:57:39,296 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 12:57:50,971 [INFO] Public trees inside bbox: 29
+2025-05-02 12:57:50,977 [INFO] Using existing geojson for iteration 0
+2025-05-02 12:57:51,017 [INFO] Using existing geojson for iteration 1
+2025-05-02 12:57:51,050 [INFO] Using existing geojson for iteration 2
+2025-05-02 13:00:13,522 [INFO] ============================================================Hull Analysis
+2025-05-02 13:00:13,522 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 13:00:23,848 [INFO] Public trees inside bbox: 29
+2025-05-02 13:00:23,854 [INFO] Using existing geojson for iteration 0
+2025-05-02 13:00:23,897 [INFO] Using existing geojson for iteration 1
+2025-05-02 13:00:23,931 [INFO] Using existing geojson for iteration 2
+2025-05-02 13:01:06,914 [INFO] ============================================================Hull Analysis
+2025-05-02 13:01:06,914 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 13:01:18,526 [INFO] Public trees inside bbox: 29
+2025-05-02 13:01:18,532 [INFO] Using existing geojson for iteration 0
+2025-05-02 13:01:18,573 [INFO] Using existing geojson for iteration 1
+2025-05-02 13:01:18,607 [INFO] Using existing geojson for iteration 2
+2025-05-02 13:01:18,642 [INFO] Using existing geojson for iteration 3
+2025-05-02 13:01:18,679 [INFO] Using existing geojson for iteration 4
+2025-05-02 13:01:18,733 [INFO] Using existing geojson for iteration 5
+2025-05-02 13:01:18,773 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 13:11:01,853 [INFO] ============================================================Hull Analysis
+2025-05-02 13:11:01,854 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 13:11:13,835 [INFO] Public trees inside bbox: 29
+2025-05-02 13:11:13,845 [INFO] Using existing geojson for iteration 0
+2025-05-02 13:12:39,450 [INFO] ============================================================Hull Analysis
+2025-05-02 13:12:39,450 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 13:12:51,194 [INFO] Public trees inside bbox: 29
+2025-05-02 13:12:51,204 [INFO] Using existing geojson for iteration 0
+2025-05-02 13:13:20,710 [INFO] ============================================================Hull Analysis
+2025-05-02 13:13:20,710 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 13:13:31,710 [INFO] Public trees inside bbox: 29
+2025-05-02 13:13:31,715 [INFO] Using existing geojson for iteration 0
+2025-05-02 13:14:23,550 [INFO] ============================================================Hull Analysis
+2025-05-02 13:14:23,551 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 13:14:34,334 [INFO] Public trees inside bbox: 29
+2025-05-02 13:14:34,341 [INFO] Using existing geojson for iteration 0
+2025-05-02 13:14:34,375 [INFO] Using existing geojson for iteration 1
+2025-05-02 13:14:34,401 [INFO] Using existing geojson for iteration 2
+2025-05-02 13:14:34,429 [INFO] Using existing geojson for iteration 3
+2025-05-02 13:14:34,453 [INFO] Using existing geojson for iteration 4
+2025-05-02 13:14:34,488 [INFO] Using existing geojson for iteration 5
+2025-05-02 13:14:34,513 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 13:16:58,146 [INFO] ============================================================Hull Analysis
+2025-05-02 13:16:58,146 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 13:17:09,024 [INFO] Public trees inside bbox: 29
+2025-05-02 13:17:09,028 [INFO] Using existing geojson for iteration 0
+2025-05-02 13:17:09,064 [INFO] Using existing geojson for iteration 1
+2025-05-02 13:17:09,089 [INFO] Using existing geojson for iteration 2
+2025-05-02 13:17:09,116 [INFO] Using existing geojson for iteration 3
+2025-05-02 13:17:09,139 [INFO] Using existing geojson for iteration 4
+2025-05-02 13:17:09,164 [INFO] Using existing geojson for iteration 5
+2025-05-02 13:17:09,198 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 13:18:33,883 [INFO] ============================================================Hull Analysis
+2025-05-02 13:18:33,884 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 13:18:44,851 [INFO] Public trees inside bbox: 29
+2025-05-02 13:18:44,855 [INFO] Using existing geojson for iteration 0
+2025-05-02 13:18:44,892 [INFO] Using existing geojson for iteration 1
+2025-05-02 13:18:44,918 [INFO] Using existing geojson for iteration 2
+2025-05-02 13:18:44,946 [INFO] Using existing geojson for iteration 3
+2025-05-02 13:18:44,972 [INFO] Using existing geojson for iteration 4
+2025-05-02 13:18:44,997 [INFO] Using existing geojson for iteration 5
+2025-05-02 13:18:45,024 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 13:20:24,487 [INFO] ============================================================Hull Analysis
+2025-05-02 13:20:24,487 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 13:20:35,972 [INFO] Public trees inside bbox: 29
+2025-05-02 13:20:35,976 [INFO] Using existing geojson for iteration 0
+2025-05-02 13:20:36,013 [INFO] Using existing geojson for iteration 1
+2025-05-02 13:20:36,039 [INFO] Using existing geojson for iteration 2
+2025-05-02 13:20:36,066 [INFO] Using existing geojson for iteration 3
+2025-05-02 13:20:36,090 [INFO] Using existing geojson for iteration 4
+2025-05-02 13:20:36,117 [INFO] Using existing geojson for iteration 5
+2025-05-02 13:20:36,142 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 14:04:03,190 [INFO] ============================================================Hull Analysis
+2025-05-02 14:04:03,192 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:04:09,983 [INFO] ============================================================Hull Analysis
+2025-05-02 14:04:09,984 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:04:21,551 [INFO] Public trees inside bbox: 29
+2025-05-02 14:04:21,564 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:04:21,623 [INFO] Using existing geojson for iteration 1
+2025-05-02 14:04:21,654 [INFO] Using existing geojson for iteration 2
+2025-05-02 14:04:21,683 [INFO] Using existing geojson for iteration 3
+2025-05-02 14:04:21,713 [INFO] Using existing geojson for iteration 4
+2025-05-02 14:04:21,740 [INFO] Using existing geojson for iteration 5
+2025-05-02 14:04:21,767 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 14:13:39,077 [INFO] ============================================================Hull Analysis
+2025-05-02 14:13:39,077 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:13:50,679 [INFO] Public trees inside bbox: 29
+2025-05-02 14:13:50,694 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:15:08,239 [INFO] ============================================================Hull Analysis
+2025-05-02 14:15:08,241 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:15:19,781 [INFO] Public trees inside bbox: 29
+2025-05-02 14:15:19,790 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:18:42,491 [INFO] ============================================================Hull Analysis
+2025-05-02 14:18:42,491 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:18:54,342 [INFO] Public trees inside bbox: 29
+2025-05-02 14:18:54,350 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:19:48,656 [INFO] ============================================================Hull Analysis
+2025-05-02 14:19:48,656 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:19:59,923 [INFO] Public trees inside bbox: 29
+2025-05-02 14:19:59,928 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:20:12,923 [INFO] ============================================================Hull Analysis
+2025-05-02 14:20:12,923 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:20:24,241 [INFO] Public trees inside bbox: 29
+2025-05-02 14:20:24,248 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:20:45,794 [INFO] ============================================================Hull Analysis
+2025-05-02 14:20:45,794 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:20:56,910 [INFO] Public trees inside bbox: 29
+2025-05-02 14:20:56,915 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:21:38,725 [INFO] ============================================================Hull Analysis
+2025-05-02 14:21:38,725 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:21:48,886 [INFO] Public trees inside bbox: 29
+2025-05-02 14:21:48,890 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:21:48,942 [INFO] Using existing geojson for iteration 1
+2025-05-02 14:21:48,993 [INFO] Using existing geojson for iteration 2
+2025-05-02 14:21:49,046 [INFO] Using existing geojson for iteration 3
+2025-05-02 14:21:49,092 [INFO] Using existing geojson for iteration 4
+2025-05-02 14:21:49,128 [INFO] Using existing geojson for iteration 5
+2025-05-02 14:21:49,179 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 14:25:17,128 [INFO] ============================================================Hull Analysis
+2025-05-02 14:25:17,128 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:25:27,798 [INFO] Public trees inside bbox: 29
+2025-05-02 14:25:27,804 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:25:27,857 [INFO] Using existing geojson for iteration 1
+2025-05-02 14:25:27,906 [INFO] Using existing geojson for iteration 2
+2025-05-02 14:25:27,961 [INFO] Using existing geojson for iteration 3
+2025-05-02 14:25:28,005 [INFO] Using existing geojson for iteration 4
+2025-05-02 14:25:28,048 [INFO] Using existing geojson for iteration 5
+2025-05-02 14:25:28,103 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 14:31:40,881 [INFO] ============================================================Hull Analysis
+2025-05-02 14:31:40,881 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:31:52,670 [INFO] Public trees inside bbox: 29
+2025-05-02 14:31:52,675 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:31:52,735 [INFO] Using existing geojson for iteration 1
+2025-05-02 14:31:52,776 [INFO] Using existing geojson for iteration 2
+2025-05-02 14:31:52,829 [INFO] Using existing geojson for iteration 3
+2025-05-02 14:31:52,870 [INFO] Using existing geojson for iteration 4
+2025-05-02 14:31:52,911 [INFO] Using existing geojson for iteration 5
+2025-05-02 14:31:52,962 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 14:32:11,756 [INFO] ============================================================Hull Analysis
+2025-05-02 14:32:11,757 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:32:21,728 [INFO] Public trees inside bbox: 29
+2025-05-02 14:32:21,731 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:32:21,791 [INFO] Using existing geojson for iteration 1
+2025-05-02 14:32:21,839 [INFO] Using existing geojson for iteration 2
+2025-05-02 14:32:21,900 [INFO] Using existing geojson for iteration 3
+2025-05-02 14:32:21,944 [INFO] Using existing geojson for iteration 4
+2025-05-02 14:32:21,988 [INFO] Using existing geojson for iteration 5
+2025-05-02 14:32:22,040 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 14:37:07,724 [INFO] ============================================================Hull Analysis
+2025-05-02 14:37:07,724 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:37:18,762 [INFO] Public trees inside bbox: 29
+2025-05-02 14:37:18,766 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:37:18,809 [INFO] Using existing geojson for iteration 1
+2025-05-02 14:37:18,850 [INFO] Using existing geojson for iteration 2
+2025-05-02 14:37:18,895 [INFO] Using existing geojson for iteration 3
+2025-05-02 14:37:18,934 [INFO] Using existing geojson for iteration 4
+2025-05-02 14:37:18,969 [INFO] Using existing geojson for iteration 5
+2025-05-02 14:37:19,007 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 14:37:55,808 [INFO] ============================================================Hull Analysis
+2025-05-02 14:37:55,808 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:38:06,128 [INFO] Public trees inside bbox: 29
+2025-05-02 14:38:06,132 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:38:06,176 [INFO] Using existing geojson for iteration 1
+2025-05-02 14:38:06,220 [INFO] Using existing geojson for iteration 2
+2025-05-02 14:38:06,270 [INFO] Using existing geojson for iteration 3
+2025-05-02 14:38:06,311 [INFO] Using existing geojson for iteration 4
+2025-05-02 14:38:06,352 [INFO] Using existing geojson for iteration 5
+2025-05-02 14:38:06,395 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 14:38:34,998 [INFO] ============================================================Hull Analysis
+2025-05-02 14:38:34,998 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:38:46,712 [INFO] Public trees inside bbox: 29
+2025-05-02 14:38:46,716 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:38:46,764 [INFO] Using existing geojson for iteration 1
+2025-05-02 14:38:46,808 [INFO] Using existing geojson for iteration 2
+2025-05-02 14:38:46,857 [INFO] Using existing geojson for iteration 3
+2025-05-02 14:38:46,897 [INFO] Using existing geojson for iteration 4
+2025-05-02 14:38:46,934 [INFO] Using existing geojson for iteration 5
+2025-05-02 14:38:46,975 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 14:50:25,585 [INFO] ============================================================Hull Analysis
+2025-05-02 14:50:25,586 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:50:37,288 [INFO] Public trees inside bbox: 29
+2025-05-02 14:50:37,300 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:51:02,282 [INFO] ============================================================Hull Analysis
+2025-05-02 14:51:02,283 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:51:12,716 [INFO] Public trees inside bbox: 29
+2025-05-02 14:51:12,720 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:51:29,443 [INFO] ============================================================Hull Analysis
+2025-05-02 14:51:29,444 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:51:40,042 [INFO] Public trees inside bbox: 29
+2025-05-02 14:51:40,046 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:51:40,081 [INFO] H1 overlaps with H0:
+2025-05-02 14:51:40,081 [INFO]   H1 hull 1 overlaps 1 H0s: [7]
+2025-05-02 14:51:40,081 [INFO]   H1 hull 4 overlaps 1 H0s: [0]
+2025-05-02 14:51:40,081 [INFO]   H1 hull 8 overlaps 1 H0s: [13]
+2025-05-02 14:51:40,081 [INFO]   H1 hull 12 overlaps 1 H0s: [13]
+2025-05-02 14:51:40,081 [INFO]   H1 hull 39 overlaps 1 H0s: [38]
+2025-05-02 14:51:40,083 [INFO] H2 overlaps with H0:
+2025-05-02 14:51:40,083 [INFO]   H2 hull 9 overlaps 1 H0s: [10]
+2025-05-02 14:51:40,084 [INFO] H3 overlaps with H0:
+2025-05-02 14:51:40,084 [INFO] H4+ overlaps with H0:
+2025-05-02 14:51:40,097 [INFO] Using existing geojson for iteration 1
+2025-05-02 14:51:40,122 [INFO] H1 overlaps with H0:
+2025-05-02 14:51:40,122 [INFO]   H1 hull 1 overlaps 1 H0s: [5]
+2025-05-02 14:51:40,124 [INFO] H2 overlaps with H0:
+2025-05-02 14:51:40,126 [INFO] H3 overlaps with H0:
+2025-05-02 14:51:40,126 [INFO] H4+ overlaps with H0:
+2025-05-02 14:51:40,136 [INFO] Using existing geojson for iteration 2
+2025-05-02 14:51:40,174 [INFO] H1 overlaps with H0:
+2025-05-02 14:51:40,175 [INFO]   H1 hull 1 overlaps 1 H0s: [5]
+2025-05-02 14:51:40,175 [INFO]   H1 hull 4 overlaps 1 H0s: [0]
+2025-05-02 14:51:40,175 [INFO]   H1 hull 7 overlaps 1 H0s: [11]
+2025-05-02 14:51:40,175 [INFO]   H1 hull 10 overlaps 1 H0s: [11]
+2025-05-02 14:51:40,176 [INFO] H2 overlaps with H0:
+2025-05-02 14:51:40,176 [INFO] H3 overlaps with H0:
+2025-05-02 14:51:40,176 [INFO] H4+ overlaps with H0:
+2025-05-02 14:51:40,188 [INFO] Using existing geojson for iteration 3
+2025-05-02 14:51:40,217 [INFO] H1 overlaps with H0:
+2025-05-02 14:51:40,217 [INFO]   H1 hull 1 overlaps 1 H0s: [5]
+2025-05-02 14:51:40,217 [INFO]   H1 hull 6 overlaps 1 H0s: [10]
+2025-05-02 14:51:40,217 [INFO]   H1 hull 9 overlaps 1 H0s: [10]
+2025-05-02 14:51:40,217 [INFO]   H1 hull 35 overlaps 1 H0s: [34]
+2025-05-02 14:51:40,219 [INFO] H2 overlaps with H0:
+2025-05-02 14:51:40,220 [INFO] H3 overlaps with H0:
+2025-05-02 14:51:40,221 [INFO] H4+ overlaps with H0:
+2025-05-02 14:51:40,231 [INFO] Using existing geojson for iteration 4
+2025-05-02 14:51:40,256 [INFO] H1 overlaps with H0:
+2025-05-02 14:51:40,256 [INFO]   H1 hull 1 overlaps 1 H0s: [5]
+2025-05-02 14:51:40,258 [INFO] H2 overlaps with H0:
+2025-05-02 14:51:40,260 [INFO] H3 overlaps with H0:
+2025-05-02 14:51:40,260 [INFO] H4+ overlaps with H0:
+2025-05-02 14:51:40,268 [INFO] Using existing geojson for iteration 5
+2025-05-02 14:51:40,297 [INFO] H1 overlaps with H0:
+2025-05-02 14:51:40,297 [INFO]   H1 hull 1 overlaps 1 H0s: [4]
+2025-05-02 14:51:40,297 [INFO]   H1 hull 6 overlaps 1 H0s: [10]
+2025-05-02 14:51:40,297 [INFO]   H1 hull 9 overlaps 2 H0s: [10, 34]
+2025-05-02 14:51:40,298 [INFO] H2 overlaps with H0:
+2025-05-02 14:51:40,299 [INFO] H3 overlaps with H0:
+2025-05-02 14:51:40,299 [INFO] H4+ overlaps with H0:
+2025-05-02 14:51:40,308 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 14:52:36,960 [INFO] ============================================================Hull Analysis
+2025-05-02 14:52:36,960 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 14:52:47,686 [INFO] Public trees inside bbox: 29
+2025-05-02 14:52:47,691 [INFO] Using existing geojson for iteration 0
+2025-05-02 14:52:47,716 [INFO] -----------------------------------
+2025-05-02 14:52:47,716 [INFO] ----------------
+2025-05-02 14:52:47,728 [INFO] H1 overlaps with H0:
+2025-05-02 14:52:47,728 [INFO]   H1 hull 1 overlaps 1 H0s: [7]
+2025-05-02 14:52:47,728 [INFO]   H1 hull 4 overlaps 1 H0s: [0]
+2025-05-02 14:52:47,728 [INFO]   H1 hull 8 overlaps 1 H0s: [13]
+2025-05-02 14:52:47,728 [INFO]   H1 hull 12 overlaps 1 H0s: [13]
+2025-05-02 14:52:47,728 [INFO]   H1 hull 39 overlaps 1 H0s: [38]
+2025-05-02 14:52:47,728 [INFO] ----------------
+2025-05-02 14:52:47,729 [INFO] H2 overlaps with H0:
+2025-05-02 14:52:47,730 [INFO]   H2 hull 9 overlaps 1 H0s: [10]
+2025-05-02 14:52:47,730 [INFO] ----------------
+2025-05-02 14:52:47,731 [INFO] H3 overlaps with H0:
+2025-05-02 14:52:47,731 [INFO] ----------------
+2025-05-02 14:52:47,731 [INFO] H4+ overlaps with H0:
+2025-05-02 14:52:47,741 [INFO] Using existing geojson for iteration 1
+2025-05-02 14:52:47,759 [INFO] -----------------------------------
+2025-05-02 14:52:47,759 [INFO] ----------------
+2025-05-02 14:52:47,765 [INFO] H1 overlaps with H0:
+2025-05-02 14:52:47,765 [INFO]   H1 hull 1 overlaps 1 H0s: [5]
+2025-05-02 14:52:47,765 [INFO] ----------------
+2025-05-02 14:52:47,767 [INFO] H2 overlaps with H0:
+2025-05-02 14:52:47,767 [INFO] ----------------
+2025-05-02 14:52:47,769 [INFO] H3 overlaps with H0:
+2025-05-02 14:52:47,769 [INFO] ----------------
+2025-05-02 14:52:47,770 [INFO] H4+ overlaps with H0:
+2025-05-02 14:52:47,780 [INFO] Using existing geojson for iteration 2
+2025-05-02 14:52:47,803 [INFO] -----------------------------------
+2025-05-02 14:52:47,803 [INFO] ----------------
+2025-05-02 14:52:47,816 [INFO] H1 overlaps with H0:
+2025-05-02 14:52:47,816 [INFO]   H1 hull 1 overlaps 1 H0s: [5]
+2025-05-02 14:52:47,816 [INFO]   H1 hull 4 overlaps 1 H0s: [0]
+2025-05-02 14:52:47,816 [INFO]   H1 hull 7 overlaps 1 H0s: [11]
+2025-05-02 14:52:47,816 [INFO]   H1 hull 10 overlaps 1 H0s: [11]
+2025-05-02 14:52:47,816 [INFO] ----------------
+2025-05-02 14:52:47,818 [INFO] H2 overlaps with H0:
+2025-05-02 14:52:47,818 [INFO] ----------------
+2025-05-02 14:52:47,820 [INFO] H3 overlaps with H0:
+2025-05-02 14:52:47,821 [INFO] ----------------
+2025-05-02 14:52:47,821 [INFO] H4+ overlaps with H0:
+2025-05-02 14:52:47,831 [INFO] Using existing geojson for iteration 3
+2025-05-02 14:52:47,849 [INFO] -----------------------------------
+2025-05-02 14:52:47,849 [INFO] ----------------
+2025-05-02 14:52:47,857 [INFO] H1 overlaps with H0:
+2025-05-02 14:52:47,857 [INFO]   H1 hull 1 overlaps 1 H0s: [5]
+2025-05-02 14:52:47,857 [INFO]   H1 hull 6 overlaps 1 H0s: [10]
+2025-05-02 14:52:47,857 [INFO]   H1 hull 9 overlaps 1 H0s: [10]
+2025-05-02 14:52:47,857 [INFO]   H1 hull 35 overlaps 1 H0s: [34]
+2025-05-02 14:52:47,857 [INFO] ----------------
+2025-05-02 14:52:47,860 [INFO] H2 overlaps with H0:
+2025-05-02 14:52:47,860 [INFO] ----------------
+2025-05-02 14:52:47,862 [INFO] H3 overlaps with H0:
+2025-05-02 14:52:47,862 [INFO] ----------------
+2025-05-02 14:52:47,862 [INFO] H4+ overlaps with H0:
+2025-05-02 14:52:47,871 [INFO] Using existing geojson for iteration 4
+2025-05-02 14:52:47,894 [INFO] -----------------------------------
+2025-05-02 14:52:47,894 [INFO] ----------------
+2025-05-02 14:52:47,900 [INFO] H1 overlaps with H0:
+2025-05-02 14:52:47,900 [INFO]   H1 hull 1 overlaps 1 H0s: [5]
+2025-05-02 14:52:47,900 [INFO] ----------------
+2025-05-02 14:52:47,902 [INFO] H2 overlaps with H0:
+2025-05-02 14:52:47,902 [INFO] ----------------
+2025-05-02 14:52:47,904 [INFO] H3 overlaps with H0:
+2025-05-02 14:52:47,904 [INFO] ----------------
+2025-05-02 14:52:47,904 [INFO] H4+ overlaps with H0:
+2025-05-02 14:52:47,913 [INFO] Using existing geojson for iteration 5
+2025-05-02 14:52:47,931 [INFO] -----------------------------------
+2025-05-02 14:52:47,931 [INFO] ----------------
+2025-05-02 14:52:47,941 [INFO] H1 overlaps with H0:
+2025-05-02 14:52:47,941 [INFO]   H1 hull 1 overlaps 1 H0s: [4]
+2025-05-02 14:52:47,941 [INFO]   H1 hull 6 overlaps 1 H0s: [10]
+2025-05-02 14:52:47,941 [INFO]   H1 hull 9 overlaps 2 H0s: [10, 34]
+2025-05-02 14:52:47,941 [INFO] ----------------
+2025-05-02 14:52:47,942 [INFO] H2 overlaps with H0:
+2025-05-02 14:52:47,943 [INFO] ----------------
+2025-05-02 14:52:47,943 [INFO] H3 overlaps with H0:
+2025-05-02 14:52:47,943 [INFO] ----------------
+2025-05-02 14:52:47,943 [INFO] H4+ overlaps with H0:
+2025-05-02 14:52:47,952 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 15:10:36,620 [INFO] ============================================================Hull Analysis
+2025-05-02 15:10:36,621 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 15:10:47,109 [INFO] Public trees inside bbox: 29
+2025-05-02 15:10:47,120 [INFO] Using existing geojson for iteration 0
+2025-05-02 15:10:47,162 [INFO] -----------------------------------
+2025-05-02 15:10:47,177 [INFO] ----------------
+2025-05-02 15:10:47,177 [INFO] H1 overlaps with H0s
+2025-05-02 15:10:47,177 [INFO] Tree 1 overlaps with trees: [7]
+2025-05-02 15:10:47,177 [INFO] Tree 4 overlaps with trees: [0]
+2025-05-02 15:10:47,177 [INFO] Tree 8 overlaps with trees: [13]
+2025-05-02 15:10:47,177 [INFO] Tree 12 overlaps with trees: [13]
+2025-05-02 15:10:47,177 [INFO] Tree 39 overlaps with trees: [38]
+2025-05-02 15:10:47,177 [INFO] ----------------
+2025-05-02 15:10:47,177 [INFO] H2 overlaps with H0s
+2025-05-02 15:10:47,177 [INFO] Tree 9 overlaps with trees: [10]
+2025-05-02 15:10:47,177 [INFO] ----------------
+2025-05-02 15:10:47,177 [INFO] H3 overlaps with H0s
+2025-05-02 15:10:47,177 [INFO] ----------------
+2025-05-02 15:10:47,177 [INFO] H4 overlaps with H0s
+2025-05-02 15:10:47,190 [INFO] Using existing geojson for iteration 1
+2025-05-02 15:10:47,211 [INFO] -----------------------------------
+2025-05-02 15:10:47,221 [INFO] ----------------
+2025-05-02 15:10:47,221 [INFO] H1 overlaps with H0s
+2025-05-02 15:10:47,221 [INFO] Tree 1 overlaps with trees: [5]
+2025-05-02 15:10:47,221 [INFO] ----------------
+2025-05-02 15:10:47,221 [INFO] H2 overlaps with H0s
+2025-05-02 15:10:47,221 [INFO] ----------------
+2025-05-02 15:10:47,221 [INFO] H3 overlaps with H0s
+2025-05-02 15:10:47,221 [INFO] ----------------
+2025-05-02 15:10:47,221 [INFO] H4 overlaps with H0s
+2025-05-02 15:10:47,231 [INFO] Using existing geojson for iteration 2
+2025-05-02 15:10:47,252 [INFO] -----------------------------------
+2025-05-02 15:10:47,265 [INFO] ----------------
+2025-05-02 15:10:47,266 [INFO] H1 overlaps with H0s
+2025-05-02 15:10:47,266 [INFO] Tree 1 overlaps with trees: [5]
+2025-05-02 15:10:47,266 [INFO] Tree 4 overlaps with trees: [0]
+2025-05-02 15:10:47,266 [INFO] Tree 7 overlaps with trees: [11]
+2025-05-02 15:10:47,266 [INFO] Tree 10 overlaps with trees: [11]
+2025-05-02 15:10:47,266 [INFO] ----------------
+2025-05-02 15:10:47,266 [INFO] H2 overlaps with H0s
+2025-05-02 15:10:47,266 [INFO] ----------------
+2025-05-02 15:10:47,266 [INFO] H3 overlaps with H0s
+2025-05-02 15:10:47,266 [INFO] ----------------
+2025-05-02 15:10:47,266 [INFO] H4 overlaps with H0s
+2025-05-02 15:10:47,276 [INFO] Using existing geojson for iteration 3
+2025-05-02 15:10:47,297 [INFO] -----------------------------------
+2025-05-02 15:10:47,308 [INFO] ----------------
+2025-05-02 15:10:47,308 [INFO] H1 overlaps with H0s
+2025-05-02 15:10:47,308 [INFO] Tree 1 overlaps with trees: [5]
+2025-05-02 15:10:47,308 [INFO] Tree 6 overlaps with trees: [10]
+2025-05-02 15:10:47,308 [INFO] Tree 9 overlaps with trees: [10]
+2025-05-02 15:10:47,308 [INFO] Tree 35 overlaps with trees: [34]
+2025-05-02 15:10:47,308 [INFO] ----------------
+2025-05-02 15:10:47,308 [INFO] H2 overlaps with H0s
+2025-05-02 15:10:47,308 [INFO] ----------------
+2025-05-02 15:10:47,309 [INFO] H3 overlaps with H0s
+2025-05-02 15:10:47,309 [INFO] ----------------
+2025-05-02 15:10:47,309 [INFO] H4 overlaps with H0s
+2025-05-02 15:10:47,318 [INFO] Using existing geojson for iteration 4
+2025-05-02 15:10:47,338 [INFO] -----------------------------------
+2025-05-02 15:10:47,348 [INFO] ----------------
+2025-05-02 15:10:47,348 [INFO] H1 overlaps with H0s
+2025-05-02 15:10:47,348 [INFO] Tree 1 overlaps with trees: [5]
+2025-05-02 15:10:47,348 [INFO] ----------------
+2025-05-02 15:10:47,348 [INFO] H2 overlaps with H0s
+2025-05-02 15:10:47,348 [INFO] ----------------
+2025-05-02 15:10:47,348 [INFO] H3 overlaps with H0s
+2025-05-02 15:10:47,348 [INFO] ----------------
+2025-05-02 15:10:47,348 [INFO] H4 overlaps with H0s
+2025-05-02 15:10:47,358 [INFO] Using existing geojson for iteration 5
+2025-05-02 15:10:47,378 [INFO] -----------------------------------
+2025-05-02 15:10:47,391 [INFO] ----------------
+2025-05-02 15:10:47,391 [INFO] H1 overlaps with H0s
+2025-05-02 15:10:47,391 [INFO] Tree 1 overlaps with trees: [4]
+2025-05-02 15:10:47,391 [INFO] Tree 6 overlaps with trees: [10]
+2025-05-02 15:10:47,391 [INFO] Tree 9 overlaps with trees: [10, 34]
+2025-05-02 15:10:47,391 [INFO] ----------------
+2025-05-02 15:10:47,391 [INFO] H2 overlaps with H0s
+2025-05-02 15:10:47,391 [INFO] ----------------
+2025-05-02 15:10:47,391 [INFO] H3 overlaps with H0s
+2025-05-02 15:10:47,391 [INFO] ----------------
+2025-05-02 15:10:47,391 [INFO] H4 overlaps with H0s
+2025-05-02 15:10:47,401 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 15:22:17,202 [INFO] ============================================================Hull Analysis
+2025-05-02 15:22:17,203 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 15:22:28,548 [INFO] Public trees inside bbox: 29
+2025-05-02 15:22:28,560 [INFO] Using existing geojson for iteration 0
+2025-05-02 15:22:28,604 [INFO] -----------------------------------
+2025-05-02 15:22:46,152 [INFO] ============================================================Hull Analysis
+2025-05-02 15:22:46,152 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 15:22:57,254 [INFO] Public trees inside bbox: 29
+2025-05-02 15:22:57,259 [INFO] Using existing geojson for iteration 0
+2025-05-02 15:22:57,285 [INFO] -----------------------------------
+2025-05-02 15:23:10,517 [INFO] ============================================================Hull Analysis
+2025-05-02 15:23:10,517 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 15:23:22,148 [INFO] ============================================================Hull Analysis
+2025-05-02 15:23:22,148 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 15:23:33,024 [INFO] Public trees inside bbox: 29
+2025-05-02 15:23:33,031 [INFO] Using existing geojson for iteration 0
+2025-05-02 15:23:33,054 [INFO] -----------------------------------
+2025-05-02 15:23:33,075 [INFO] Using existing geojson for iteration 1
+2025-05-02 15:23:33,095 [INFO] -----------------------------------
+2025-05-02 15:23:33,111 [INFO] Using existing geojson for iteration 2
+2025-05-02 15:23:33,132 [INFO] -----------------------------------
+2025-05-02 15:23:33,153 [INFO] Using existing geojson for iteration 3
+2025-05-02 15:23:33,174 [INFO] -----------------------------------
+2025-05-02 15:23:33,192 [INFO] Using existing geojson for iteration 4
+2025-05-02 15:23:33,212 [INFO] -----------------------------------
+2025-05-02 15:23:33,228 [INFO] Using existing geojson for iteration 5
+2025-05-02 15:23:33,248 [INFO] -----------------------------------
+2025-05-02 15:23:33,273 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv
+2025-05-02 15:24:40,597 [INFO] ============================================================Hull Analysis
+2025-05-02 15:24:40,597 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 15:24:52,019 [INFO] Public trees inside bbox: 29
+2025-05-02 15:24:52,024 [INFO] Using existing geojson for iteration 0
+2025-05-02 15:24:52,054 [INFO] -----------------------------------
+2025-05-02 15:25:03,571 [INFO] ============================================================Hull Analysis
+2025-05-02 15:25:03,571 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 15:25:14,881 [INFO] Public trees inside bbox: 29
+2025-05-02 15:25:14,886 [INFO] Using existing geojson for iteration 0
+2025-05-02 15:25:14,911 [INFO] -----------------------------------
+2025-05-02 15:25:33,931 [INFO] ============================================================Hull Analysis
+2025-05-02 15:25:33,931 [INFO] [run_hull_analysis] Preprocessing function called
+2025-05-02 15:25:45,005 [INFO] Public trees inside bbox: 29
+2025-05-02 15:25:45,010 [INFO] Using existing geojson for iteration 0
+2025-05-02 15:25:45,042 [INFO] -----------------------------------
+2025-05-02 15:25:45,060 [INFO] Using existing geojson for iteration 1
+2025-05-02 15:25:45,078 [INFO] -----------------------------------
+2025-05-02 15:25:45,094 [INFO] Using existing geojson for iteration 2
+2025-05-02 15:25:45,113 [INFO] -----------------------------------
+2025-05-02 15:25:45,134 [INFO] Using existing geojson for iteration 3
+2025-05-02 15:25:45,153 [INFO] -----------------------------------
+2025-05-02 15:25:45,169 [INFO] Using existing geojson for iteration 4
+2025-05-02 15:25:45,186 [INFO] -----------------------------------
+2025-05-02 15:25:45,201 [INFO] Using existing geojson for iteration 5
+2025-05-02 15:25:45,219 [INFO] -----------------------------------
+2025-05-02 15:25:45,238 [INFO] ✅ Hull analysis finished — results written to whm_100/hull_analysis.csv

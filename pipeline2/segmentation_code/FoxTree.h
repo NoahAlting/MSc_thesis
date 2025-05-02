@@ -159,6 +159,8 @@ public:
 	void outputClusters(std::string fileName, std::vector < std::vector<int>> ptIDs);
 	void outputPts(std::string fileName, std::vector<int> ptIDs);
 	void outputTrees(std::string fileName, std::map<int, TreeCluster> trees);
+	void outputTrees_noahDebug(std::string filename, std::map<int, TreeCluster> trees);  // Noah's debug-safe version
+
 	 
 private:
 	//Initialized the class with tree points;
