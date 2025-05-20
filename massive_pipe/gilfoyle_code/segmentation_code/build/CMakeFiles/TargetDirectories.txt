@@ -1,0 +1,3 @@
+/home/npalting/full_pipeline2/segmentation_code/build/CMakeFiles/segmentation.dir
+/home/npalting/full_pipeline2/segmentation_code/build/CMakeFiles/edit_cache.dir
+/home/npalting/full_pipeline2/segmentation_code/build/CMakeFiles/rebuild_cache.dir

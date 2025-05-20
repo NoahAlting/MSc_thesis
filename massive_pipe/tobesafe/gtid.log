@@ -1,0 +1,60 @@
+[WARNING] Skipping field core_bbox: unsupported OGR type: 1
+[ERROR] Failed processing 37EN2_11: 'tid'
+[ERROR] Failed processing 37EN1_24: 'tid'
+[ERROR] Failed processing 37EN2_06: 'tid'
+[ERROR] Failed processing 37EN1_09: 'tid'
+[ERROR] Failed processing 37EZ1_04: 'tid'
+[ERROR] Failed processing 37EN1_05: 'tid'
+[ERROR] Failed processing 37EN1_25: 'tid'
+[ERROR] Failed processing 37EN1_08: 'tid'
+[ERROR] Failed processing 37EN1_15: 'tid'
+[ERROR] Failed processing 37EN1_14: 'tid'
+[ERROR] Failed processing 37EN2_21: 'tid'
+[ERROR] Failed processing 37EN2_01: 'tid'
+[ERROR] Failed processing 37EN2_16: 'tid'
+[ERROR] Failed processing 37EN1_12: 'tid'
+[ERROR] Failed processing 37EN1_20: 'tid'
+[ERROR] Failed processing 37EN1_10: 'tid'
+[ERROR] Failed processing 37EN1_04: 'tid'
+[ERROR] Failed processing 37EN1_19: 'tid'
+[ERROR] Failed processing 37EN2_07: 'tid'
+[ERROR] Failed processing 37EN1_13: 'tid'
+[ERROR] Failed processing 37EN1_23: 'tid'
+[ERROR] Failed processing 37EN2_17: 'tid'
+[ERROR] Failed processing 37EN2_12: 'tid'
+[ERROR] Failed processing 37EN1_18: 'tid'
+[INFO] Created 104,895 records
+[INFO] Saved 104895 accepted trees to delft/filtered_renumbered_hulls.geojson
+[INFO] Assigned 0 global tree IDs
+[INFO] [DONE] All tiles processed.
+[WARNING] Skipping field core_bbox: unsupported OGR type: 1
+[INFO] Created 104,895 records
+[INFO] Saved 104895 accepted trees to delft/filtered_renumbered_hulls.geojson
+[INFO] Created 9,224 records
+[INFO] Saved 9224 rejected trees to delft/rejected_hulls.geojson
+[INFO] Assigned 104895 global tree IDs
+[INFO] Written forest.laz for 37EN1_12 with 72643 points
+[INFO] Written forest.laz for 37EN1_04 with 75971 points
+[INFO] Written forest.laz for 37EZ1_04 with 120273 points
+[INFO] Written forest.laz for 37EN2_17 with 670561 points
+[INFO] Written forest.laz for 37EN2_21 with 858862 points
+[INFO] Written forest.laz for 37EN1_08 with 1365900 points
+[INFO] Written forest.laz for 37EN1_23 with 1658615 points
+[INFO] Written forest.laz for 37EN2_16 with 1966576 points
+[INFO] Written forest.laz for 37EN1_13 with 2126923 points
+[INFO] Written forest.laz for 37EN1_05 with 2569875 points
+[INFO] Written forest.laz for 37EN1_15 with 2803163 points
+[INFO] Written forest.laz for 37EN2_12 with 3248922 points
+[INFO] Written forest.laz for 37EN1_09 with 3207853 points
+[INFO] Written forest.laz for 37EN1_18 with 4221392 points
+[INFO] Written forest.laz for 37EN1_25 with 4547569 points
+[INFO] Written forest.laz for 37EN1_24 with 4938152 points
+[INFO] Written forest.laz for 37EN1_20 with 4923002 points
+[INFO] Written forest.laz for 37EN2_11 with 5669106 points
+[INFO] Written forest.laz for 37EN1_14 with 5658413 points
+[INFO] Written forest.laz for 37EN2_07 with 5674221 points
+[INFO] Written forest.laz for 37EN2_01 with 6476382 points
+[INFO] Written forest.laz for 37EN1_10 with 5443602 points
+[INFO] Written forest.laz for 37EN1_19 with 8469509 points
+[INFO] Written forest.laz for 37EN2_06 with 8971264 points
+[INFO] [DONE] All tiles processed.

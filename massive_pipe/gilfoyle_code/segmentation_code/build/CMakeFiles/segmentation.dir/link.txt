@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/segmentation.dir/Source.cpp.o CMakeFiles/segmentation.dir/FoxTree.cpp.o -o segmentation
